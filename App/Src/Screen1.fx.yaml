@@ -18,3 +18,11 @@ Screen1 As screen:
         Y: =130
         ZIndex: =2
 
+    Label2 As label:
+        Text: |-
+            ="test 2
+            "
+        X: =484
+        Y: =388
+        ZIndex: =3
+
