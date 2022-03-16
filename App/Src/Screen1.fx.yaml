@@ -9,3 +9,12 @@ Screen1 As screen:
         Y: =48
         ZIndex: =1
 
+    Label1_1 As label:
+        Height: =180
+        Size: =20
+        Text: ="testowy push"
+        Width: =352
+        X: =664
+        Y: =130
+        ZIndex: =2
+
