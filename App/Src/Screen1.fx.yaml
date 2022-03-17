@@ -60,8 +60,10 @@ Screen1 As screen:
         ZIndex: =7
 
     Label4 As label:
-        Text: ="JEBAC DISA KURWA ZWISA ANUBISA"
-        X: =143
-        Y: =329
+        Height: =260
+        Text: ="RUCHANIE"
+        Width: =455
+        X: =179
+        Y: =202
         ZIndex: =8
 
