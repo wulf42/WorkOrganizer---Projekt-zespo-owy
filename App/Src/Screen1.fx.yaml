@@ -50,3 +50,12 @@ Screen1 As screen:
         Y: =608
         ZIndex: =6
 
+    Label1_3 As label:
+        Height: =240
+        Size: =55
+        Text: ="gituwa"
+        Width: =452
+        X: =372
+        Y: =428
+        ZIndex: =7
+

@@ -2,16 +2,17 @@
   "ComponentIndexes": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Label1": 5,
+    "Label1": 4,
     "Label1_1": 6,
     "Label1_2": 8,
+    "Label1_3": 10,
     "Label2": 7,
-    "Label3": 4,
+    "Label3": 5,
     "Rectangle1": 9,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/17/2022 10:12:54",
+  "HeaderLastSavedDateTimeUTC": "03/17/2022 10:15:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -31,6 +32,7 @@
     "Label1": 0,
     "Label1_1": 2,
     "Label1_2": 4,
+    "Label1_3": 0,
     "Label2": 3,
     "Label3": 1,
     "Rectangle1": 5,
@@ -39,12 +41,13 @@
   "ResourcesJsonIndices": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0829674,
+    "AnalysisLoadTime": 0.0912123,
     "ControlCount": {
-      "label": 5,
+      "label": 6,
+      "rectangle": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.6664828,
+    "DeserializationLoadTime": 0.739347,
     "ErrorCount": 0
   }
 }
