@@ -60,7 +60,7 @@ Screen1 As screen:
 
     Label4 As label:
         Height: =132
-        Text: ="JEBAC DISA KURWA ZWISA ANUBISA"
+        Text: ="RUCHANIE"
         Width: =197
         X: =175
         Y: =342

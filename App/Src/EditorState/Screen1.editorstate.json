@@ -573,7 +573,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label1_1",
-    "ParentIndex": 5,
+    "ParentIndex": 4,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -842,7 +842,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label1_2",
-    "ParentIndex": 7,
+    "ParentIndex": 6,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1373,7 +1373,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label2",
-    "ParentIndex": 6,
+    "ParentIndex": 5,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1635,7 +1635,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Label3",
-    "ParentIndex": 4,
+    "ParentIndex": 3,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -2128,7 +2128,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Rectangle1",
-    "ParentIndex": 8,
+    "ParentIndex": 7,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {

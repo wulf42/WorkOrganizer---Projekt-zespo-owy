@@ -1,58 +1,18 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 12,
-    "Label1": 4,
-    "Label1_1": 8,
-    "Label1_2": 10,
-    "Label1_3": 5,
-    "Label2": 9,
-    "Label3": 7,
-    "Label4": 6,
-    "Rectangle1": 11,
-    "Screen1": 3
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/17/2022 10:23:01",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OldLogoFileName": "logo.jpg",
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 1,
-    "label": 0,
-    "rectangle": 2
-  },
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 0,
-    "Label1": 0,
-    "Label1_1": 2,
-    "Label1_2": 4,
-    "Label1_3": 0,
-    "Label2": 3,
-    "Label3": 1,
-    "Label4": 0,
-    "Rectangle1": 5,
-    "Screen1": 2
-  },
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
   "ResourcesJsonIndices": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0986449,
-    "ControlCount": {
-      "label": 7,
-      "rectangle": 1,
-      "screen": 1
-    },
-    "DeserializationLoadTime": 0.8303846,
-    "ErrorCount": 0
-  }
+  "TemplateVersions": {}
 }
