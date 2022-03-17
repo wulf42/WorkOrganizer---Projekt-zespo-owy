@@ -1,5 +1,11 @@
 Screen1 As screen:
 
+    Rectangle1 As rectangle:
+        Height: =762
+        Width: =1366
+        Y: =6
+        ZIndex: =1
+
     Label1 As label:
         Height: =240
         Size: =55
@@ -7,7 +13,7 @@ Screen1 As screen:
         Width: =452
         X: =232
         Y: =6
-        ZIndex: =1
+        ZIndex: =2
 
     Label1_1 As label:
         Height: =180
@@ -16,7 +22,7 @@ Screen1 As screen:
         Width: =352
         X: =664
         Y: =130
-        ZIndex: =2
+        ZIndex: =3
 
     Label2 As label:
         Text: |-
@@ -24,7 +30,7 @@ Screen1 As screen:
             "
         X: =484
         Y: =388
-        ZIndex: =3
+        ZIndex: =4
 
     Label1_2 As label:
         Height: =187
@@ -33,7 +39,7 @@ Screen1 As screen:
         Width: =160
         X: =1206
         Y: =518
-        ZIndex: =4
+        ZIndex: =5
 
     Label3 As label:
         Text: |-
@@ -41,13 +47,6 @@ Screen1 As screen:
             "
         X: =40
         Y: =40
-        ZIndex: =5
-
-    Rectangle1 As rectangle:
-        Height: =160
-        Width: =160
-        X: =1206
-        Y: =608
         ZIndex: =6
 
     Label1_3 As label:
@@ -55,13 +54,23 @@ Screen1 As screen:
         Size: =55
         Text: ="gituwa"
         Width: =452
-        X: =372
+        X: =304
         Y: =428
         ZIndex: =7
 
     Label4 As label:
+        Height: =132
         Text: ="JEBAC DISA KURWA ZWISA ANUBISA"
-        X: =143
-        Y: =329
+        Width: =197
+        X: =175
+        Y: =342
         ZIndex: =8
+
+    Button1 As button:
+        Height: =65
+        Text: ="Naciśnij Mnie es"
+        Width: =185
+        X: =1032
+        Y: =95
+        ZIndex: =9
 
