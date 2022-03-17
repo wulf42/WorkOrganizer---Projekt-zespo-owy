@@ -35,3 +35,11 @@ Screen1 As screen:
         Y: =388
         ZIndex: =4
 
+    Label3 As label:
+        Text: |-
+            ="nienawdize
+            "
+        X: =40
+        Y: =40
+        ZIndex: =5
+
