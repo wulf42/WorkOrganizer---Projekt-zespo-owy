@@ -1,1 +1,28 @@
-{}
+{
+  "8de4f608-47a5-4df4-a94c-f3547a2ad071": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/a0ed8df9bee642c8b114d634e0086159",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1559/1.0.1559.2723/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://workuwmedu-my.sharepoint.com/personal/159163_student_uwm_edu_pl": {
+        "dataSources": {
+          "Projekty": {
+            "tableName": "55c001b1-e450-4774-b2ed-7e85eba6857f"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Projekty"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "8de4f608-47a5-4df4-a94c-f3547a2ad071"
+  }
+}
