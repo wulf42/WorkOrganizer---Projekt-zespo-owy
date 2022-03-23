@@ -921,7 +921,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "TemplatePadding",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "5",
+        "InvariantPropertyName": "TemplatePadding",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Layout",
       "Transition",
       "LoadingSpinner",

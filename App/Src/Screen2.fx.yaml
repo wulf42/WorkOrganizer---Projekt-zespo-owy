@@ -87,7 +87,7 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Text: ="opis"
-                    Width: =141
+                    Width: =263
                     X: =h_app.X + h_app.Width
                     ZIndex: =3
 
@@ -103,7 +103,7 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Text: ="devis"
-                    Width: =141
+                    Width: =261
                     X: =h_opis.X+h_opis.Width
                     ZIndex: =4
 
@@ -119,7 +119,7 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Text: ="oferta"
-                    Width: =130
+                    Width: =142
                     X: =h_devis.X + h_devis.Width
                     ZIndex: =5
 
@@ -135,7 +135,7 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Text: ="zamówienie"
-                    Width: =152
+                    Width: =180
                     X: =h_oferta.X+h_oferta.Width
                     ZIndex: =6
 
@@ -234,7 +234,7 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Text: ="stan"
-                    Width: =149
+                    Width: =347
                     X: |
                         =h_zostalo.X + h_zostalo.Width
                     ZIndex: =12
@@ -251,7 +251,7 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Text: ="P/T"
-                    Width: =141
+                    Width: =185
                     X: =h_stan.X + h_stan.Width
                     ZIndex: =13
 
@@ -267,7 +267,7 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Text: ="uwagi"
-                    Width: =169
+                    Width: =329
                     X: |
                         ='h_P/T'.X + 'h_P/T'.Width
                     ZIndex: =14
@@ -280,6 +280,7 @@
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
+                TemplatePadding: =0
                 TemplateSize: |+
                     =100
                     
@@ -362,7 +363,7 @@
                     Height: =100
                     OnSelect: =Select(Parent)
                     Text: |-
-                        =Text(ThisItem.budżet, "# €")
+                        =Text(ThisItem.budżet, "#.00 €")
                     Width: =h_budzet.Width
                     X: =h_budzet.X
                     ZIndex: =8
@@ -396,7 +397,7 @@
                     Height: =100
                     OnSelect: =Select(Parent)
                     Text: |-
-                        =Text(ThisItem.sprzęt, "# €")
+                        =Text(ThisItem.sprzęt, "#.00 €")
                     Width: =h_sprzet.Width
                     X: =h_sprzet.X
                     ZIndex: =11
@@ -407,7 +408,8 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.zostalo
+                    Text: |-
+                        =Text(Value(Substitute(ThisItem.zostało, ".", "," )), "#.00 €")
                     Width: =h_zostalo.Width
                     X: =h_zostalo.X
                     ZIndex: =12
@@ -450,7 +452,7 @@
             BorderColor: =RGBA(101, 128, 187, 1)
             Default: =0
             LayoutMinWidth: =100
-            Max: =GalleryGrid.Width/2
+            Max: =GalleryGrid.Width
             ShowValue: =false
             ValueFill: =RGBA(62,96,170,1)
             Width: =300
