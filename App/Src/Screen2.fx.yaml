@@ -103,7 +103,7 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Text: ="devis"
-                    Width: =261
+                    Width: =249
                     X: =h_opis.X+h_opis.Width
                     ZIndex: =4
 

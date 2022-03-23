@@ -1,0 +1,103 @@
+Screen3 As screen:
+
+    "Gallery5 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        Fill: =RGBA(9, 33, 98, 1)
+        Height: =42
+        Items: =Calendar.WeekdaysShort()
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =39
+        Width: =1366
+        WrapCount: =7
+        Y: =91
+        ZIndex: =1
+
+        Title5 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =34
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =110
+            X: =42
+            Y: =4
+            ZIndex: =1
+
+        Separator4 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =3
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        Height: =627
+        Items: =ForAll(Sequence(42),Value+varCurrentDate-Weekday(varCurrentDate))
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =94
+        Width: =1365
+        WrapCount: =7
+        Y: =133
+        ZIndex: =1
+
+        Title2 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(204, 231, 246, 1)
+            BorderThickness: =1
+            Color: =If(Month(ThisItem.Value)<>Month(varCurrentDate),ColorFade(Self.Fill, -15%),RGBA(0, 0, 0, 1))
+            DisabledBorderColor: =RGBA(204, 204, 204, 1)
+            Fill: =If(ThisItem.Value=Today(),ColorFade(RGBA(58, 150, 221, 1), 80%), White)
+            Height: =94
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =Day(ThisItem.Value)
+            VerticalAlign: =VerticalAlign.Top
+            Width: =195
+            ZIndex: =1
+
+        Separator2 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =3
+
+    Label5 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =66
+        Size: =32
+        Text: =Text(varCurrentDate,"mmmm yyyy")
+        Width: =403
+        X: =490
+        Y: =10
+        ZIndex: =2
+
+    Button2 As button:
+        OnSelect: =Set(varCurrentDate,Date(Year(Today()),Month(Today()),1))
+        Text: ="Dzisiaj"
+        X: =13
+        Y: =23
+        ZIndex: =3
+
+    Arrow1 As arrow.backArrow:
+        OnSelect: =Set(varCurrentDate,Date(Year(varCurrentDate),Month(varCurrentDate)-1,1))
+        X: =367
+        Y: =18
+        ZIndex: =4
+
+    Arrow2 As arrow:
+        OnSelect: =Set(varCurrentDate,Date(Year(varCurrentDate),Month(varCurrentDate)+1,1))
+        X: =966
+        Y: =18
+        ZIndex: =5
+

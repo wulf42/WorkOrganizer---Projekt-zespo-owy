@@ -1,3 +1,4 @@
 App As appinfo:
     BackEnabled: =false
+    OnStart: =Set(varCurrentDate,Date(Year(Today()),Month(Today()),1))
 
