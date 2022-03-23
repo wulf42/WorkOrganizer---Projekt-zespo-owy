@@ -1,4 +1,4 @@
-Screen3 As screen:
+Kalendarz As screen:
 
     "Gallery5 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         Fill: =RGBA(9, 33, 98, 1)
