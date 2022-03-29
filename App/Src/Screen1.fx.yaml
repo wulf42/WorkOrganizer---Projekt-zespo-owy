@@ -1,8 +1,0 @@
-Screen1 As screen:
-
-    Rectangle1 As rectangle:
-        Height: =762
-        Width: =1366
-        Y: =6
-        ZIndex: =1
-
