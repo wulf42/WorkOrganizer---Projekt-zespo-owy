@@ -458,3 +458,9 @@
             Width: =300
             ZIndex: =4
 
+    Label1 As label:
+        Text: ="asdasd"
+        X: =40
+        Y: =40
+        ZIndex: =2
+

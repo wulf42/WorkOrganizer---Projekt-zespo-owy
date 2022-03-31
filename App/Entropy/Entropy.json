@@ -33,6 +33,7 @@
     "h_zostalo": 19,
     "HeaderContainer2": 5,
     "Kalendarz": 40,
+    "Label1": 53,
     "Label46": 6,
     "Label5": 45,
     "MainSectionContainer2": 7,
@@ -54,7 +55,7 @@
     "zostalo": 35
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/31/2022 09:22:15",
+  "HeaderLastSavedDateTimeUTC": "03/31/2022 09:41:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -72,8 +73,8 @@
     "arrow": 6,
     "button": 2,
     "gallery": 3,
-    "groupContainer": 0,
-    "label": 1,
+    "groupContainer": 1,
+    "label": 0,
     "rectangle": 5,
     "slider": 4
   },
@@ -110,6 +111,7 @@
     "h_zostalo": 24,
     "HeaderContainer2": 10,
     "Kalendarz": 0,
+    "Label1": 0,
     "Label46": 11,
     "Label5": 0,
     "MainSectionContainer2": 12,
@@ -135,7 +137,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3277037,
+    "AnalysisLoadTime": 0.3926593,
     "ControlCount": {
       "arrow": 2,
       "button": 15,
@@ -147,7 +149,7 @@
       "screen": 2,
       "slider": 1
     },
-    "DeserializationLoadTime": 1.5350355,
+    "DeserializationLoadTime": 2.0801719,
     "ErrorCount": 0
   }
 }
