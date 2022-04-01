@@ -19,16 +19,15 @@
             ComboBox2 As combobox:
                 AlignInContainer: =AlignInContainer.Start
                 DisplayFields: =["Osoba"]
-                Height: =50
+                Height: =75
                 InputTextPlaceholder: ="Szukaj pracownika"
-                IsSearchable: =false
-                Items: =Tabela2.Osoba
+                Items: =Tabela5.Osoba
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
                 SearchFields: =["Osoba"]
-                SearchItems: =[]
+                SearchItems: =Search(Tabela5.Osoba,ComboBox2.SearchText,"Osoba")
                 Y: |+
                     =
                     
@@ -64,7 +63,7 @@
                 LayoutMinWidth: =250
                 ZIndex: =1
 
-                h_site_1 As button:
+                h_urlop As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -75,12 +74,12 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
-                    Text: ="site"
-                    Width: =147
+                    Text: ="Urlop"
+                    Width: =83
                     X: =0 - Slider1_1.Value
                     ZIndex: =1
 
-                h_app_1 As button:
+                h_pracazdalna As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -91,13 +90,13 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
-                    Text: ="app"
-                    Width: =149
+                    Text: ="Praca zdalna"
+                    Width: =137
                     X: |
-                        =h_site_1.X + h_site_1.Width
+                        =h_urlop.X + h_urlop.Width
                     ZIndex: =2
 
-                h_opis_1 As button:
+                h_pracawbiurze As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -108,12 +107,12 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
-                    Text: ="opis"
-                    Width: =263
-                    X: =h_app_1.X + h_app_1.Width
+                    Text: ="Praca w biurze"
+                    Width: =154
+                    X: =h_pracazdalna.X + h_pracazdalna.Width
                     ZIndex: =3
 
-                h_devis_1 As button:
+                h_delegacje As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -124,12 +123,12 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
-                    Text: ="devis"
-                    Width: =249
-                    X: =h_opis_1.X+h_opis_1.Width
+                    Text: ="Delegacje"
+                    Width: =105
+                    X: =h_pracawbiurze.X+h_pracawbiurze.Width
                     ZIndex: =4
 
-                h_oferta_1 As button:
+                h_osoba As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -140,9 +139,9 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
-                    Text: ="oferta"
+                    Text: ="Osoba"
                     Width: =142
-                    X: =h_devis_1.X + h_devis_1.Width
+                    X: =h_delegacje.X + h_delegacje.Width
                     ZIndex: =5
 
                 h_zamowienie_1 As button:
@@ -158,7 +157,7 @@
                     RadiusTopRight: =0
                     Text: ="zamówienie"
                     Width: =180
-                    X: =h_oferta_1.X+h_oferta_1.Width
+                    X: =h_osoba.X+h_osoba.Width
                     ZIndex: =6
 
                 h_budzet_1 As button:
@@ -298,7 +297,7 @@
                 BorderColor: =RGBA(101, 128, 187, 1)
                 FillPortions: =0
                 Height: =MainSectionContainer2_1.Height
-                Items: =Tabela2
+                Items: =Tabela5
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -308,7 +307,7 @@
                     
                 ZIndex: =2
 
-                site_1 As label:
+                urlop As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
@@ -318,53 +317,53 @@
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
-                    Text: =
-                    Width: =h_site_1.Width
-                    X: =h_site_1.X
+                    Text: =ThisItem.Urlop
+                    Width: =h_urlop.Width
+                    X: =h_urlop.X
                     ZIndex: =1
 
-                app_1 As label:
+                pracazdalna As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.app
-                    Width: =h_app_1.Width
-                    X: =h_app_1.X
+                    Text: =ThisItem.'Praca zdalna'
+                    Width: =h_pracazdalna.Width
+                    X: =h_pracazdalna.X
                     ZIndex: =2
 
-                opis_1 As label:
+                pracawbiurze As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.03.2022'
-                    Width: =h_opis_1.Width
-                    X: =h_opis_1.X
+                    Text: =ThisItem.'Praca w biurze'
+                    Width: =h_pracawbiurze.Width
+                    X: =h_pracawbiurze.X
                     ZIndex: =4
 
-                devis_1 As label:
+                delegacje As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.04.2022'
-                    Width: =h_devis_1.Width
-                    X: =391
+                    Text: =ThisItem.Delegacje
+                    Width: =h_delegacje.Width
+                    X: =h_delegacje.X
                     ZIndex: =5
 
-                oferta_1 As label:
+                osoba As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
                     Text: =ThisItem.'01.05.2022'
-                    Width: =h_oferta_1.Width
-                    X: =498
+                    Width: =h_osoba.Width
+                    X: =h_osoba.X
                     ZIndex: =6
 
                 zamowienie_1 As label:
@@ -396,7 +395,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.07.2022'
+                    Text: =ThisItem.'05.03.2022'
                     Width: =h_godziny_1.Width
                     X: =533
                     ZIndex: =9
@@ -407,7 +406,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.08.2022'
+                    Text: =ThisItem.'06.03.2022'
                     Width: =h_delegacja_1.Width
                     X: =480
                     ZIndex: =10
@@ -442,9 +441,9 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.09.2022'
-                    Width: =h_stan_1.Width
-                    X: =293
+                    Text: =ThisItem.'07.03.2022'
+                    Width: =193
+                    X: =480
                     ZIndex: =13
 
                 "'P/T_1' As label":
@@ -453,9 +452,9 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.10.2022'
-                    Width: ='h_P/T_1'.Width
-                    X: =455
+                    Text: =ThisItem.Osoba
+                    Width: =h_osoba.Width
+                    X: =h_osoba.X
                     ZIndex: =14
 
                 uwagi_1 As label:
@@ -464,9 +463,9 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.11.2022'
-                    Width: =h_uwagi_1.Width
-                    X: =311
+                    Text: =ThisItem.Delegacje
+                    Width: =h_delegacja.Width
+                    X: =h_delegacja.X
                     ZIndex: =15
 
         Slider1_1 As slider:
