@@ -98,6 +98,7 @@
   },
   "ScreenOrder": [
     "Projekt",
-    "Kalendarz"
+    "Kalendarz",
+    "Rejestr"
   ]
 }
