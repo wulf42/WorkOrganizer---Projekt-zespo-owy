@@ -64,7 +64,7 @@
                 LayoutMinWidth: =250
                 ZIndex: =1
 
-                h_urlop As button:
+                h_1 As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -75,96 +75,10 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Urlop"
-                    Width: =54
-                    X: =0 - Slider1_1.Value
+                    Text: =1
+                    Width: =60
+                    X: =h_osoba.X+h_osoba.Width-Slider1_1.Value
                     ZIndex: =1
-
-                h_pracazdalna As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Praca zdalna"
-                    Width: =93
-                    X: |
-                        =h_urlop.X + h_urlop.Width
-                    ZIndex: =2
-
-                h_pracawbiurze As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Praca w biurze"
-                    Width: =105
-                    X: =h_pracazdalna.X + h_pracazdalna.Width
-                    ZIndex: =3
-
-                h_delegacje As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Delegacje"
-                    Width: =85
-                    X: =h_pracawbiurze.X+h_pracawbiurze.Width
-                    ZIndex: =4
-
-                h_osoba As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Osoba"
-                    Width: =153
-                    X: =h_delegacje.X + h_delegacje.Width
-                    ZIndex: =5
-
-                h_zamowienie_1 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Text: ="zamówienie"
-                    Width: =180
-                    X: =h_osoba.X+h_osoba.Width
-                    ZIndex: =6
 
                 h_budzet_1 As button:
                     BorderThickness: =0
@@ -179,8 +93,8 @@
                     RadiusTopRight: =0
                     Text: ="budżet"
                     Width: =147
-                    X: =h_zamowienie_1.X+h_zamowienie_1.Width
-                    ZIndex: =7
+                    X: =h_1.X+h_1.Width
+                    ZIndex: =2
 
                 h_godziny_1 As button:
                     BorderThickness: =0
@@ -197,7 +111,7 @@
                     Width: =107
                     X: |
                         =h_budzet_1.X+h_budzet_1.Width
-                    ZIndex: =8
+                    ZIndex: =3
 
                 h_delegacja_1 As button:
                     BorderThickness: =0
@@ -215,7 +129,7 @@
                         "
                     X: |
                         =h_godziny_1.X+h_godziny_1.Width
-                    ZIndex: =9
+                    ZIndex: =4
 
                 h_sprzet_1 As button:
                     BorderThickness: =0
@@ -232,7 +146,7 @@
                         ="sprzęt
                         "
                     X: =h_delegacja_1.X+h_delegacja_1.Width
-                    ZIndex: =10
+                    ZIndex: =5
 
                 h_zostalo_1 As button:
                     BorderThickness: =0
@@ -247,7 +161,7 @@
                     RadiusTopRight: =0
                     Text: ="zostało"
                     X: =h_sprzet_1.X+h_sprzet_1.Width
-                    ZIndex: =11
+                    ZIndex: =6
 
                 h_stan_1 As button:
                     BorderThickness: =0
@@ -264,7 +178,7 @@
                     Width: =347
                     X: |
                         =h_zostalo_1.X + h_zostalo_1.Width
-                    ZIndex: =12
+                    ZIndex: =7
 
                 "'h_P/T_1' As button":
                     BorderThickness: =0
@@ -280,7 +194,7 @@
                     Text: ="P/T"
                     Width: =185
                     X: =h_stan_1.X + h_stan_1.Width
-                    ZIndex: =13
+                    ZIndex: =8
 
                 h_uwagi_1 As button:
                     BorderThickness: =0
@@ -297,6 +211,92 @@
                     Width: =329
                     X: |
                         ='h_P/T_1'.X + 'h_P/T_1'.Width
+                    ZIndex: =9
+
+                h_osoba As button:
+                    BorderThickness: =0
+                    Color: =RGBA(255,255,255,1)
+                    DisplayMode: =DisplayMode.View
+                    Fill: =RGBA(62,96,170,1)
+                    HoverColor: =Self.Color
+                    HoverFill: =ColorFade(Self.Fill, 20%)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =10
+                    Text: ="Osoba"
+                    Width: =153
+                    X: |
+                        =h_delegacje.X+h_delegacje.Width
+                    ZIndex: =10
+
+                h_urlop As button:
+                    BorderThickness: =0
+                    Color: =RGBA(255,255,255,1)
+                    DisplayMode: =DisplayMode.View
+                    Fill: =RGBA(62,96,170,1)
+                    HoverColor: =Self.Color
+                    HoverFill: =ColorFade(Self.Fill, 20%)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =10
+                    Text: ="Urlop"
+                    Width: =54
+                    ZIndex: =11
+
+                h_pracazdalna As button:
+                    BorderThickness: =0
+                    Color: =RGBA(255,255,255,1)
+                    DisplayMode: =DisplayMode.View
+                    Fill: =RGBA(62,96,170,1)
+                    HoverColor: =Self.Color
+                    HoverFill: =ColorFade(Self.Fill, 20%)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =10
+                    Text: ="Praca zdalna"
+                    Width: =93
+                    X: |
+                        =h_urlop.X + h_urlop.Width
+                    ZIndex: =12
+
+                h_pracawbiurze As button:
+                    BorderThickness: =0
+                    Color: =RGBA(255,255,255,1)
+                    DisplayMode: =DisplayMode.View
+                    Fill: =RGBA(62,96,170,1)
+                    HoverColor: =Self.Color
+                    HoverFill: =ColorFade(Self.Fill, 20%)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =10
+                    Text: ="Praca w biurze"
+                    Width: =105
+                    X: =h_pracazdalna.X + h_pracazdalna.Width
+                    ZIndex: =13
+
+                h_delegacje As button:
+                    BorderThickness: =0
+                    Color: =RGBA(255,255,255,1)
+                    DisplayMode: =DisplayMode.View
+                    Fill: =RGBA(62,96,170,1)
+                    HoverColor: =Self.Color
+                    HoverFill: =ColorFade(Self.Fill, 20%)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =10
+                    Text: ="Delegacje"
+                    Width: =85
+                    X: =h_pracawbiurze.X+h_pracawbiurze.Width
                     ZIndex: =14
 
             GalleryGrid_1 As gallery.galleryVertical:
@@ -313,6 +313,17 @@
                     
                 ZIndex: =2
 
+                "'1' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(101, 128, 187, 1)
+                    Color: =RGBA(47,41,43,1)
+                    Height: =100
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'01.03.2022'
+                    Width: =h_1.Width
+                    X: =h_1.X
+                    ZIndex: =1
+
                 urlop As label:
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
@@ -326,7 +337,7 @@
                     Text: =ThisItem.Urlop
                     Width: =h_urlop.Width
                     X: =h_urlop.X
-                    ZIndex: =1
+                    ZIndex: =2
 
                 pracazdalna As label:
                     Align: =Align.Center
@@ -337,7 +348,7 @@
                     Text: =ThisItem.'Praca zdalna'
                     Width: =h_pracazdalna.Width
                     X: =h_pracazdalna.X
-                    ZIndex: =2
+                    ZIndex: =3
 
                 pracawbiurze As label:
                     Align: =Align.Center
@@ -371,105 +382,6 @@
                     Width: =h_osoba.Width
                     X: =h_osoba.X
                     ZIndex: =6
-
-                zamowienie_1 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =
-                    Width: =h_zamowienie_1.Width
-                    X: =460
-                    ZIndex: =7
-
-                budzet_1 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =
-                    Width: =h_budzet_1.Width
-                    X: =493
-                    ZIndex: =8
-
-                godziny_1 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =
-                    Width: =h_godziny_1.Width
-                    X: =621
-                    ZIndex: =9
-
-                delegacja_1 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =
-                    Width: =h_delegacja_1.Width
-                    X: =480
-                    ZIndex: =10
-
-                sprzet_1 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =
-                    Width: =h_sprzet_1.Width
-                    X: =480
-                    ZIndex: =11
-
-                zostalo_1 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =
-                    Width: =h_zostalo_1.Width
-                    X: =480
-                    ZIndex: =12
-
-                stan_1 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =
-                    Width: =193
-                    X: =480
-                    ZIndex: =13
-
-                "'P/T_1' As label":
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =
-                    Width: =h_osoba.Width
-                    X: =h_osoba.X
-                    ZIndex: =14
-
-                uwagi_1 As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =
-                    Width: =h_delegacja.Width
-                    X: =h_delegacja.X
-                    ZIndex: =15
 
         Slider1_1 As slider:
             AlignInContainer: =AlignInContainer.Center
