@@ -276,7 +276,14 @@
       "DisabledFill",
       "PressedFill",
       "HoverFill",
-      "Font",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Font",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "FontWeight",
       "X",
       {
@@ -287,7 +294,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "Width",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -664,7 +678,14 @@
     "ControlPropertyState": [
       "Live",
       "Overflow",
-      "Text",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ThisItem.'06.03.2022'",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Role",
       "Color",
       "DisabledColor",
@@ -1414,7 +1435,14 @@
     "ControlPropertyState": [
       "Live",
       "Overflow",
-      "Text",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ThisItem.'05.03.2022'",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Role",
       "Color",
       "DisabledColor",
@@ -2387,7 +2415,14 @@
       "Width",
       "Height",
       "ZIndex",
-      "Size",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Size",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -2919,7 +2954,14 @@
       "Width",
       "Height",
       "ZIndex",
-      "Size",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Size",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -3445,7 +3487,14 @@
       "Width",
       "Height",
       "ZIndex",
-      "Size",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Size",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -3708,7 +3757,14 @@
       "Width",
       "Height",
       "ZIndex",
-      "Size",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Size",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -4503,7 +4559,14 @@
       "Width",
       "Height",
       "ZIndex",
-      "Size",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Size",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -6146,7 +6209,14 @@
     "ControlPropertyState": [
       "Live",
       "Overflow",
-      "Text",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ThisItem.'01.05.2022'",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Role",
       "Color",
       "DisabledColor",
@@ -6206,7 +6276,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "osoba",
-    "ParentIndex": 7,
+    "ParentIndex": 5,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -6368,7 +6438,14 @@
     "ControlPropertyState": [
       "Live",
       "Overflow",
-      "Text",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ThisItem.Osoba",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Role",
       "Color",
       "DisabledColor",
@@ -6435,7 +6512,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "P/T_1",
-    "ParentIndex": 5,
+    "ParentIndex": 6,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -7727,7 +7804,14 @@
     "ControlPropertyState": [
       "Live",
       "Overflow",
-      "Text",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ThisItem.'07.03.2022'",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Role",
       "Color",
       "DisabledColor",
@@ -8519,7 +8603,14 @@
     "ControlPropertyState": [
       "Live",
       "Overflow",
-      "Text",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "ThisItem.'01.06.2022'",
+        "InvariantPropertyName": "Text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Role",
       "Color",
       "DisabledColor",
@@ -8579,7 +8670,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "zamowienie_1",
-    "ParentIndex": 6,
+    "ParentIndex": 7,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {

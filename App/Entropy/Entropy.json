@@ -93,7 +93,7 @@
     "zostalo_1": 87
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "04/01/2022 13:10:33",
+  "HeaderLastSavedDateTimeUTC": "04/01/2022 13:23:21",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -184,9 +184,9 @@
     "MainSectionContainer2_1": 53,
     "oferta": 25,
     "opis": 23,
-    "osoba": 77,
+    "osoba": 75,
     "P/T": 33,
-    "P/T_1": 75,
+    "P/T_1": 76,
     "pracawbiurze": 73,
     "pracazdalna": 72,
     "Projekt": 0,
@@ -208,7 +208,7 @@
     "uwagi": 34,
     "uwagi_1": 84,
     "zamowienie": 26,
-    "zamowienie_1": 76,
+    "zamowienie_1": 77,
     "zostalo": 31,
     "zostalo_1": 80
   },
@@ -231,6 +231,6 @@
       "slider": 2
     },
     "DeserializationLoadTime": 2.6896553,
-    "ErrorCount": 6
+    "ErrorCount": 0
   }
 }

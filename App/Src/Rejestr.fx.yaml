@@ -14,11 +14,11 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            ZIndex: =2
+            ZIndex: =1
 
             ComboBox2 As combobox:
-                AlignInContainer: =AlignInContainer.Start
                 DisplayFields: =["Osoba"]
+                Font: =Font.'Lato Black'
                 Height: =75
                 InputTextPlaceholder: ="Szukaj pracownika"
                 Items: =Tabela5.Osoba
@@ -28,6 +28,7 @@
                 PaddingTop: =0
                 SearchFields: =["Osoba"]
                 SearchItems: =Search(Tabela5.Osoba,ComboBox2.SearchText,"Osoba")
+                Width: =h_urlop.Width+h_pracazdalna.Width+h_pracawbiurze.Width+h_delegacje.Width+h_osoba.Width
                 Y: |+
                     =
                     
@@ -54,7 +55,7 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            ZIndex: =3
+            ZIndex: =2
 
             GridHeader_1 As groupContainer.manualLayoutContainer:
                 FillPortions: =0
@@ -74,8 +75,9 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="Urlop"
-                    Width: =83
+                    Width: =54
                     X: =0 - Slider1_1.Value
                     ZIndex: =1
 
@@ -90,8 +92,9 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="Praca zdalna"
-                    Width: =137
+                    Width: =93
                     X: |
                         =h_urlop.X + h_urlop.Width
                     ZIndex: =2
@@ -107,8 +110,9 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="Praca w biurze"
-                    Width: =154
+                    Width: =105
                     X: =h_pracazdalna.X + h_pracazdalna.Width
                     ZIndex: =3
 
@@ -123,8 +127,9 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="Delegacje"
-                    Width: =105
+                    Width: =85
                     X: =h_pracawbiurze.X+h_pracawbiurze.Width
                     ZIndex: =4
 
@@ -139,8 +144,9 @@
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="Osoba"
-                    Width: =142
+                    Width: =153
                     X: =h_delegacje.X + h_delegacje.Width
                     ZIndex: =5
 
@@ -361,7 +367,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.05.2022'
+                    Text: =ThisItem.Osoba
                     Width: =h_osoba.Width
                     X: =h_osoba.X
                     ZIndex: =6
@@ -372,7 +378,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.06.2022'
+                    Text: =
                     Width: =h_zamowienie_1.Width
                     X: =460
                     ZIndex: =7
@@ -383,8 +389,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: |-
-                        =Text(ThisItem.budżet, "#.00 €")
+                    Text: =
                     Width: =h_budzet_1.Width
                     X: =493
                     ZIndex: =8
@@ -395,9 +400,9 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'05.03.2022'
+                    Text: =
                     Width: =h_godziny_1.Width
-                    X: =533
+                    X: =621
                     ZIndex: =9
 
                 delegacja_1 As label:
@@ -406,7 +411,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'06.03.2022'
+                    Text: =
                     Width: =h_delegacja_1.Width
                     X: =480
                     ZIndex: =10
@@ -417,8 +422,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: |-
-                        =Text(ThisItem.sprzęt, "#.00 €")
+                    Text: =
                     Width: =h_sprzet_1.Width
                     X: =480
                     ZIndex: =11
@@ -429,8 +433,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: |-
-                        =Text(Value(Substitute(ThisItem.zostało, ".", "," )), "#.00 €")
+                    Text: =
                     Width: =h_zostalo_1.Width
                     X: =480
                     ZIndex: =12
@@ -441,7 +444,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.'07.03.2022'
+                    Text: =
                     Width: =193
                     X: =480
                     ZIndex: =13
@@ -452,7 +455,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.Osoba
+                    Text: =
                     Width: =h_osoba.Width
                     X: =h_osoba.X
                     ZIndex: =14
@@ -463,7 +466,7 @@
                     Color: =RGBA(47,41,43,1)
                     Height: =100
                     OnSelect: =Select(Parent)
-                    Text: =ThisItem.Delegacje
+                    Text: =
                     Width: =h_delegacja.Width
                     X: =h_delegacja.X
                     ZIndex: =15
@@ -477,5 +480,5 @@
             ShowValue: =false
             ValueFill: =RGBA(62,96,170,1)
             Width: =300
-            ZIndex: =4
+            ZIndex: =3
 
