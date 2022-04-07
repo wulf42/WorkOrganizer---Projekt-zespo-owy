@@ -1,0 +1,884 @@
+"'Wypełnianie ankiet' As screen":
+
+    "Gallery1_3 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        Height: =606
+        Items: =Ankiety_wyp
+        Layout: =Layout.Vertical
+        TemplateFill: =If(ThisItem.IsSelected,RGBA(179,232,250,0.8),RGBA(0, 0, 0, 0))
+        TemplatePadding: =0
+        TemplateSize: =85
+        Width: =362
+        X: =40
+        Y: =99
+        ZIndex: =1
+
+        Title2_2 As label:
+            Align: =Align.Center
+            Height: =85
+            OnSelect: =Select(Button4_1)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Nazwa (Title)'
+            Width: =362
+            ZIndex: =1
+
+        Separator2_2 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =3
+
+    Button4_1 As button:
+        OnSelect: =ResetForm(Form2_1)
+        Text: ="Reset"
+        Visible: =false
+        X: =258
+        Y: =40
+        ZIndex: =2
+
+    Form2_1 As form:
+        DataSource: =Ankiety_wyp
+        Item: =Gallery1_3.Selected
+        NumberOfColumns: =1
+        Width: =636
+        X: =428
+        Y: =94
+        ZIndex: =3
+
+        Pytanie1_DataCard5 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_2"
+            Default: =ThisItem.Pytanie1
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_2")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue50.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie1)),false,true)
+            Width: =636
+            X: =0
+            Y: =3
+            ZIndex: =1
+
+            DataCardKey50 As label:
+                Height: =33
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie1)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage50 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue50.Y + DataCardValue50.Height
+                ZIndex: =3
+
+            StarVisible50 As label:
+                Align: =Align.Center
+                Height: =DataCardKey50.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey50.Y
+                ZIndex: =4
+
+            DataCardValue50 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =19
+                Y: =43
+                ZIndex: =5
+
+        Wyslij As typedDataCard.blankCard:
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Button12.Height
+            Width: =636
+            X: =0
+            Y: =13
+            ZIndex: =1
+
+            Button12 As button:
+                OnSelect: =SubmitForm(Form2_1)
+                Text: ="Wyślij"
+                X: =222
+                ZIndex: =1
+
+        Identyfikator_ankiety_DataCard1 As typedDataCard.textualEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Identyfikator_ankiety"
+            Default: =ThisItem.Identyfikator_ankiety
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"Identyfikator_ankiety")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@Ankiety_wyp], DataSourceInfo.MaxLength, "Identyfikator_ankiety")
+            Required: =false
+            Update: =DataCardValue35.Text
+            Visible: =false
+            Width: =636
+            X: =0
+            Y: =0
+            ZIndex: =6
+
+            DataCardKey35 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =LookUp(Ankiety,ID=Gallery1_3.Selected.ID,Pytanie1)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue35 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey35.Y + DataCardKey35.Height + 5
+                ZIndex: =2
+
+            ErrorMessage35 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue35.Y + DataCardValue35.Height
+                ZIndex: =3
+
+        "'Nazwa (Title)_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Title"
+            Default: =ThisItem.'Nazwa (Title)'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"Title")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@Ankiety_wyp], DataSourceInfo.MaxLength, "Title")
+            Required: =false
+            Update: =DataCardValue36.Text
+            Visible: =false
+            Width: =636
+            X: =0
+            Y: =1
+            ZIndex: =6
+
+            DataCardKey36 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue36 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey36.Y + DataCardKey36.Height + 5
+                ZIndex: =2
+
+            ErrorMessage36 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue36.Y + DataCardValue36.Height
+                ZIndex: =3
+
+            StarVisible36 As label:
+                Align: =Align.Center
+                Height: =DataCardKey36.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey36.Y
+                ZIndex: =4
+
+        Kto_DataCard1 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Kto"
+            Default: =
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"Kto")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =89
+            Required: =false
+            Update: =DataCardValue37.Selected
+            Visible: =false
+            Width: =636
+            X: =0
+            Y: =2
+            ZIndex: =6
+
+            DataCardKey37 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue37 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultSelectedItems: |-
+                    ={
+                        Claims: "i:0#.f|membership|" & User().Email,
+                        Department: UżytkownicyusługiOffice365.MyProfile().Department,
+                        DisplayName: UżytkownicyusługiOffice365.MyProfile().DisplayName,
+                        Email: User().Email,
+                        JobTitle: UżytkownicyusługiOffice365.MyProfile().JobTitle,
+                        Picture: UżytkownicyusługiOffice365.UserPhoto(UżytkownicyusługiOffice365.MyProfile().Id)
+                    }
+                DisplayFields: =["DisplayName","Email","Picture"]
+                IsSearchable: =false
+                Items: |-
+                    ={
+                        Claims: "i:0#.f|membership|" & User().Email,
+                        Department: UżytkownicyusługiOffice365.MyProfile().Department,
+                        DisplayName: UżytkownicyusługiOffice365.MyProfile().DisplayName,
+                        Email: UżytkownicyusługiOffice365.MyProfile().Mail,
+                        JobTitle: UżytkownicyusługiOffice365.MyProfile().JobTitle,
+                        Picture: UżytkownicyusługiOffice365.UserPhoto(UżytkownicyusługiOffice365.MyProfile().Id)
+                    }
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["DisplayName"]
+                SearchItems: =[]
+                SelectMultiple: =false
+                Template: =ListItemTemplate.Person
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey37.Y + DataCardKey37.Height + 5
+                ZIndex: =2
+
+            ErrorMessage37 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue37.Y + DataCardValue37.Height
+                ZIndex: =3
+
+        Pytanie2_DataCard5 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_3"
+            Default: =ThisItem.Pytanie2
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_3")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue39.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie2)),false,true)
+            Width: =636
+            X: =0
+            Y: =4
+            ZIndex: =6
+
+            DataCardKey39 As label:
+                AutoHeight: =true
+                Height: =34
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie2)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage39 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue39.Y + DataCardValue39.Height
+                ZIndex: =3
+
+            StarVisible39 As label:
+                Align: =Align.Center
+                Height: =DataCardKey39.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey39.Y
+                ZIndex: =4
+
+            DataCardValue39 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =18
+                Y: =46
+                ZIndex: =5
+
+        Pytanie3_DataCard5 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_4"
+            Default: =ThisItem.Pytanie3
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_4")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue40.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie3)),false,true)
+            Width: =636
+            X: =0
+            Y: =5
+            ZIndex: =6
+
+            DataCardKey40 As label:
+                AutoHeight: =true
+                Height: =34
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie3)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage40 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue40.Y + DataCardValue40.Height
+                ZIndex: =3
+
+            StarVisible40 As label:
+                Align: =Align.Center
+                Height: =DataCardKey40.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey40.Y
+                ZIndex: =4
+
+            DataCardValue40 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =19
+                Y: =46
+                ZIndex: =5
+
+        Pytanie4_DataCard3 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_5"
+            Default: =ThisItem.Pytanie4
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_5")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue41.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie4)),false,true)
+            Width: =636
+            X: =0
+            Y: =6
+            ZIndex: =6
+
+            DataCardKey41 As label:
+                AutoHeight: =true
+                Height: =34
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie4)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage41 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue41.Y + DataCardValue41.Height
+                ZIndex: =3
+
+            StarVisible41 As label:
+                Align: =Align.Center
+                Height: =DataCardKey41.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey41.Y
+                ZIndex: =4
+
+            DataCardValue41 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =19
+                Y: =46
+                ZIndex: =5
+
+        Pytanie5_DataCard3 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_6"
+            Default: =ThisItem.Pytanie5
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_6")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue42.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie5)),false,true)
+            Width: =636
+            X: =0
+            Y: =7
+            ZIndex: =6
+
+            DataCardKey42 As label:
+                AutoHeight: =true
+                Height: =34
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie5)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage42 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue42.Y + DataCardValue42.Height
+                ZIndex: =3
+
+            StarVisible42 As label:
+                Align: =Align.Center
+                Height: =DataCardKey42.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey42.Y
+                ZIndex: =4
+
+            DataCardValue42 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =19
+                Y: =53
+                ZIndex: =5
+
+        Pytanie6_DataCard3 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_7"
+            Default: =ThisItem.Pytanie6
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_7")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue43.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie6)),false,true)
+            Width: =636
+            X: =0
+            Y: =8
+            ZIndex: =6
+
+            DataCardKey43 As label:
+                AutoHeight: =true
+                Height: =34
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie6)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage43 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue43.Y + DataCardValue43.Height
+                ZIndex: =3
+
+            StarVisible43 As label:
+                Align: =Align.Center
+                Height: =DataCardKey43.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey43.Y
+                ZIndex: =4
+
+            DataCardValue43 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =19
+                Y: =53
+                ZIndex: =5
+
+        Pytanie7_DataCard3 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_8"
+            Default: =ThisItem.Pytanie7
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_8")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue44.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie7)),false,true)
+            Width: =636
+            X: =0
+            Y: =9
+            ZIndex: =6
+
+            DataCardKey44 As label:
+                AutoHeight: =true
+                Height: =34
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie7)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage44 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue44.Y + DataCardValue44.Height
+                ZIndex: =3
+
+            StarVisible44 As label:
+                Align: =Align.Center
+                Height: =DataCardKey44.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey44.Y
+                ZIndex: =4
+
+            DataCardValue44 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =19
+                Y: =53
+                ZIndex: =5
+
+        Pytanie8_DataCard3 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_9"
+            Default: =ThisItem.Pytanie8
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_9")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue45.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie8)),false,true)
+            Width: =636
+            X: =0
+            Y: =10
+            ZIndex: =6
+
+            DataCardKey45 As label:
+                AutoHeight: =true
+                Height: =34
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie8)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage45 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue45.Y + DataCardValue45.Height
+                ZIndex: =3
+
+            StarVisible45 As label:
+                Align: =Align.Center
+                Height: =DataCardKey45.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey45.Y
+                ZIndex: =4
+
+            DataCardValue45 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =19
+                Y: =56
+                ZIndex: =5
+
+        Pytanie9_DataCard3 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_10"
+            Default: =ThisItem.Pytanie9
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_10")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue46.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie9)),false,true)
+            Width: =636
+            X: =0
+            Y: =11
+            ZIndex: =6
+
+            DataCardKey46 As label:
+                AutoHeight: =true
+                Height: =34
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie9)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage46 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue46.Y + DataCardValue46.Height
+                ZIndex: =3
+
+            StarVisible46 As label:
+                Align: =Align.Center
+                Height: =DataCardKey46.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey46.Y
+                ZIndex: =4
+
+            DataCardValue46 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =19
+                Y: =53
+                ZIndex: =5
+
+        Pytanie10_DataCard3 As typedDataCard.comboBoxEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_11"
+            Default: =ThisItem.Pytanie10
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_11")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue47.Selected
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie10)),false,true)
+            Width: =636
+            X: =0
+            Y: =12
+            ZIndex: =6
+
+            DataCardKey47 As label:
+                AutoHeight: =true
+                Height: =34
+                Size: =18
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.Title,Pytanie10)
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ErrorMessage47 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue47.Y + DataCardValue47.Height
+                ZIndex: =3
+
+            StarVisible47 As label:
+                Align: =Align.Center
+                Height: =DataCardKey47.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey47.Y
+                ZIndex: =4
+
+            DataCardValue47 As radio:
+                Height: =62
+                Items: =Choices([@Ankiety_wyp].field_2)
+                Layout: =Layout.Horizontal
+                Width: =376
+                X: =19
+                Y: =53
+                ZIndex: =5
+
+    Button8 As button:
+        OnSelect: =Refresh(Ankiety_wyp)
+        Text: ="Odśwież"
+        X: =40
+        Y: =40
+        ZIndex: =4
+

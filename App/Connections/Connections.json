@@ -10,6 +10,16 @@
       "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
     },
     "datasets": {
+      "https://workuwmedu.sharepoint.com/sites/Powerapps": {
+        "dataSources": {
+          "Ankiety": {
+            "tableName": "5a02336f-2a77-4984-989b-a5919c138563"
+          },
+          "Ankiety_wyp": {
+            "tableName": "65254562-1ea4-41f4-a0a7-fc82376b71ec"
+          }
+        }
+      },
       "https://workuwmedu-my.sharepoint.com/personal/159163_student_uwm_edu_pl": {
         "dataSources": {
           "Projekty": {
@@ -19,7 +29,9 @@
       }
     },
     "dataSources": [
-      "Projekty"
+      "Projekty",
+      "Ankiety",
+      "Ankiety_wyp"
     ],
     "dependencies": {},
     "dependents": [],

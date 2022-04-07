@@ -1,0 +1,53 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-03-28T17:03:25.3890000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Załączniki",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "Nazwa pliku z rozszerzeniem",
+      "{FullPath}": "Pełna ścieżka",
+      "{HasAttachments}": "Ma załączniki",
+      "{Identifier}": "Identyfikator",
+      "{IsFolder}": "JestFolderem",
+      "{Link}": "Link do elementu",
+      "{ModerationComment}": "Komentarze skojarzone z zatwierdzaniem zawartości tego elementu listy",
+      "{ModerationStatus}": "Stan zatwierdzania zawartości",
+      "{Name}": "Nazwa ({Name})",
+      "{Path}": "Ścieżka folderu",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Token końca przedziału czasu",
+      "{TriggerWindowStartToken}": "Token początku przedziału czasu",
+      "{VersionNumber}": "Numer wersji",
+      "Author": "Created By",
+      "Author#Claims": "Created By Claims",
+      "ComplianceAssetId": "Compliance Asset Id",
+      "Created": "Created",
+      "Editor": "Modified By",
+      "Editor#Claims": "Modified By Claims",
+      "field_1": "Pytanie1",
+      "field_10": "Pytanie10",
+      "field_2": "Pytanie2",
+      "field_3": "Pytanie3",
+      "field_4": "Pytanie4",
+      "field_5": "Pytanie5",
+      "field_6": "Pytanie6",
+      "field_7": "Pytanie7",
+      "field_8": "Pytanie8",
+      "field_9": "Pytanie9",
+      "ID": "ID",
+      "Modified": "Modified",
+      "Title": "Nazwa (Title)"
+    },
+    "DatasetName": "https://workuwmedu.sharepoint.com/sites/Powerapps",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Ankiety",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
