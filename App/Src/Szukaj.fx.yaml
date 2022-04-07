@@ -12,7 +12,7 @@ Szukaj As screen:
         ZIndex: =2
 
         UserIcon As icon.Person:
-            Fill: =RectQuickActionBar1.Fill
+            Fill: =
             Height: =Image1.Height
             Icon: =Icon.Person
             OnSelect: =

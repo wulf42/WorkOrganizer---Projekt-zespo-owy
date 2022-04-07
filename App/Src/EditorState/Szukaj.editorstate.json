@@ -1312,7 +1312,14 @@
       "DisabledColor",
       "PressedColor",
       "HoverColor",
-      "Fill",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "RectQuickActionBar1.Fill",
+        "InvariantPropertyName": "Fill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "DisabledFill",
       "PressedFill",
       "HoverFill",

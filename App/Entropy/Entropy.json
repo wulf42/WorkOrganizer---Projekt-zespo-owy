@@ -249,7 +249,7 @@
     "zostalo": 74
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "04/07/2022 21:23:39",
+  "HeaderLastSavedDateTimeUTC": "04/07/2022 21:26:07",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -559,6 +559,6 @@
       "typedDataCard": 51
     },
     "DeserializationLoadTime": 4.3817831,
-    "ErrorCount": 3
+    "ErrorCount": 1
   }
 }
