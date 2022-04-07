@@ -58,7 +58,7 @@
         ZIndex: =6
 
     Button1_4 As button:
-        OnSelect: =Navigate('Dodawanie ankiet')
+        OnSelect: =Navigate('Dodawanie Ankiet')
         Text: |-
             ="Dodawanie ankiet
             "
@@ -68,7 +68,7 @@
         ZIndex: =7
 
     Button1_5 As button:
-        OnSelect: =Navigate('Wypełnianie ankiet')
+        OnSelect: =Navigate('Wypełnianie Ankiet')
         Text: |-
             ="Wypełnianie ankiet
             "

@@ -1,4 +1,4 @@
-"'Dodawanie ankiet' As screen":
+"'Dodawanie Ankiet' As screen":
 
     "Gallery1_2 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         Height: =606
@@ -49,7 +49,7 @@
     Button6 As button:
         OnSelect: =SubmitForm(Form2)
         Text: ="Zapisz"
-        X: =506
+        X: =475
         Y: =40
         ZIndex: =4
 
@@ -68,7 +68,7 @@
         Y: =99
         ZIndex: =6
 
-        "'Nazwa (Title)_DataCard1' As typedDataCard.textualEditCard":
+        "'Nazwa (Title)_DataCard5' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.'Nazwa (Title)'
@@ -78,13 +78,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "Title")
             Required: =false
-            Update: =DataCardValue1.Text
+            Update: =DataCardValue77.Text
             Width: =800
             X: =0
             Y: =0
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey1 As label:
+            DataCardKey77 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -94,7 +94,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As text:
+            DataCardValue77 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -108,10 +108,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                Y: =DataCardKey77.Y + DataCardKey77.Height + 5
                 ZIndex: =2
 
-            ErrorMessage1 As label:
+            ErrorMessage77 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -123,20 +123,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue1.Y + DataCardValue1.Height
+                Y: =DataCardValue77.Y + DataCardValue77.Height
                 ZIndex: =3
 
-            StarVisible1 As label:
+            StarVisible77 As label:
                 Align: =Align.Center
-                Height: =DataCardKey1.Height
+                Height: =DataCardKey77.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey1.Y
+                Y: =DataCardKey77.Y
                 ZIndex: =4
 
-        Pytanie1_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie1_DataCard8 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_1"
             Default: =ThisItem.Pytanie1
@@ -146,13 +146,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_1")
             Required: =false
-            Update: =DataCardValue2.Text
+            Update: =DataCardValue78.Text
             Width: =800
             X: =0
             Y: =1
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey2 As label:
+            DataCardKey78 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -162,7 +162,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As text:
+            DataCardValue78 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -176,10 +176,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Y: =DataCardKey78.Y + DataCardKey78.Height + 5
                 ZIndex: =2
 
-            ErrorMessage2 As label:
+            ErrorMessage78 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -191,20 +191,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue2.Y + DataCardValue2.Height
+                Y: =DataCardValue78.Y + DataCardValue78.Height
                 ZIndex: =3
 
-            StarVisible2 As label:
+            StarVisible78 As label:
                 Align: =Align.Center
-                Height: =DataCardKey2.Height
+                Height: =DataCardKey78.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey2.Y
+                Y: =DataCardKey78.Y
                 ZIndex: =4
 
-        Pytanie2_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie2_DataCard8 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_2"
             Default: =ThisItem.Pytanie2
@@ -214,13 +214,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_2")
             Required: =false
-            Update: =DataCardValue3.Text
+            Update: =DataCardValue79.Text
             Width: =800
             X: =0
             Y: =2
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey3 As label:
+            DataCardKey79 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -230,7 +230,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue3 As text:
+            DataCardValue79 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -244,10 +244,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
+                Y: =DataCardKey79.Y + DataCardKey79.Height + 5
                 ZIndex: =2
 
-            ErrorMessage3 As label:
+            ErrorMessage79 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -259,20 +259,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue3.Y + DataCardValue3.Height
+                Y: =DataCardValue79.Y + DataCardValue79.Height
                 ZIndex: =3
 
-            StarVisible3 As label:
+            StarVisible79 As label:
                 Align: =Align.Center
-                Height: =DataCardKey3.Height
+                Height: =DataCardKey79.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey3.Y
+                Y: =DataCardKey79.Y
                 ZIndex: =4
 
-        Pytanie3_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie3_DataCard8 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_3"
             Default: =ThisItem.Pytanie3
@@ -282,13 +282,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_3")
             Required: =false
-            Update: =DataCardValue4.Text
+            Update: =DataCardValue80.Text
             Width: =800
             X: =0
             Y: =3
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey4 As label:
+            DataCardKey80 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -298,7 +298,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue4 As text:
+            DataCardValue80 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -312,10 +312,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                Y: =DataCardKey80.Y + DataCardKey80.Height + 5
                 ZIndex: =2
 
-            ErrorMessage4 As label:
+            ErrorMessage80 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -327,20 +327,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
+                Y: =DataCardValue80.Y + DataCardValue80.Height
                 ZIndex: =3
 
-            StarVisible4 As label:
+            StarVisible80 As label:
                 Align: =Align.Center
-                Height: =DataCardKey4.Height
+                Height: =DataCardKey80.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey4.Y
+                Y: =DataCardKey80.Y
                 ZIndex: =4
 
-        Pytanie4_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie4_DataCard6 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_4"
             Default: =ThisItem.Pytanie4
@@ -350,13 +350,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_4")
             Required: =false
-            Update: =DataCardValue5.Text
+            Update: =DataCardValue81.Text
             Width: =800
             X: =0
             Y: =4
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey5 As label:
+            DataCardKey81 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -366,7 +366,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue5 As text:
+            DataCardValue81 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -380,10 +380,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                Y: =DataCardKey81.Y + DataCardKey81.Height + 5
                 ZIndex: =2
 
-            ErrorMessage5 As label:
+            ErrorMessage81 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -395,20 +395,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue5.Y + DataCardValue5.Height
+                Y: =DataCardValue81.Y + DataCardValue81.Height
                 ZIndex: =3
 
-            StarVisible5 As label:
+            StarVisible81 As label:
                 Align: =Align.Center
-                Height: =DataCardKey5.Height
+                Height: =DataCardKey81.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey5.Y
+                Y: =DataCardKey81.Y
                 ZIndex: =4
 
-        Pytanie5_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie5_DataCard6 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_5"
             Default: =ThisItem.Pytanie5
@@ -418,13 +418,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_5")
             Required: =false
-            Update: =DataCardValue6.Text
+            Update: =DataCardValue82.Text
             Width: =800
             X: =0
             Y: =5
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey6 As label:
+            DataCardKey82 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -434,7 +434,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue6 As text:
+            DataCardValue82 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -448,10 +448,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Y: =DataCardKey82.Y + DataCardKey82.Height + 5
                 ZIndex: =2
 
-            ErrorMessage6 As label:
+            ErrorMessage82 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -463,20 +463,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue6.Y + DataCardValue6.Height
+                Y: =DataCardValue82.Y + DataCardValue82.Height
                 ZIndex: =3
 
-            StarVisible6 As label:
+            StarVisible82 As label:
                 Align: =Align.Center
-                Height: =DataCardKey6.Height
+                Height: =DataCardKey82.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey6.Y
+                Y: =DataCardKey82.Y
                 ZIndex: =4
 
-        Pytanie6_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie6_DataCard6 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_6"
             Default: =ThisItem.Pytanie6
@@ -486,13 +486,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_6")
             Required: =false
-            Update: =DataCardValue7.Text
+            Update: =DataCardValue83.Text
             Width: =800
             X: =0
             Y: =6
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey7 As label:
+            DataCardKey83 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -502,7 +502,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue7 As text:
+            DataCardValue83 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -516,10 +516,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                Y: =DataCardKey83.Y + DataCardKey83.Height + 5
                 ZIndex: =2
 
-            ErrorMessage7 As label:
+            ErrorMessage83 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -531,20 +531,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue7.Y + DataCardValue7.Height
+                Y: =DataCardValue83.Y + DataCardValue83.Height
                 ZIndex: =3
 
-            StarVisible7 As label:
+            StarVisible83 As label:
                 Align: =Align.Center
-                Height: =DataCardKey7.Height
+                Height: =DataCardKey83.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey7.Y
+                Y: =DataCardKey83.Y
                 ZIndex: =4
 
-        Pytanie7_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie7_DataCard6 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_7"
             Default: =ThisItem.Pytanie7
@@ -554,13 +554,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_7")
             Required: =false
-            Update: =DataCardValue8.Text
+            Update: =DataCardValue84.Text
             Width: =800
             X: =0
             Y: =7
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey8 As label:
+            DataCardKey84 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -570,7 +570,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue8 As text:
+            DataCardValue84 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -584,10 +584,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                Y: =DataCardKey84.Y + DataCardKey84.Height + 5
                 ZIndex: =2
 
-            ErrorMessage8 As label:
+            ErrorMessage84 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -599,20 +599,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue8.Y + DataCardValue8.Height
+                Y: =DataCardValue84.Y + DataCardValue84.Height
                 ZIndex: =3
 
-            StarVisible8 As label:
+            StarVisible84 As label:
                 Align: =Align.Center
-                Height: =DataCardKey8.Height
+                Height: =DataCardKey84.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey8.Y
+                Y: =DataCardKey84.Y
                 ZIndex: =4
 
-        Pytanie8_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie8_DataCard6 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_8"
             Default: =ThisItem.Pytanie8
@@ -622,13 +622,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_8")
             Required: =false
-            Update: =DataCardValue9.Text
+            Update: =DataCardValue85.Text
             Width: =800
             X: =0
             Y: =8
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey9 As label:
+            DataCardKey85 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -638,7 +638,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue9 As text:
+            DataCardValue85 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -652,10 +652,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey9.Y + DataCardKey9.Height + 5
+                Y: =DataCardKey85.Y + DataCardKey85.Height + 5
                 ZIndex: =2
 
-            ErrorMessage9 As label:
+            ErrorMessage85 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -667,20 +667,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue9.Y + DataCardValue9.Height
+                Y: =DataCardValue85.Y + DataCardValue85.Height
                 ZIndex: =3
 
-            StarVisible9 As label:
+            StarVisible85 As label:
                 Align: =Align.Center
-                Height: =DataCardKey9.Height
+                Height: =DataCardKey85.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey9.Y
+                Y: =DataCardKey85.Y
                 ZIndex: =4
 
-        Pytanie9_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie9_DataCard6 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_9"
             Default: =ThisItem.Pytanie9
@@ -690,13 +690,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_9")
             Required: =false
-            Update: =DataCardValue10.Text
+            Update: =DataCardValue86.Text
             Width: =800
             X: =0
             Y: =9
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey10 As label:
+            DataCardKey86 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -706,7 +706,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue10 As text:
+            DataCardValue86 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -720,10 +720,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                Y: =DataCardKey86.Y + DataCardKey86.Height + 5
                 ZIndex: =2
 
-            ErrorMessage10 As label:
+            ErrorMessage86 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -735,20 +735,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue10.Y + DataCardValue10.Height
+                Y: =DataCardValue86.Y + DataCardValue86.Height
                 ZIndex: =3
 
-            StarVisible10 As label:
+            StarVisible86 As label:
                 Align: =Align.Center
-                Height: =DataCardKey10.Height
+                Height: =DataCardKey86.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey10.Y
+                Y: =DataCardKey86.Y
                 ZIndex: =4
 
-        Pytanie10_DataCard1 As typedDataCard.textualEditCard:
+        Pytanie10_DataCard6 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_10"
             Default: =ThisItem.Pytanie10
@@ -758,13 +758,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_10")
             Required: =false
-            Update: =DataCardValue11.Text
+            Update: =DataCardValue87.Text
             Width: =800
             X: =0
             Y: =10
-            ZIndex: =7
+            ZIndex: =9
 
-            DataCardKey11 As label:
+            DataCardKey87 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -774,7 +774,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue11 As text:
+            DataCardValue87 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -788,10 +788,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
+                Y: =DataCardKey87.Y + DataCardKey87.Height + 5
                 ZIndex: =2
 
-            ErrorMessage11 As label:
+            ErrorMessage87 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -803,16 +803,24 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue11.Y + DataCardValue11.Height
+                Y: =DataCardValue87.Y + DataCardValue87.Height
                 ZIndex: =3
 
-            StarVisible11 As label:
+            StarVisible87 As label:
                 Align: =Align.Center
-                Height: =DataCardKey11.Height
+                Height: =DataCardKey87.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey11.Y
+                Y: =DataCardKey87.Y
                 ZIndex: =4
+
+    Button5 As button:
+        OnSelect: =Navigate('Wypełnianie Ankiet')
+        Text: ="Wypełnij ankiety"
+        Width: =217
+        X: =1031
+        Y: =40
+        ZIndex: =7
 

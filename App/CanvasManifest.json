@@ -97,12 +97,12 @@
     "UserLocale": "pl-PL"
   },
   "ScreenOrder": [
+    "Strona główna",
     "Projekt",
     "Kalendarz",
     "Rejestr",
     "Szukaj",
-    "Dodawanie ankiet",
-    "Wypełnianie ankiet",
-    "Strona główna"
+    "Dodawanie Ankiet",
+    "Wypełnianie Ankiet"
   ]
 }
