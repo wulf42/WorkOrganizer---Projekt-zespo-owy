@@ -1,0 +1,79 @@
+"'Strona główna' As screen":
+
+    Button1 As button:
+        OnSelect: =Navigate(Projekt)
+        Text: |-
+            ="Projekt
+            "
+        Width: =400
+        X: =60
+        Y: =168
+        ZIndex: =1
+
+    Label2 As label:
+        Height: =71
+        Text: ="Testowa, tymczasowa strona główna aplikacji"
+        Width: =398
+        X: =60
+        Y: =60
+        ZIndex: =2
+
+    Label3 As label:
+        Height: =37
+        Text: |-
+            ="Przejdź do ekranu:"
+        Width: =257
+        X: =60
+        Y: =131
+        ZIndex: =3
+
+    Button1_1 As button:
+        OnSelect: =Navigate(Kalendarz)
+        Text: |-
+            ="Kalendarz
+            "
+        Width: =400
+        X: =60
+        Y: =208
+        ZIndex: =4
+
+    Button1_2 As button:
+        OnSelect: =Navigate(Rejestr)
+        Text: |-
+            ="Rejestr
+            "
+        Width: =400
+        X: =60
+        Y: =248
+        ZIndex: =5
+
+    Button1_3 As button:
+        OnSelect: =Navigate(Szukaj)
+        Text: |-
+            ="Szukaj
+            "
+        Width: =400
+        X: =60
+        Y: =288
+        ZIndex: =6
+
+    Button1_4 As button:
+        OnSelect: =Navigate('Dodawanie ankiet')
+        Text: |-
+            ="Dodawanie ankiet
+            "
+        Width: =400
+        X: =60
+        Y: =328
+        ZIndex: =7
+
+    Button1_5 As button:
+        OnSelect: =Navigate('Wypełnianie ankiet')
+        Text: |-
+            ="Wypełnianie ankiet
+            "
+        Width: =400
+        X: =60
+        Y: =368
+        ZIndex: =8
+
