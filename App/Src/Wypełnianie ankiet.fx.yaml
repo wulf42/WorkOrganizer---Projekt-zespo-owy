@@ -144,7 +144,7 @@
                     ;
                     Patch(
                         Ankiety_wyp,
-                        LookUp('Ankiety_wyp', ID=Gallery1_3.Selected.ID),
+                        LookUp(Ankiety_wyp, ID=Gallery1_3.Selected.ID),
                         {
                             Kto_wypelnil: DataCardValue1.Text
                         }
@@ -186,7 +186,7 @@
 
             DataCardValue1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Concatenate(Parent.Default,",",User().FullName)
+                Default: =If(IsBlank(Parent.Default),User().FullName,Concatenate(Parent.Default,",",User().FullName))
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 MaxLength: =Parent.MaxLength
@@ -215,16 +215,6 @@
                 X: =30
                 Y: =DataCardValue1.Y + DataCardValue1.Height
                 ZIndex: =3
-
-            StarVisible1 As label:
-                Align: =Align.Center
-                Height: =DataCardKey1.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey1.Y
-                ZIndex: =4
 
         Identyfikator_ankiety_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
