@@ -1022,10 +1022,3 @@
         Y: =38
         ZIndex: =7
 
-    Button3 As button:
-        OnSelect: =Set(currentuser, User().Email)
-        Text: ="Przycisk"
-        X: =40
-        Y: =665
-        ZIndex: =8
-
