@@ -1,6 +1,6 @@
 {
   "8de4f608-47a5-4df4-a94c-f3547a2ad071": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/a0ed8df9bee642c8b114d634e0086159",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/86c3b4fcd28d4c7e9604b06b9473dbd4",
     "connectionParameters": {
       "sku": "Enterprise"
     },
@@ -38,7 +38,7 @@
     "id": "8de4f608-47a5-4df4-a94c-f3547a2ad071"
   },
   "94dec2f9-ad86-454a-97e7-2bc16012e2ed": {
-    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/260cebe3df8b4baa9206a5c3d756613f",
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/5e1151d8f8434abdb58af224366310b6",
     "connectionParameters": {
       "sku": "Enterprise"
     },

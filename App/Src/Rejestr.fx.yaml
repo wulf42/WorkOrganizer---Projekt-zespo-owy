@@ -394,3 +394,13 @@
             Width: =300
             ZIndex: =3
 
+    Button1_9 As button:
+        Height: =42
+        OnSelect: =Navigate('Strona główna')
+        Text: |-
+            ="Strona główna
+            "
+        Width: =192
+        X: =1174
+        ZIndex: =2
+
