@@ -40,6 +40,7 @@
       "field_8": "Pytanie8",
       "field_9": "Pytanie9",
       "ID": "ID",
+      "Kto_wypelnil": "Kto_wypelnil",
       "Modified": "Modified",
       "Title": "Nazwa (Title)"
     },

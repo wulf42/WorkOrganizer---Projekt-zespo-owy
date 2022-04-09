@@ -40,7 +40,8 @@
         ZIndex: =2
 
     Form2_1 As form:
-        DataSource: =Ankiety_wyp
+        AcceptsFocus: =false
+        DataSource: =Ankiety
         Item: =Gallery1_3.Selected
         NumberOfColumns: =1
         Visible: =If(CountRows(Gallery1_3.AllItems) = 0,false,true)
@@ -52,14 +53,14 @@
         Pytanie1_DataCard5 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_2"
-            Default: =ThisItem.Pytanie1
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_2")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue50.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_1)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie1)),false,true)
             Width: =881
             X: =0
             Y: =3
@@ -68,7 +69,7 @@
             DataCardKey50 As label:
                 Height: =33
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_1)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie1)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -90,19 +91,9 @@
                 Y: =DataCardValue50.Y + DataCardValue50.Height
                 ZIndex: =3
 
-            StarVisible50 As label:
-                Align: =Align.Center
-                Height: =DataCardKey50.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey50.Y
-                ZIndex: =4
-
             DataCardValue50 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =19
@@ -125,32 +116,29 @@
                             Ankiety_wyp,
                             Defaults(Ankiety_wyp),
                             {
-                                'Nazwa (Title)': Gallery1_3.Selected.'Nazwa (Title)'},
+                                Title: Gallery1_3.Selected.'Nazwa (Title)'},
                                 {Kto: DataCardValue37.Selected},
-                                {Identyfikator_ankiety:DataCardKey35.Text},
-                                {Pytanie1: DataCardValue50.Selected},
-                                {Pytanie2: DataCardValue39.Selected},
-                                {Pytanie3: DataCardValue40.Selected},
-                                {Pytanie4: DataCardValue41.Selected},
-                                {Pytanie5: DataCardValue42.Selected},
-                                {Pytanie6: DataCardValue43.Selected},
-                                {Pytanie7: DataCardValue44.Selected},
-                                {Pytanie8: DataCardValue45.Selected},
-                                {Pytanie9: DataCardValue46.Selected},
-                                {Pytanie10: DataCardValue47.Selected},
-                                {Kto_wypelnil: DataCardValue1.Text
+                                {Identyfikator_ankiety:Gallery1_3.Selected.ID},
+                                {field_2: DataCardValue50.Selected},
+                                {field_3: DataCardValue39.Selected},
+                                {field_4: DataCardValue40.Selected},
+                                {field_5: DataCardValue41.Selected},
+                                {field_6: DataCardValue42.Selected},
+                                {field_7: DataCardValue43.Selected},
+                                {field_8: DataCardValue44.Selected},
+                                {field_9: DataCardValue45.Selected},
+                                {field_10: DataCardValue46.Selected},
+                                {field_11: DataCardValue47.Selected
                             }
                         )
                     ;
                     Patch(
-                        Ankiety_wyp,
-                        LookUp(Ankiety_wyp, ID=Gallery1_3.Selected.ID),
+                        Ankiety,
+                        LookUp(Ankiety, ID=Gallery1_3.Selected.ID),
                         {
                             Kto_wypelnil: DataCardValue1.Text
                         }
                     )
-                    ;
-                    RemoveIf(Ankiety_wyp,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',IsBlank(Kto))
                     ;
                     Select(Button1_6)
                 Text: ="Wyślij"
@@ -160,12 +148,12 @@
         Kto_wypelnil_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Kto_wypelnil"
-            Default: =ThisItem.Kto_wypelnil
+            Default: =
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"Kto_wypelnil")
+            DisplayName: =DataSourceInfo([@Ankiety],DataSourceInfo.DisplayName,"Kto_wypelnil")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@Ankiety_wyp], DataSourceInfo.MaxLength, "Kto_wypelnil")
+            MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "Kto_wypelnil")
             Required: =false
             Update: =DataCardValue1.Text
             Visible: =false
@@ -186,7 +174,7 @@
 
             DataCardValue1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =If(IsBlank(Parent.Default),User().FullName,Concatenate(Parent.Default,",",User().FullName))
+                Default: =If(IsBlank(Gallery1_3.Selected.Kto_wypelnil),User().FullName,Concatenate(Gallery1_3.Selected.Kto_wypelnil,",",User().FullName))
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 MaxLength: =Parent.MaxLength
@@ -219,7 +207,7 @@
         Identyfikator_ankiety_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Identyfikator_ankiety"
-            Default: =ThisItem.Identyfikator_ankiety
+            Default: =ThisItem.ID
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"Identyfikator_ankiety")
             Fill: =RGBA(0, 0, 0, 0)
@@ -236,7 +224,7 @@
             DataCardKey35 As label:
                 AutoHeight: =true
                 Height: =34
-                Text: =LookUp(Ankiety,ID=Gallery1_3.Selected.ID,field_1)
+                Text: =LookUp(Ankiety,ID=Gallery1_3.Selected.ID,Pytanie1)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -431,14 +419,14 @@
         Pytanie2_DataCard5 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_3"
-            Default: =ThisItem.Pytanie2
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_3")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue39.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_2)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie2)),false,true)
             Width: =881
             X: =0
             Y: =4
@@ -448,7 +436,7 @@
                 AutoHeight: =true
                 Height: =34
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_2)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie2)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -482,7 +470,7 @@
 
             DataCardValue39 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =18
@@ -492,14 +480,14 @@
         Pytanie3_DataCard5 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_4"
-            Default: =ThisItem.Pytanie3
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_4")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue40.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_3)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie3)),false,true)
             Width: =881
             X: =0
             Y: =5
@@ -509,7 +497,7 @@
                 AutoHeight: =true
                 Height: =34
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_3)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie3)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -543,7 +531,7 @@
 
             DataCardValue40 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =19
@@ -553,14 +541,14 @@
         Pytanie4_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_5"
-            Default: =ThisItem.Pytanie4
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_5")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue41.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_4)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie4)),false,true)
             Width: =881
             X: =0
             Y: =6
@@ -570,7 +558,7 @@
                 AutoHeight: =true
                 Height: =34
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_4)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie4)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -604,7 +592,7 @@
 
             DataCardValue41 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =19
@@ -614,14 +602,14 @@
         Pytanie5_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_6"
-            Default: =ThisItem.Pytanie5
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_6")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue42.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_5)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie5)),false,true)
             Width: =881
             X: =0
             Y: =7
@@ -631,7 +619,7 @@
                 AutoHeight: =true
                 Height: =34
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_5)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie5)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -665,7 +653,7 @@
 
             DataCardValue42 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =19
@@ -675,14 +663,14 @@
         Pytanie6_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_7"
-            Default: =ThisItem.Pytanie6
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_7")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue43.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_6)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie6)),false,true)
             Width: =881
             X: =0
             Y: =8
@@ -692,7 +680,7 @@
                 AutoHeight: =true
                 Height: =34
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_6)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie6)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -726,7 +714,7 @@
 
             DataCardValue43 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =19
@@ -736,14 +724,14 @@
         Pytanie7_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_8"
-            Default: =ThisItem.Pytanie7
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_8")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue44.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_7)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie7)),false,true)
             Width: =881
             X: =0
             Y: =9
@@ -753,7 +741,7 @@
                 AutoHeight: =true
                 Height: =34
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_7)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie7)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -787,7 +775,7 @@
 
             DataCardValue44 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =19
@@ -797,14 +785,14 @@
         Pytanie8_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_9"
-            Default: =ThisItem.Pytanie8
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_9")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue45.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_8)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie8)),false,true)
             Width: =881
             X: =0
             Y: =10
@@ -814,7 +802,7 @@
                 AutoHeight: =true
                 Height: =34
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_8)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie8)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -848,7 +836,7 @@
 
             DataCardValue45 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =19
@@ -858,14 +846,14 @@
         Pytanie9_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_10"
-            Default: =ThisItem.Pytanie9
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_10")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue46.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_9)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie9)),false,true)
             Width: =881
             X: =0
             Y: =11
@@ -875,7 +863,7 @@
                 AutoHeight: =true
                 Height: =34
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_9)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie9)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -909,7 +897,7 @@
 
             DataCardValue46 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =19
@@ -919,14 +907,14 @@
         Pytanie10_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_11"
-            Default: =ThisItem.Pytanie10
+            Default: =ThisItem
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Ankiety_wyp],DataSourceInfo.DisplayName,"field_11")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
             Update: =DataCardValue47.Selected
-            Visible: =If(IsBlank(LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_10)),false,true)
+            Visible: =If(IsBlank(LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie10)),false,true)
             Width: =881
             X: =0
             Y: =12
@@ -936,7 +924,7 @@
                 AutoHeight: =true
                 Height: =34
                 Size: =18
-                Text: =LookUp(Ankiety,Title=Gallery1_3.Selected.'Nazwa (Title)',field_10)
+                Text: =LookUp(Ankiety,'Nazwa (Title)'=Gallery1_3.Selected.'Nazwa (Title)',Pytanie10)
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -970,7 +958,7 @@
 
             DataCardValue47 As radio:
                 Height: =62
-                Items: =Choices([@Ankiety_wyp].Pytanie1)
+                Items: =Choices([@Ankiety_wyp].field_2)
                 Layout: =Layout.Horizontal
                 Width: =376
                 X: =19
@@ -982,7 +970,7 @@
             =ClearCollect(
                 Ankiety_osoby,
                 Filter(
-                    Ankiety_wyp,
+                    Ankiety,
                     'Nazwa (Title)',
                     IsBlank(Find(User().FullName,Kto_wypelnil))
                 )
@@ -996,7 +984,7 @@
         OnSelect: =Navigate('Dodawanie Ankiet')
         Text: ="Dodaj ankiety"
         Width: =217
-        X: =1113
+        X: =1031
         Y: =40
         ZIndex: =5
 
@@ -1006,19 +994,8 @@
         Size: =40
         Text: ="Wszytkie ankiety wypełnione"
         Visible: =If(CountRows(Gallery1_3.AllItems) = 0,true,false)
-        Width: =1359
-        X: =7
+        Width: =1208
+        X: =40
         Y: =99
         ZIndex: =6
-
-    Button1_12 As button:
-        Height: =42
-        OnSelect: =Navigate('Strona główna')
-        Text: |-
-            ="Strona główna
-            "
-        Width: =192
-        X: =755
-        Y: =38
-        ZIndex: =7
 
