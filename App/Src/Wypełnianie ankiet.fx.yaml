@@ -112,7 +112,13 @@
 
             Button12 As button:
                 OnSelect: |-
-                    =Patch(
+                    =If(
+                        !IsBlank(Gallery1_3.Selected.Pytanie2) && IsBlank(DataCardValue39.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie3) && IsBlank(DataCardValue40.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie4) && IsBlank(DataCardValue41.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie5) && IsBlank(DataCardValue42.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie6) && IsBlank(DataCardValue43.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie7) && IsBlank(DataCardValue44.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie8) && IsBlank(DataCardValue45.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie9) && IsBlank(DataCardValue46.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie10) && IsBlank(DataCardValue47.Selected),
+                        Notify(
+                            "Wypełnij wszystkie pola",
+                            NotificationType.Error
+                        ),
+                        Patch(
                             Ankiety_wyp,
                             Defaults(Ankiety_wyp),
                             {
@@ -141,6 +147,8 @@
                     )
                     ;
                     Select(Button1_6)
+                    ;
+                    Notify("Ankieta wypełniona pomyślnie", NotificationType.Success))
                 Text: ="Wyślij"
                 X: =222
                 ZIndex: =1
@@ -322,16 +330,6 @@
                 Y: =DataCardValue36.Y + DataCardValue36.Height
                 ZIndex: =3
 
-            StarVisible36 As label:
-                Align: =Align.Center
-                Height: =DataCardKey36.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey36.Y
-                ZIndex: =4
-
         Kto_DataCard1 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Kto"
@@ -458,16 +456,6 @@
                 Y: =DataCardValue39.Y + DataCardValue39.Height
                 ZIndex: =3
 
-            StarVisible39 As label:
-                Align: =Align.Center
-                Height: =DataCardKey39.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey39.Y
-                ZIndex: =4
-
             DataCardValue39 As radio:
                 Height: =62
                 Items: =Choices([@Ankiety_wyp].field_2)
@@ -518,16 +506,6 @@
                 X: =30
                 Y: =DataCardValue40.Y + DataCardValue40.Height
                 ZIndex: =3
-
-            StarVisible40 As label:
-                Align: =Align.Center
-                Height: =DataCardKey40.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey40.Y
-                ZIndex: =4
 
             DataCardValue40 As radio:
                 Height: =62
@@ -580,16 +558,6 @@
                 Y: =DataCardValue41.Y + DataCardValue41.Height
                 ZIndex: =3
 
-            StarVisible41 As label:
-                Align: =Align.Center
-                Height: =DataCardKey41.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey41.Y
-                ZIndex: =4
-
             DataCardValue41 As radio:
                 Height: =62
                 Items: =Choices([@Ankiety_wyp].field_2)
@@ -640,16 +608,6 @@
                 X: =30
                 Y: =DataCardValue42.Y + DataCardValue42.Height
                 ZIndex: =3
-
-            StarVisible42 As label:
-                Align: =Align.Center
-                Height: =DataCardKey42.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey42.Y
-                ZIndex: =4
 
             DataCardValue42 As radio:
                 Height: =62
@@ -702,16 +660,6 @@
                 Y: =DataCardValue43.Y + DataCardValue43.Height
                 ZIndex: =3
 
-            StarVisible43 As label:
-                Align: =Align.Center
-                Height: =DataCardKey43.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey43.Y
-                ZIndex: =4
-
             DataCardValue43 As radio:
                 Height: =62
                 Items: =Choices([@Ankiety_wyp].field_2)
@@ -762,16 +710,6 @@
                 X: =30
                 Y: =DataCardValue44.Y + DataCardValue44.Height
                 ZIndex: =3
-
-            StarVisible44 As label:
-                Align: =Align.Center
-                Height: =DataCardKey44.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey44.Y
-                ZIndex: =4
 
             DataCardValue44 As radio:
                 Height: =62
@@ -824,16 +762,6 @@
                 Y: =DataCardValue45.Y + DataCardValue45.Height
                 ZIndex: =3
 
-            StarVisible45 As label:
-                Align: =Align.Center
-                Height: =DataCardKey45.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey45.Y
-                ZIndex: =4
-
             DataCardValue45 As radio:
                 Height: =62
                 Items: =Choices([@Ankiety_wyp].field_2)
@@ -885,16 +813,6 @@
                 Y: =DataCardValue46.Y + DataCardValue46.Height
                 ZIndex: =3
 
-            StarVisible46 As label:
-                Align: =Align.Center
-                Height: =DataCardKey46.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey46.Y
-                ZIndex: =4
-
             DataCardValue46 As radio:
                 Height: =62
                 Items: =Choices([@Ankiety_wyp].field_2)
@@ -945,16 +863,6 @@
                 X: =30
                 Y: =DataCardValue47.Y + DataCardValue47.Height
                 ZIndex: =3
-
-            StarVisible47 As label:
-                Align: =Align.Center
-                Height: =DataCardKey47.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey47.Y
-                ZIndex: =4
 
             DataCardValue47 As radio:
                 Height: =62
