@@ -1,11 +1,13 @@
 "Rejestr As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
 
     ScreenContainer2_1 As groupContainer.verticalAutoLayoutContainer:
-        Height: =Parent.Height
+        Height: =653
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =Parent.Width
+        Width: =1116
+        X: =250
+        Y: =115
         ZIndex: =1
 
         HeaderContainer2_1 As groupContainer.horizontalAutoLayoutContainer:
@@ -42,7 +44,7 @@
                 Align: =Align.Center
                 BorderColor: =RGBA(101, 128, 187, 1)
                 Color: =RGBA(47,41,43,1)
-                Fill: =RGBA(187, 221, 140, 1)
+                Fill: =RGBA(128, 128, 128, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =HeaderContainer2_1.Height
                 Size: =26
@@ -69,12 +71,14 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: =1
                     Width: =60
                     X: =h_osoba.X+h_osoba.Width-Slider1_1.Value
@@ -85,14 +89,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="budżet"
-                    Width: =147
+                    Width: =101
                     X: =h_1.X+h_1.Width
                     ZIndex: =2
 
@@ -101,14 +107,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="godziny"
-                    Width: =107
+                    Width: =77
                     X: |
                         =h_budzet_1.X+h_budzet_1.Width
                     ZIndex: =3
@@ -118,15 +126,18 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: |-
                         ="delegacja
                         "
+                    Width: =118
                     X: |
                         =h_godziny_1.X+h_godziny_1.Width
                     ZIndex: =4
@@ -136,15 +147,18 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: |-
                         ="sprzęt
                         "
+                    Width: =74
                     X: =h_delegacja_1.X+h_delegacja_1.Width
                     ZIndex: =5
 
@@ -153,13 +167,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="zostało"
+                    Width: =69
                     X: =h_sprzet_1.X+h_sprzet_1.Width
                     ZIndex: =6
 
@@ -168,14 +185,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="stan"
-                    Width: =347
+                    Width: =43
                     X: |
                         =h_zostalo_1.X + h_zostalo_1.Width
                     ZIndex: =7
@@ -185,14 +204,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="P/T"
-                    Width: =185
+                    Width: =37
                     X: =h_stan_1.X + h_stan_1.Width
                     ZIndex: =8
 
@@ -201,14 +222,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="uwagi"
-                    Width: =329
+                    Width: =91
                     X: |
                         ='h_P/T_1'.X + 'h_P/T_1'.Width
                     ZIndex: =9
@@ -218,6 +241,7 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
@@ -226,7 +250,7 @@
                     RadiusTopRight: =0
                     Size: =10
                     Text: ="Osoba"
-                    Width: =153
+                    Width: =155
                     X: |
                         =h_delegacje.X+h_delegacje.Width
                     ZIndex: =10
@@ -236,6 +260,7 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
@@ -252,6 +277,7 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
@@ -260,7 +286,7 @@
                     RadiusTopRight: =0
                     Size: =10
                     Text: ="Praca zdalna"
-                    Width: =93
+                    Width: =76
                     X: |
                         =h_urlop.X + h_urlop.Width
                     ZIndex: =12
@@ -270,6 +296,7 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
@@ -278,7 +305,7 @@
                     RadiusTopRight: =0
                     Size: =10
                     Text: ="Praca w biurze"
-                    Width: =105
+                    Width: =91
                     X: =h_pracazdalna.X + h_pracazdalna.Width
                     ZIndex: =13
 
@@ -287,6 +314,7 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
@@ -295,7 +323,7 @@
                     RadiusTopRight: =0
                     Size: =10
                     Text: ="Delegacje"
-                    Width: =85
+                    Width: =70
                     X: =h_pracawbiurze.X+h_pracawbiurze.Width
                     ZIndex: =14
 
@@ -394,13 +422,259 @@
             Width: =300
             ZIndex: =3
 
-    Button1_9 As button:
-        Height: =42
-        OnSelect: =Navigate('Strona główna')
-        Text: |-
-            ="Strona główna
-            "
-        Width: =192
-        X: =1174
-        ZIndex: =2
+    Interfejs_3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =26
+
+        TłoLewa_2 As rectangle:
+            BorderColor: =RGBA(209, 232, 178, 1)
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =768
+            Width: =250
+            ZIndex: =2
+
+        PrzyciskGlowna_2 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate('Strona główna')
+            Size: =12
+            Text: |-
+                ="Strona główna
+                "
+            Width: =249
+            Y: =118
+            ZIndex: =3
+
+        PrzyciskProjekt_2 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate(Projekt)
+            Size: =12
+            Text: |-
+                ="Projekt
+                "
+            Width: =249
+            X: =1
+            Y: =271
+            ZIndex: =4
+
+        PrzyciskKalendarz_2 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate(Kalendarz)
+            Size: =12
+            Text: |-
+                ="Kalendarz
+                "
+            Width: =249
+            Y: =168
+            ZIndex: =5
+
+        PrzyciskRejestr_2 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate(Rejestr)
+            Size: =12
+            Text: |-
+                ="Rejestr
+                "
+            Width: =249
+            X: =1
+            Y: =220
+            ZIndex: =6
+
+        PrzyciskSzukaj_2 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate(Szukaj)
+            Size: =12
+            Text: |-
+                ="Szukaj
+                "
+            Width: =249
+            Y: =321
+            ZIndex: =7
+
+        PrzyciskDodajAnkiete_2 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate('Dodawanie Ankiet')
+            Size: =12
+            Text: |-
+                ="Dodawanie ankiet
+                "
+            Width: =249
+            Y: =416
+            ZIndex: =8
+
+        PrzyciskWypelnijAnkiete_2 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate('Wypełnianie Ankiet')
+            Size: =12
+            Text: |-
+                ="Wypełnianie ankiet
+                "
+            Width: =249
+            Y: =365
+            ZIndex: =9
+
+        TloGóra_2 As rectangle:
+            BorderColor: =RGBA(209, 232, 178, 1)
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =115
+            Width: =1117
+            X: =249
+            ZIndex: =10
+
+        Linia_18 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =166
+            ZIndex: =11
+
+        StronaGlownaIco_2 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.Home
+            Width: =30
+            X: =13
+            Y: =125
+            ZIndex: =12
+
+        KalendarzIco_2 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.CalendarBlank
+            Width: =30
+            X: =13
+            Y: =178
+            ZIndex: =13
+
+        Linia_19 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =218
+            ZIndex: =14
+
+        Linia_20 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =268
+            ZIndex: =15
+
+        Linia_21 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =319
+            ZIndex: =16
+
+        Linia_22 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =365
+            ZIndex: =17
+
+        Linia_23 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =413
+            ZIndex: =18
+
+        RejestrIco_2 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.DetailList
+            Width: =30
+            X: =13
+            Y: =230
+            ZIndex: =19
+
+        ProjektIco_2 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.TrendingUpwards
+            Width: =30
+            X: =13
+            Y: =281
+            ZIndex: =20
+
+        SzukajIco_2 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.Search
+            Width: =30
+            X: =13
+            Y: =331
+            ZIndex: =21
+
+        WypelnijAnkieteIco_2 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.EmojiSmile
+            Width: =30
+            X: =13
+            Y: =375
+            ZIndex: =22
+
+        DodajAnkieteIco_2 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.Add
+            Width: =30
+            X: =13
+            Y: =426
+            ZIndex: =23
+
+        Tytul_2 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =115
+            Size: =22
+            Text: ="Work Organizer"
+            Width: =1366
+            ZIndex: =24
+
+        Logo_2 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =70
+            Icon: =Icon.Journal
+            Width: =70
+            X: =90
+            Y: =22
+            ZIndex: =25
 

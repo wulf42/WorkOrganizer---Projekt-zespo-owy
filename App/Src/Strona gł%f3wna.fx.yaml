@@ -15,7 +15,7 @@
         Y: =40
         ZIndex: =33
 
-        Rectangle1_2 As rectangle:
+        TłoLewa As rectangle:
             BorderColor: =RGBA(209, 232, 178, 1)
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
@@ -23,7 +23,7 @@
             Width: =250
             ZIndex: =9
 
-        Button1_18 As button:
+        PrzyciskGlowna As button:
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
             Font: =Font.'Segoe UI'
@@ -38,7 +38,7 @@
             Y: =118
             ZIndex: =10
 
-        Button1_19 As button:
+        PrzyciskProjekt As button:
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
             Font: =Font.'Segoe UI'
@@ -54,7 +54,7 @@
             Y: =271
             ZIndex: =11
 
-        Button1_20 As button:
+        PrzyciskKalendarz As button:
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
             Font: =Font.'Segoe UI'
@@ -69,7 +69,7 @@
             Y: =168
             ZIndex: =12
 
-        Button1_21 As button:
+        PrzyciskRejestr As button:
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
             Font: =Font.'Segoe UI'
@@ -85,7 +85,7 @@
             Y: =220
             ZIndex: =13
 
-        Button1_22 As button:
+        PrzyciskSzukaj As button:
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
             Font: =Font.'Segoe UI'
@@ -100,7 +100,7 @@
             Y: =321
             ZIndex: =14
 
-        Button1_23 As button:
+        PrzyciskDodajAnkiete As button:
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
             Font: =Font.'Segoe UI'
@@ -115,7 +115,7 @@
             Y: =416
             ZIndex: =15
 
-        Button1_24 As button:
+        PrzyciskWypelnijAnkiete As button:
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
             Font: =Font.'Segoe UI'
@@ -130,7 +130,7 @@
             Y: =365
             ZIndex: =16
 
-        Rectangle1_3 As rectangle:
+        TloGóra As rectangle:
             BorderColor: =RGBA(209, 232, 178, 1)
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
@@ -146,7 +146,7 @@
             Y: =166
             ZIndex: =18
 
-        StrGłówna_8 As icon.Home:
+        StronaGlownaIco As icon.Home:
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.Home
@@ -155,7 +155,7 @@
             Y: =125
             ZIndex: =19
 
-        StrGłówna_9 As icon.Home:
+        KalendarzIco As icon.Home:
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.CalendarBlank
@@ -199,7 +199,7 @@
             Y: =413
             ZIndex: =25
 
-        StrGłówna_10 As icon.Home:
+        RejestrIco As icon.Home:
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.DetailList
@@ -208,7 +208,7 @@
             Y: =230
             ZIndex: =26
 
-        StrGłówna_11 As icon.Home:
+        ProjektIco As icon.Home:
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.TrendingUpwards
@@ -217,7 +217,7 @@
             Y: =281
             ZIndex: =27
 
-        StrGłówna_12 As icon.Home:
+        SzukajIco As icon.Home:
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.Search
@@ -226,7 +226,7 @@
             Y: =331
             ZIndex: =28
 
-        StrGłówna_13 As icon.Home:
+        WypelnijAnkieteIco As icon.Home:
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.EmojiSmile
@@ -235,7 +235,7 @@
             Y: =375
             ZIndex: =29
 
-        StrGłówna_14 As icon.Home:
+        DodajAnkieteIco As icon.Home:
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.Add
@@ -244,7 +244,7 @@
             Y: =426
             ZIndex: =30
 
-        Label1_1 As label:
+        Tytul As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
             Font: =Font.'Segoe UI'
@@ -255,7 +255,7 @@
             Width: =1366
             ZIndex: =31
 
-        StrGłówna_15 As icon.Home:
+        Logo As icon.Home:
             Color: =RGBA(255, 255, 255, 1)
             Height: =70
             Icon: =Icon.Journal
