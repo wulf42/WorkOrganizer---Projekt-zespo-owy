@@ -36,7 +36,7 @@
         OnSelect: =ResetForm(Form2_1)
         Text: ="Reset"
         Visible: =false
-        X: =40
+        X: =557
         Y: =40
         ZIndex: =2
 
@@ -885,15 +885,15 @@
                 )
             )
         Text: ="Odśwież"
-        X: =40
-        Y: =40
+        X: =557
+        Y: =38
         ZIndex: =4
 
     Button5_1 As button:
         OnSelect: =Navigate('Dodawanie Ankiet')
         Text: ="Dodaj ankiety"
         Width: =217
-        X: =1031
+        X: =1092
         Y: =40
         ZIndex: =5
 

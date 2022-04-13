@@ -818,14 +818,6 @@
                 Y: =DataCardKey87.Y
                 ZIndex: =4
 
-    Button5 As button:
-        OnSelect: =Navigate('Wypełnianie Ankiet')
-        Text: ="Wypełnij ankiety"
-        Width: =217
-        X: =1108
-        Y: =40
-        ZIndex: =7
-
     Button1_11 As button:
         Height: =42
         OnSelect: =Navigate('Strona główna')
@@ -833,7 +825,7 @@
             ="Strona główna
             "
         Width: =192
-        X: =811
+        X: =689
         Y: =38
         ZIndex: =8
 
