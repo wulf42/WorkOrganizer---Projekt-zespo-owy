@@ -901,7 +901,7 @@
         Align: =Align.Center
         Height: =374
         Size: =40
-        Text: ="Wszytkie ankiety wypełnione"
+        Text: ="Wszystkie ankiety wypełnione"
         Visible: =If(CountRows(Gallery1_3.AllItems) = 0,true,false)
         Width: =1208
         X: =40
