@@ -44,7 +44,7 @@
                 Align: =Align.Center
                 BorderColor: =RGBA(101, 128, 187, 1)
                 Color: =RGBA(47,41,43,1)
-                Fill: =RGBA(128, 128, 128, 1)
+                Fill: =RGBA(255, 255, 255, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =HeaderContainer2_1.Height
                 Size: =26

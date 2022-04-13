@@ -22,7 +22,7 @@
                 Align: =Align.Center
                 BorderColor: =RGBA(101, 128, 187, 1)
                 Color: =RGBA(47,41,43,1)
-                Fill: =RGBA(187, 221, 140, 1)
+                Fill: =RGBA(255, 255, 255, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =HeaderContainer2.Height
                 Size: =26
@@ -49,14 +49,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="site"
-                    Width: =147
+                    Width: =79
                     X: =0 - Slider1.Value
                     ZIndex: =1
 
@@ -65,14 +67,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="app"
-                    Width: =149
+                    Width: =77
                     X: |
                         =h_site.X + h_site.Width
                     ZIndex: =2
@@ -82,14 +86,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="opis"
-                    Width: =263
+                    Width: =85
                     X: =h_app.X + h_app.Width
                     ZIndex: =3
 
@@ -98,14 +104,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="devis"
-                    Width: =249
+                    Width: =67
                     X: =h_opis.X+h_opis.Width
                     ZIndex: =4
 
@@ -114,14 +122,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="oferta"
-                    Width: =142
+                    Width: =83
                     X: =h_devis.X + h_devis.Width
                     ZIndex: =5
 
@@ -130,14 +140,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="zamówienie"
-                    Width: =180
+                    Width: =86
                     X: =h_oferta.X+h_oferta.Width
                     ZIndex: =6
 
@@ -146,14 +158,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="budżet"
-                    Width: =147
+                    Width: =59
                     X: =h_zamowienie.X+h_zamowienie.Width
                     ZIndex: =7
 
@@ -162,14 +176,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="godziny"
-                    Width: =107
+                    Width: =62
                     X: |
                         =h_budzet.X+h_budzet.Width
                     ZIndex: =8
@@ -179,15 +195,18 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: |-
                         ="delegacja
                         "
+                    Width: =72
                     X: |
                         =h_godziny.X+h_godziny.Width
                     ZIndex: =9
@@ -197,15 +216,18 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: |-
                         ="sprzęt
                         "
+                    Width: =76
                     X: =h_delegacja.X+h_delegacja.Width
                     ZIndex: =10
 
@@ -214,13 +236,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="zostało"
+                    Width: =65
                     X: =h_sprzet.X+h_sprzet.Width
                     ZIndex: =11
 
@@ -229,14 +254,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="stan"
-                    Width: =347
+                    Width: =92
                     X: |
                         =h_zostalo.X + h_zostalo.Width
                     ZIndex: =12
@@ -246,14 +273,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="P/T"
-                    Width: =185
+                    Width: =73
                     X: =h_stan.X + h_stan.Width
                     ZIndex: =13
 
@@ -262,14 +291,16 @@
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
                     Fill: =RGBA(62,96,170,1)
+                    Font: =Font.'Segoe UI'
                     HoverColor: =Self.Color
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =10
                     Text: ="uwagi"
-                    Width: =329
+                    Width: =140
                     X: |
                         ='h_P/T'.X + 'h_P/T'.Width
                     ZIndex: =14
@@ -292,14 +323,16 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
                     PaddingBottom: =0
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
+                    Size: =10
                     Text: =ThisItem.site
-                    Width: =h_site.Width
+                    Width: =147
                     X: =h_site.X
                     ZIndex: =1
 
@@ -307,8 +340,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.app
                     Width: =h_app.Width
                     X: =h_app.X
@@ -318,8 +353,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.app
                     Width: =h_opis.Width
                     X: =h_opis.X
@@ -329,8 +366,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.opis
                     Width: =h_devis.Width
                     X: =h_devis.X
@@ -340,8 +379,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.devis
                     Width: =h_oferta.Width
                     X: =h_oferta.X
@@ -351,8 +392,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.oferta
                     Width: =h_zamowienie.Width
                     X: =h_zamowienie.X
@@ -362,8 +405,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: |-
                         =Text(ThisItem.budżet, "#.00 €")
                     Width: =h_budzet.Width
@@ -374,8 +419,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.zamówienie
                     Width: =h_godziny.Width
                     X: =h_godziny.X
@@ -385,8 +432,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.budżet
                     Width: =h_delegacja.Width
                     X: =h_delegacja.X
@@ -396,8 +445,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: |-
                         =Text(ThisItem.sprzęt, "#.00 €")
                     Width: =h_sprzet.Width
@@ -408,8 +459,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: |-
                         =Text(Value(Substitute(ThisItem.zostało, ".", "," )), "#.00 €")
                     Width: =h_zostalo.Width
@@ -420,8 +473,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.godziny
                     Width: =h_stan.Width
                     X: =h_stan.X
@@ -431,8 +486,10 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.delegacja
                     Width: ='h_P/T'.Width
                     X: ='h_P/T'.X
@@ -442,10 +499,12 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Font: =Font.'Segoe UI'
                     Height: =100
                     OnSelect: =Select(Parent)
+                    Size: =10
                     Text: =ThisItem.sprzęt
-                    Width: =h_uwagi.Width
+                    Width: =140
                     X: =h_uwagi.X
                     ZIndex: =15
 
