@@ -423,6 +423,7 @@
             ZIndex: =3
 
     SideBar_3 As SideBar:
+        Pola: =sideBarData
         Y: =100
         ZIndex: =26
 

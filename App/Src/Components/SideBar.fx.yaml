@@ -74,7 +74,7 @@ SideBar As CanvasComponent:
             Font: =Font.'Segoe UI'
             Height: =50
             HoverFill: =ColorFade(RGBA(56, 96, 178, 0), -20%)
-            OnSelect: =Select(Parent)
+            OnSelect: =Navigate(ThisItem.Screen)
             Size: =12
             Text: =
             Width: =250

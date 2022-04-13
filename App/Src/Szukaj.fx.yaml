@@ -86,6 +86,7 @@ Szukaj As screen:
             ZIndex: =2
 
     SideBar_4 As SideBar:
+        Pola: =sideBarData
         Y: =100
         ZIndex: =5
 

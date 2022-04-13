@@ -4483,7 +4483,7 @@
         {
           "Category": "Data",
           "PropertyName": "Pola",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",

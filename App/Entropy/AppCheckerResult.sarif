@@ -1839,36 +1839,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.sideBarData"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.sideBarData",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "sideBarData",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
         }
       ],
       "tool": {
@@ -1989,23 +1959,6 @@
                 "level": "Low",
                 "primaryCategory": "accessibility",
                 "whyFix": "Users won't get confirmation of their actions if the state of the control isn't showing."
-              }
-            },
-            {
-              "id": "app-UnusedVariables",
-              "messageStrings": {
-                "issue": {
-                  "text": "Nieużywana zmienna"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Usuń nieużywaną zmienną."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Ta zmienna jest zadeklarowana, ale nie jest przywoływana przez żadną kontrolkę, więc nie jest potrzebna."
               }
             }
           ],

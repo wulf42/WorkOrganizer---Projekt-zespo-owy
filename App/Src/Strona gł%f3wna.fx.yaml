@@ -10,6 +10,7 @@
 
     SideBar_1 As SideBar:
         Height: =668
+        Pola: =sideBarData
         Y: =100
         ZIndex: =33
 
