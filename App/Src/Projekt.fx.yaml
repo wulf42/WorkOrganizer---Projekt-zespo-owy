@@ -519,7 +519,12 @@
             Width: =300
             ZIndex: =4
 
-    Interfejs_2 As group:
+    SideBar_2 As SideBar:
+        Height: =668
+        Y: =100
+        ZIndex: =27
+
+    Interfejs_2_stary As group:
         Height: =5
         Width: =5
         X: =40
@@ -531,6 +536,7 @@
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
             Height: =768
+            Visible: =false
             Width: =250
             ZIndex: =3
 
@@ -545,6 +551,7 @@
             Text: |-
                 ="Strona główna
                 "
+            Visible: =false
             Width: =249
             Y: =118
             ZIndex: =4
@@ -561,6 +568,7 @@
             Text: |-
                 ="Projekt
                 "
+            Visible: =false
             Width: =249
             X: =1
             Y: =271
@@ -577,6 +585,7 @@
             Text: |-
                 ="Kalendarz
                 "
+            Visible: =false
             Width: =249
             Y: =168
             ZIndex: =6
@@ -592,6 +601,7 @@
             Text: |-
                 ="Rejestr
                 "
+            Visible: =false
             Width: =249
             X: =1
             Y: =220
@@ -608,6 +618,7 @@
             Text: |-
                 ="Szukaj
                 "
+            Visible: =false
             Width: =249
             Y: =321
             ZIndex: =8
@@ -623,6 +634,7 @@
             Text: |-
                 ="Dodawanie ankiet
                 "
+            Visible: =false
             Width: =249
             Y: =416
             ZIndex: =9
@@ -638,6 +650,7 @@
             Text: |-
                 ="Wypełnianie ankiet
                 "
+            Visible: =false
             Width: =249
             Y: =365
             ZIndex: =10
@@ -647,6 +660,7 @@
             BorderStyle: =BorderStyle.None
             Fill: =RGBA(128, 128, 128, 1)
             Height: =115
+            Visible: =false
             Width: =1117
             X: =249
             ZIndex: =11
@@ -654,6 +668,7 @@
         Linia_12 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =2
+            Visible: =false
             Width: =249
             Y: =166
             ZIndex: =12
@@ -662,6 +677,7 @@
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.Home
+            Visible: =false
             Width: =30
             X: =13
             Y: =125
@@ -671,6 +687,7 @@
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.CalendarBlank
+            Visible: =false
             Width: =30
             X: =13
             Y: =178
@@ -679,6 +696,7 @@
         Linia_13 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =2
+            Visible: =false
             Width: =249
             Y: =218
             ZIndex: =15
@@ -686,6 +704,7 @@
         Linia_14 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =2
+            Visible: =false
             Width: =249
             Y: =268
             ZIndex: =16
@@ -693,6 +712,7 @@
         Linia_15 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =2
+            Visible: =false
             Width: =249
             Y: =319
             ZIndex: =17
@@ -700,6 +720,7 @@
         Linia_16 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =2
+            Visible: =false
             Width: =249
             Y: =365
             ZIndex: =18
@@ -707,6 +728,7 @@
         Linia_17 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             Height: =2
+            Visible: =false
             Width: =249
             Y: =413
             ZIndex: =19
@@ -715,6 +737,7 @@
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.DetailList
+            Visible: =false
             Width: =30
             X: =13
             Y: =230
@@ -724,6 +747,7 @@
             Color: =RGBA(54, 176, 75, 1)
             Height: =30
             Icon: =Icon.TrendingUpwards
+            Visible: =false
             Width: =30
             X: =13
             Y: =281
@@ -733,6 +757,7 @@
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.Search
+            Visible: =false
             Width: =30
             X: =13
             Y: =331
@@ -742,6 +767,7 @@
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.EmojiSmile
+            Visible: =false
             Width: =30
             X: =13
             Y: =375
@@ -751,6 +777,7 @@
             Color: =RGBA(255, 255, 255, 1)
             Height: =30
             Icon: =Icon.Add
+            Visible: =false
             Width: =30
             X: =13
             Y: =426
@@ -764,6 +791,7 @@
             Height: =115
             Size: =22
             Text: ="Work Organizer"
+            Visible: =false
             Width: =1366
             ZIndex: =25
 
@@ -771,8 +799,12 @@
             Color: =RGBA(255, 255, 255, 1)
             Height: =70
             Icon: =Icon.Journal
+            Visible: =false
             Width: =70
             X: =90
             Y: =22
             ZIndex: =26
+
+    TopBar_2 As TopBar:
+        ZIndex: =28
 

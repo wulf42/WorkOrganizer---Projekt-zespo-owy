@@ -1,89 +1,94 @@
 Szukaj As screen:
 
-    "Gallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: |-
-            =UżytkownicyusługiOffice365.SearchUserV2({searchTerm:TextInput1.Text}).value
-        Layout: =Layout.Vertical
-        TemplatePadding: =0
-        TemplateSize: =175
-        Width: =703
-        X: =40
-        Y: =92
-        ZIndex: =2
+    Container3 As groupContainer.manualLayoutContainer:
+        Height: =668
+        Width: =1114
+        X: =250
+        Y: =100
+        ZIndex: =4
 
-        UserIcon As icon.Person:
-            Fill: =
-            Height: =Image1.Height
-            Icon: =Icon.Person
-            OnSelect: =
-            PaddingBottom: =12
-            PaddingLeft: =12
-            PaddingRight: =12
-            PaddingTop: =12
-            Visible: =If(UżytkownicyusługiOffice365.UserPhotoMetadata(ThisItem.Id).HasPhoto,false,true)
-            Width: =Image1.Width
-            X: =Image1.X
-            Y: =Image1.Y
+        "Gallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+            Height: =548
+            Items: |-
+                =UżytkownicyusługiOffice365.SearchUserV2({searchTerm:TextInput1.Text}).value
+            Layout: =Layout.Vertical
+            TemplatePadding: =0
+            TemplateSize: =175
+            Width: =703
+            X: =40
+            Y: =92
             ZIndex: =1
 
-        Title1 As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.DisplayName
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image1.Width - 104
-            X: =Image1.X + Image1.Width + 24
-            Y: =44
+            UserIcon As icon.Person:
+                Fill: =
+                Height: =Image1.Height
+                Icon: =Icon.Person
+                OnSelect: =
+                PaddingBottom: =12
+                PaddingLeft: =12
+                PaddingRight: =12
+                PaddingTop: =12
+                Visible: =If(UżytkownicyusługiOffice365.UserPhotoMetadata(ThisItem.Id).HasPhoto,false,true)
+                Width: =Image1.Width
+                X: =Image1.X
+                Y: =Image1.Y
+                ZIndex: =1
+
+            Title1 As label:
+                Height: =Self.Size * 1.8
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =ThisItem.DisplayName
+                VerticalAlign: =VerticalAlign.Top
+                Width: =Parent.TemplateWidth - Image1.Width - 104
+                X: =Image1.X + Image1.Width + 24
+                Y: =44
+                ZIndex: =2
+
+            Subtitle1 As label:
+                Height: =Self.Size * 1.8
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =ThisItem.Mail
+                VerticalAlign: =VerticalAlign.Top
+                Width: =Title1.Width
+                X: =Title1.X
+                Y: =Title1.Y + Title1.Height + 4
+                ZIndex: =3
+
+            Separator1 As rectangle:
+                Height: =1
+                OnSelect: =Select(Parent)
+                Width: =Parent.TemplateWidth
+                Y: =Parent.TemplateHeight - 1
+                ZIndex: =4
+
+            Image1 As image:
+                Image: |-
+                    =If(UżytkownicyusługiOffice365.UserPhotoMetadata(ThisItem.Id).HasPhoto = true,
+                       UżytkownicyusługiOffice365.UserPhoto(ThisItem.Id)
+                    )
+                OnSelect: =Select(Parent)
+                X: =21
+                Y: =33
+                ZIndex: =5
+
+        TextInput1 As text:
+            Default: =""
+            X: =40
+            Y: =26
             ZIndex: =2
 
-        Subtitle1 As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Mail
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title1.Width
-            X: =Title1.X
-            Y: =Title1.Y + Title1.Height + 4
-            ZIndex: =3
+    SideBar_4 As SideBar:
+        Y: =100
+        ZIndex: =5
 
-        Separator1 As rectangle:
-            Height: =1
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - 1
-            ZIndex: =4
-
-        Image1 As image:
-            Image: |-
-                =If(UżytkownicyusługiOffice365.UserPhotoMetadata(ThisItem.Id).HasPhoto = true,
-                   UżytkownicyusługiOffice365.UserPhoto(ThisItem.Id)
-                )
-            OnSelect: =Select(Parent)
-            X: =21
-            Y: =33
-            ZIndex: =5
-
-    TextInput1 As text:
-        Default: =""
-        X: =40
-        Y: =40
-        ZIndex: =3
-
-    Button1_10 As button:
-        Height: =42
-        OnSelect: =Navigate('Strona główna')
-        Text: |-
-            ="Strona główna
-            "
-        Width: =192
-        X: =1174
-        ZIndex: =4
+    TopBar_4 As TopBar:
+        ZIndex: =6
 
