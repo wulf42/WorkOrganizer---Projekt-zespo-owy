@@ -473,6 +473,7 @@
         Fill: =RGBA(128, 128, 128, 1)
         Font: =Font.'Segoe UI'
         Height: =50
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
         OnSelect: =Navigate('Strona główna')
         Size: =12
         Text: |-
@@ -487,6 +488,7 @@
         Fill: =RGBA(128, 128, 128, 1)
         Font: =Font.'Segoe UI'
         Height: =50
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
         OnSelect: =Navigate(Projekt)
         Size: =12
         Text: |-
@@ -502,6 +504,7 @@
         Fill: =RGBA(128, 128, 128, 1)
         Font: =Font.'Segoe UI'
         Height: =50
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
         OnSelect: =Navigate(Kalendarz)
         Size: =12
         Text: |-
@@ -516,6 +519,7 @@
         Fill: =RGBA(128, 128, 128, 1)
         Font: =Font.'Segoe UI'
         Height: =50
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
         OnSelect: =Navigate(Rejestr)
         Size: =12
         Text: |-
@@ -531,6 +535,7 @@
         Fill: =RGBA(128, 128, 128, 1)
         Font: =Font.'Segoe UI'
         Height: =50
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
         OnSelect: =Navigate(Szukaj)
         Size: =12
         Text: |-
@@ -545,6 +550,7 @@
         Fill: =RGBA(128, 128, 128, 1)
         Font: =Font.'Segoe UI'
         Height: =50
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
         OnSelect: =Navigate('Dodawanie Ankiet')
         Size: =12
         Text: |-
@@ -559,6 +565,7 @@
         Fill: =RGBA(128, 128, 128, 1)
         Font: =Font.'Segoe UI'
         Height: =50
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
         OnSelect: =Navigate('Wypełnianie Ankiet')
         Size: =12
         Text: |-
