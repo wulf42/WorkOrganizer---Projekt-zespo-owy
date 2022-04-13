@@ -122,19 +122,19 @@
                         Patch(
                             Ankiety_wyp,
                             Defaults(Ankiety_wyp),
-                            {Title: Gallery1_3.Selected.'Nazwa (Title)'},
+                            {'Nazwa (Title)': Gallery1_3.Selected.'Nazwa (Title)'},
                             {Kto: DataCardValue37.Selected},
                             {Identyfikator_ankiety: Gallery1_3.Selected.ID},
-                            {field_2: DataCardValue50.Selected},
-                            {field_3: DataCardValue39.Selected},
-                            {field_4: DataCardValue40.Selected},
-                            {field_5: DataCardValue41.Selected},
-                            {field_6: DataCardValue42.Selected},
-                            {field_7: DataCardValue43.Selected},
-                            {field_8: DataCardValue44.Selected},
-                            {field_9: DataCardValue45.Selected},
-                            {field_10: DataCardValue46.Selected},
-                            {field_11: DataCardValue47.Selected}
+                            {Pytanie1: DataCardValue50.Selected},
+                            {Pytanie2: DataCardValue39.Selected},
+                            {Pytanie3: DataCardValue40.Selected},
+                            {Pytanie4: DataCardValue41.Selected},
+                            {Pytanie5: DataCardValue42.Selected},
+                            {Pytanie6: DataCardValue43.Selected},
+                            {Pytanie7: DataCardValue44.Selected},
+                            {Pytanie8: DataCardValue45.Selected},
+                            {Pytanie9: DataCardValue46.Selected},
+                            {Pytanie10: DataCardValue47.Selected}
                         );
                         Patch(
                             Ankiety,
