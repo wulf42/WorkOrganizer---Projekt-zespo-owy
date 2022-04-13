@@ -36,7 +36,7 @@
         OnSelect: =ResetForm(Form2_1)
         Text: ="Reset"
         Visible: =false
-        X: =258
+        X: =40
         Y: =40
         ZIndex: =2
 
