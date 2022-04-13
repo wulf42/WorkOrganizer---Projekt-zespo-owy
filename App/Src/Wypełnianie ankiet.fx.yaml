@@ -1,4 +1,5 @@
 "'Wypełnianie Ankiet' As screen":
+    OnVisible: =Select(Button1_6)
 
     "Gallery1_3 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         Height: =606
@@ -121,34 +122,34 @@
                         Patch(
                             Ankiety_wyp,
                             Defaults(Ankiety_wyp),
-                            {
-                                Title: Gallery1_3.Selected.'Nazwa (Title)'},
-                                {Kto: DataCardValue37.Selected},
-                                {Identyfikator_ankiety:Gallery1_3.Selected.ID},
-                                {field_2: DataCardValue50.Selected},
-                                {field_3: DataCardValue39.Selected},
-                                {field_4: DataCardValue40.Selected},
-                                {field_5: DataCardValue41.Selected},
-                                {field_6: DataCardValue42.Selected},
-                                {field_7: DataCardValue43.Selected},
-                                {field_8: DataCardValue44.Selected},
-                                {field_9: DataCardValue45.Selected},
-                                {field_10: DataCardValue46.Selected},
-                                {field_11: DataCardValue47.Selected
-                            }
+                            {Title: Gallery1_3.Selected.'Nazwa (Title)'},
+                            {Kto: DataCardValue37.Selected},
+                            {Identyfikator_ankiety: Gallery1_3.Selected.ID},
+                            {field_2: DataCardValue50.Selected},
+                            {field_3: DataCardValue39.Selected},
+                            {field_4: DataCardValue40.Selected},
+                            {field_5: DataCardValue41.Selected},
+                            {field_6: DataCardValue42.Selected},
+                            {field_7: DataCardValue43.Selected},
+                            {field_8: DataCardValue44.Selected},
+                            {field_9: DataCardValue45.Selected},
+                            {field_10: DataCardValue46.Selected},
+                            {field_11: DataCardValue47.Selected}
+                        );
+                        Patch(
+                            Ankiety,
+                            LookUp(
+                                Ankiety,
+                                ID = Gallery1_3.Selected.ID
+                            ),
+                            {Kto_wypelnil: DataCardValue1.Text}
+                        );
+                        Select(Button1_6);
+                        Notify(
+                            "Ankieta wypełniona pomyślnie",
+                            NotificationType.Success
                         )
-                    ;
-                    Patch(
-                        Ankiety,
-                        LookUp(Ankiety, ID=Gallery1_3.Selected.ID),
-                        {
-                            Kto_wypelnil: DataCardValue1.Text
-                        }
                     )
-                    ;
-                    Select(Button1_6)
-                    ;
-                    Notify("Ankieta wypełniona pomyślnie", NotificationType.Success))
                 Text: ="Wyślij"
                 X: =222
                 ZIndex: =1
