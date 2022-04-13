@@ -1785,6 +1785,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "SideBar.Gallery4.Icon1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "SideBar.Gallery4.Icon1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "SideBar",
+                "type": "SideBar.Gallery4.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "SideBar.Gallery4.Icon1.AccessibleLabel"
                 }
               ],
@@ -1815,19 +1845,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "SideBar.Gallery4.Icon1.TabIndex"
+                  "fullyQualifiedName": "App.sideBarData"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "SideBar.Gallery4.Icon1.TabIndex",
+                  "fullyQualifiedName": "App.sideBarData",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "SideBar",
-                "type": "SideBar.Gallery4.Icon1"
+                "member": "sideBarData",
+                "module": "App",
+                "type": "App"
               }
             }
           ],
@@ -1837,8 +1867,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 7
         }
       ],
       "tool": {
@@ -1959,6 +1989,23 @@
                 "level": "Low",
                 "primaryCategory": "accessibility",
                 "whyFix": "Users won't get confirmation of their actions if the state of the control isn't showing."
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Nieużywana zmienna"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Usuń nieużywaną zmienną."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Ta zmienna jest zadeklarowana, ale nie jest przywoływana przez żadną kontrolkę, więc nie jest potrzebna."
               }
             }
           ],

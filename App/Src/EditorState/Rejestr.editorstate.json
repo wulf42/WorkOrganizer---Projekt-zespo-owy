@@ -7149,7 +7149,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Logo_2",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11028,7 +11028,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "SideBar_3",
-      "ParentIndex": 3,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11788,7 +11788,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TloGóra_2",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11933,7 +11933,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TłoLewa_2",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12066,7 +12066,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "TopBar_3",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12227,7 +12227,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Tytul_2",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

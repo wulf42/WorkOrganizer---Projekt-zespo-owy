@@ -1,5 +1,17 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: =Set(varCurrentDate,Date(Year(Today()),Month(Today()),1))
+    OnStart: |-
+        =Set(varCurrentDate,Date(Year(Today()),Month(Today()),1)) +
+        Set(sideBarData,
+          Table(
+            {Value: "Strona główna", Icon: Icon.Home, Screen: 'Strona główna'},
+            {Value: "Kalendarz", Icon: Icon.CalendarBlank, Screen: Kalendarz},
+            {Value: "Rejestr", Icon: Icon.DetailList, Screen: Rejestr},
+            {Value: "Projekt", Icon: Icon.TrendingUpwards, Screen: Projekt},
+            {Value: "Szukaj", Icon: Icon.Search, Screen: Szukaj},
+            {Value: "Dodawanie ankiet", Icon: Icon.Add, Screen: 'Dodawanie Ankiet'},
+            {Value: "Wypełnianie ankiet", Icon: Icon.Check, Screen: 'Wypełnianie Ankiet'}
+          )
+        )
     StartScreen: ='Strona główna'
 

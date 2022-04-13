@@ -13495,7 +13495,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Identyfikator_ankiety_DataCard1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13660,7 +13660,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Kto_DataCard1",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14290,7 +14290,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Nazwa (Title)_DataCard2",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14775,7 +14775,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie2_DataCard5",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14935,7 +14935,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie3_DataCard5",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15095,7 +15095,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie4_DataCard3",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15255,7 +15255,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie5_DataCard3",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16485,7 +16485,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Wyslij",
-      "ParentIndex": 1,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
