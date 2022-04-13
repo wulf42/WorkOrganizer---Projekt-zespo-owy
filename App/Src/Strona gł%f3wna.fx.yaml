@@ -1,79 +1,266 @@
 "'Strona główna' As screen":
 
-    Button1 As button:
-        OnSelect: =Navigate(Projekt)
-        Text: |-
-            ="Projekt
-            "
-        Width: =400
-        X: =60
-        Y: =168
-        ZIndex: =1
-
     Label2 As label:
         Height: =71
         Text: ="Testowa, tymczasowa strona główna aplikacji"
         Width: =398
-        X: =60
-        Y: =60
+        X: =580
+        Y: =296
         ZIndex: =2
 
-    Label3 As label:
-        Height: =37
-        Text: |-
-            ="Przejdź do ekranu:"
-        Width: =257
-        X: =60
-        Y: =131
-        ZIndex: =3
+    Interfejs_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =33
 
-    Button1_1 As button:
-        OnSelect: =Navigate(Kalendarz)
-        Text: |-
-            ="Kalendarz
-            "
-        Width: =400
-        X: =60
-        Y: =208
-        ZIndex: =4
+        Rectangle1_2 As rectangle:
+            BorderColor: =RGBA(209, 232, 178, 1)
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =768
+            Width: =250
+            ZIndex: =9
 
-    Button1_2 As button:
-        OnSelect: =Navigate(Rejestr)
-        Text: |-
-            ="Rejestr
-            "
-        Width: =400
-        X: =60
-        Y: =248
-        ZIndex: =5
+        Button1_18 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate('Strona główna')
+            Size: =12
+            Text: |-
+                ="Strona główna
+                "
+            Width: =249
+            Y: =118
+            ZIndex: =10
 
-    Button1_3 As button:
-        OnSelect: =Navigate(Szukaj)
-        Text: |-
-            ="Szukaj
-            "
-        Width: =400
-        X: =60
-        Y: =288
-        ZIndex: =6
+        Button1_19 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate(Projekt)
+            Size: =12
+            Text: |-
+                ="Projekt
+                "
+            Width: =249
+            X: =1
+            Y: =271
+            ZIndex: =11
 
-    Button1_4 As button:
-        OnSelect: =Navigate('Dodawanie Ankiet')
-        Text: |-
-            ="Dodawanie ankiet
-            "
-        Width: =400
-        X: =60
-        Y: =328
-        ZIndex: =7
+        Button1_20 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate(Kalendarz)
+            Size: =12
+            Text: |-
+                ="Kalendarz
+                "
+            Width: =249
+            Y: =168
+            ZIndex: =12
 
-    Button1_5 As button:
-        OnSelect: =Navigate('Wypełnianie Ankiet')
-        Text: |-
-            ="Wypełnianie ankiet
-            "
-        Width: =400
-        X: =60
-        Y: =368
-        ZIndex: =8
+        Button1_21 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate(Rejestr)
+            Size: =12
+            Text: |-
+                ="Rejestr
+                "
+            Width: =249
+            X: =1
+            Y: =220
+            ZIndex: =13
+
+        Button1_22 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate(Szukaj)
+            Size: =12
+            Text: |-
+                ="Szukaj
+                "
+            Width: =249
+            Y: =321
+            ZIndex: =14
+
+        Button1_23 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate('Dodawanie Ankiet')
+            Size: =12
+            Text: |-
+                ="Dodawanie ankiet
+                "
+            Width: =249
+            Y: =416
+            ZIndex: =15
+
+        Button1_24 As button:
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Font: =Font.'Segoe UI'
+            Height: =50
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
+            OnSelect: =Navigate('Wypełnianie Ankiet')
+            Size: =12
+            Text: |-
+                ="Wypełnianie ankiet
+                "
+            Width: =249
+            Y: =365
+            ZIndex: =16
+
+        Rectangle1_3 As rectangle:
+            BorderColor: =RGBA(209, 232, 178, 1)
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =115
+            Width: =1117
+            X: =249
+            ZIndex: =17
+
+        Linia_6 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =166
+            ZIndex: =18
+
+        StrGłówna_8 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.Home
+            Width: =30
+            X: =13
+            Y: =125
+            ZIndex: =19
+
+        StrGłówna_9 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.CalendarBlank
+            Width: =30
+            X: =13
+            Y: =178
+            ZIndex: =20
+
+        Linia_7 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =218
+            ZIndex: =21
+
+        Linia_8 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =268
+            ZIndex: =22
+
+        Linia_9 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =319
+            ZIndex: =23
+
+        Linia_10 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =365
+            ZIndex: =24
+
+        Linia_11 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            Width: =249
+            Y: =413
+            ZIndex: =25
+
+        StrGłówna_10 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.DetailList
+            Width: =30
+            X: =13
+            Y: =230
+            ZIndex: =26
+
+        StrGłówna_11 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.TrendingUpwards
+            Width: =30
+            X: =13
+            Y: =281
+            ZIndex: =27
+
+        StrGłówna_12 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.Search
+            Width: =30
+            X: =13
+            Y: =331
+            ZIndex: =28
+
+        StrGłówna_13 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.EmojiSmile
+            Width: =30
+            X: =13
+            Y: =375
+            ZIndex: =29
+
+        StrGłówna_14 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =30
+            Icon: =Icon.Add
+            Width: =30
+            X: =13
+            Y: =426
+            ZIndex: =30
+
+        Label1_1 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =115
+            Size: =22
+            Text: ="Work Organizer"
+            Width: =1366
+            ZIndex: =31
+
+        StrGłówna_15 As icon.Home:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =70
+            Icon: =Icon.Journal
+            Width: =70
+            X: =90
+            Y: =22
+            ZIndex: =32
 
