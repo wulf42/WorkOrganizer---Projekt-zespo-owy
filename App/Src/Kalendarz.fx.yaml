@@ -108,6 +108,7 @@ Kalendarz As screen:
             ="Strona główna
             "
         Width: =192
-        X: =1174
+        X: =1164
+        Y: =23
         ZIndex: =6
 
