@@ -1,13 +1,13 @@
 "Rejestr As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
 
     ScreenContainer2_1 As groupContainer.verticalAutoLayoutContainer:
-        Height: =653
+        Height: =668
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Width: =1116
         X: =250
-        Y: =115
+        Y: =100
         ZIndex: =1
 
         HeaderContainer2_1 As groupContainer.horizontalAutoLayoutContainer:
@@ -19,6 +19,7 @@
             ZIndex: =1
 
             ComboBox2 As combobox:
+                AlignInContainer: =AlignInContainer.Start
                 DisplayFields: =["Osoba"]
                 Font: =Font.'Lato Black'
                 Height: =75
@@ -356,6 +357,7 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Fill: =RGBA(255, 255, 0, 1)
                     Height: =100
                     OnSelect: =Select(Parent)
                     PaddingBottom: =0
@@ -371,6 +373,7 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Fill: =RGBA(186, 202, 226, 1)
                     Height: =100
                     OnSelect: =Select(Parent)
                     Text: =ThisItem.'Praca zdalna'
@@ -382,6 +385,7 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Fill: =RGBA(238, 204, 204, 1)
                     Height: =100
                     OnSelect: =Select(Parent)
                     Text: =ThisItem.'Praca w biurze'
@@ -393,6 +397,7 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Fill: =RGBA(152, 208, 70, 1)
                     Height: =100
                     OnSelect: =Select(Parent)
                     Text: =ThisItem.Delegacje
@@ -404,6 +409,7 @@
                     Align: =Align.Center
                     BorderColor: =RGBA(101, 128, 187, 1)
                     Color: =RGBA(47,41,43,1)
+                    Fill: =RGBA(230, 230, 230, 1)
                     Height: =100
                     OnSelect: =Select(Parent)
                     Text: =ThisItem.Osoba
