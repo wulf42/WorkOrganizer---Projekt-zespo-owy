@@ -1,4 +1,5 @@
 "Rejestr As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+    OnVisible: =Select(Button3)
 
     ScreenContainer2_1 As groupContainer.verticalAutoLayoutContainer:
         Height: =668
@@ -25,6 +26,8 @@
                 Height: =75
                 InputTextPlaceholder: ="Szukaj pracownika"
                 Items: =Tabela5.Osoba
+                OnChange: =Select(Button3)
+                OnSelect: =Select(Button3)
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
@@ -85,7 +88,7 @@
                     X: =h_osoba.X+h_osoba.Width-Slider1_1.Value
                     ZIndex: =1
 
-                h_budzet_1 As button:
+                h_2 As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -98,12 +101,12 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Size: =10
-                    Text: ="budżet"
-                    Width: =101
+                    Text: ="2"
+                    Width: =h_1.Width
                     X: =h_1.X+h_1.Width
                     ZIndex: =2
 
-                h_godziny_1 As button:
+                h_3 As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -116,13 +119,13 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Size: =10
-                    Text: ="godziny"
-                    Width: =77
+                    Text: ="3"
+                    Width: =h_1.Width
                     X: |
-                        =h_budzet_1.X+h_budzet_1.Width
+                        =h_2.X+h_2.Width
                     ZIndex: =3
 
-                h_delegacja_1 As button:
+                h_4 As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -136,14 +139,14 @@
                     RadiusTopRight: =0
                     Size: =10
                     Text: |-
-                        ="delegacja
+                        ="4
                         "
-                    Width: =118
+                    Width: =h_1.Width
                     X: |
-                        =h_godziny_1.X+h_godziny_1.Width
+                        =h_3.X+h_3.Width
                     ZIndex: =4
 
-                h_sprzet_1 As button:
+                h_5 As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -157,13 +160,13 @@
                     RadiusTopRight: =0
                     Size: =10
                     Text: |-
-                        ="sprzęt
+                        ="5
                         "
-                    Width: =74
-                    X: =h_delegacja_1.X+h_delegacja_1.Width
+                    Width: =h_1.Width
+                    X: =h_4.X+h_4.Width
                     ZIndex: =5
 
-                h_zostalo_1 As button:
+                h_6 As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -176,12 +179,12 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Size: =10
-                    Text: ="zostało"
-                    Width: =69
-                    X: =h_sprzet_1.X+h_sprzet_1.Width
+                    Text: ="6"
+                    Width: =h_1.Width
+                    X: =h_5.X+h_5.Width
                     ZIndex: =6
 
-                h_stan_1 As button:
+                h_7 As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -194,13 +197,13 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Size: =10
-                    Text: ="stan"
-                    Width: =43
+                    Text: ="7"
+                    Width: =h_1.Width
                     X: |
-                        =h_zostalo_1.X + h_zostalo_1.Width
+                        =h_6.X + h_6.Width
                     ZIndex: =7
 
-                "'h_P/T_1' As button":
+                h_8 As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -213,12 +216,12 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Size: =10
-                    Text: ="P/T"
-                    Width: =37
-                    X: =h_stan_1.X + h_stan_1.Width
+                    Text: ="8"
+                    Width: =h_1.Width
+                    X: =h_7.X + h_7.Width
                     ZIndex: =8
 
-                h_uwagi_1 As button:
+                h_9 As button:
                     BorderThickness: =0
                     Color: =RGBA(255,255,255,1)
                     DisplayMode: =DisplayMode.View
@@ -231,10 +234,10 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Size: =10
-                    Text: ="uwagi"
-                    Width: =91
+                    Text: ="9"
+                    Width: =h_1.Width
                     X: |
-                        ='h_P/T_1'.X + 'h_P/T_1'.Width
+                        =h_8.X + h_8.Width
                     ZIndex: =9
 
                 h_osoba As button:
@@ -332,7 +335,7 @@
                 BorderColor: =RGBA(101, 128, 187, 1)
                 FillPortions: =0
                 Height: =MainSectionContainer2_1.Height
-                Items: =Tabela5
+                Items: =If(IsEmpty(rejestr_osob),Tabela5,rejestr_osob)
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -341,6 +344,72 @@
                     =100
                     
                 ZIndex: =2
+
+                "'7' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(101, 128, 187, 1)
+                    Color: =RGBA(47,41,43,1)
+                    Height: =100
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'07.03.2022'
+                    Width: =h_1.Width
+                    X: =h_7.X
+                    ZIndex: =1
+
+                "'6' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(101, 128, 187, 1)
+                    Color: =RGBA(47,41,43,1)
+                    Height: =100
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'06.03.2022'
+                    Width: =h_1.Width
+                    X: =h_6.X
+                    ZIndex: =2
+
+                "'5' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(101, 128, 187, 1)
+                    Color: =RGBA(47,41,43,1)
+                    Height: =100
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'05.03.2022'
+                    Width: =h_1.Width
+                    X: =h_5.X
+                    ZIndex: =3
+
+                "'4' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(101, 128, 187, 1)
+                    Color: =RGBA(47,41,43,1)
+                    Height: =100
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'04.03.2022'
+                    Width: =h_1.Width
+                    X: =h_4.X
+                    ZIndex: =4
+
+                "'3' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(101, 128, 187, 1)
+                    Color: =RGBA(47,41,43,1)
+                    Height: =100
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'03.03.2022'
+                    Width: =h_1.Width
+                    X: =h_3.X
+                    ZIndex: =5
+
+                "'2' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(101, 128, 187, 1)
+                    Color: =RGBA(47,41,43,1)
+                    Height: =100
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.'02.03.2022'
+                    Width: =h_1.Width
+                    X: =h_2.X
+                    ZIndex: =6
 
                 "'1' As label":
                     Align: =Align.Center
@@ -351,7 +420,7 @@
                     Text: =ThisItem.'01.03.2022'
                     Width: =h_1.Width
                     X: =h_1.X
-                    ZIndex: =1
+                    ZIndex: =7
 
                 urlop As label:
                     Align: =Align.Center
@@ -367,7 +436,7 @@
                     Text: =ThisItem.Urlop
                     Width: =h_urlop.Width
                     X: =h_urlop.X
-                    ZIndex: =2
+                    ZIndex: =8
 
                 pracazdalna As label:
                     Align: =Align.Center
@@ -379,7 +448,7 @@
                     Text: =ThisItem.'Praca zdalna'
                     Width: =h_pracazdalna.Width
                     X: =h_pracazdalna.X
-                    ZIndex: =3
+                    ZIndex: =9
 
                 pracawbiurze As label:
                     Align: =Align.Center
@@ -391,7 +460,7 @@
                     Text: =ThisItem.'Praca w biurze'
                     Width: =h_pracawbiurze.Width
                     X: =h_pracawbiurze.X
-                    ZIndex: =4
+                    ZIndex: =10
 
                 delegacje As label:
                     Align: =Align.Center
@@ -403,7 +472,7 @@
                     Text: =ThisItem.Delegacje
                     Width: =h_delegacje.Width
                     X: =h_delegacje.X
-                    ZIndex: =5
+                    ZIndex: =11
 
                 osoba As label:
                     Align: =Align.Center
@@ -415,7 +484,7 @@
                     Text: =ThisItem.Osoba
                     Width: =h_osoba.Width
                     X: =h_osoba.X
-                    ZIndex: =6
+                    ZIndex: =12
 
         Slider1_1 As slider:
             AlignInContainer: =AlignInContainer.Center
@@ -716,4 +785,12 @@
 
     TopBar_3 As TopBar:
         ZIndex: =27
+
+    Button3 As button:
+        OnSelect: =ClearCollect(rejestr_osob,Filter(Tabela5,Osoba in ComboBox2.SelectedItems))
+        Text: ="Przycisk"
+        Visible: =false
+        X: =250
+        Y: =728
+        ZIndex: =28
 
