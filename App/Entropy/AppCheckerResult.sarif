@@ -14,52 +14,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Button1_6.OnSelect"
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Button1_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 43,
-                  "charOffset": 100,
-                  "snippet": {
-                    "text": "IsBlank(Find(User().FullName;Kto_wypelnil))"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Button1_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -73,7 +33,7 @@
               "properties": {
                 "member": "MaxLength",
                 "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Identyfikator_ankiety_DataCard1"
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
               }
             }
           ],
@@ -88,19 +48,19 @@
             "level": "High"
           },
           "ruleId": "app-ErrArgNotApplicableToColumnArg2-Arg1-Arg2",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -114,7 +74,7 @@
               "properties": {
                 "member": "MaxLength",
                 "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Identyfikator_ankiety_DataCard1"
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
               }
             }
           ],
@@ -128,6 +88,46 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Button1_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Button1_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 43,
+                  "charOffset": 100,
+                  "snippet": {
+                    "text": "IsBlank(Find(User().FullName;Kto_wypelnil))"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Button1_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
           "ruleIndex": 2
         },
         {
@@ -255,19 +255,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Gallery1_2.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Gallery1_2.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Gallery1_2"
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46"
               }
             }
           ],
@@ -285,19 +285,409 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Gallery1_2.TabIndex"
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Gallery1_2.TabIndex",
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Gallery1_2"
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Gallery1_3"
               }
             }
           ],
@@ -315,19 +705,799 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Gallery1_2.Title2_1.FocusedBorderThickness"
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Gallery1_2.Title2_1.FocusedBorderThickness",
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Arrow2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Arrow2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Arrow1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Arrow1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Projekt",
+                "type": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Projekt",
+                "type": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekt.ScreenContainer2.Slider1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.ScreenContainer2.Slider1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Projekt",
+                "type": "Projekt.ScreenContainer2.Slider1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekt.ScreenContainer2.Slider1.ShowValue"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.ScreenContainer2.Slider1.ShowValue",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ShowValue",
+                "module": "Projekt",
+                "type": "Projekt.ScreenContainer2.Slider1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-StateIndicationTextNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Szukaj.Container3.TextInput1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Szukaj.Container3.TextInput1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Szukaj",
+                "type": "Szukaj.Container3.TextInput1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Szukaj",
+                "type": "Szukaj.Container3.Gallery1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Szukaj",
+                "type": "Szukaj.Container3.Gallery1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Dodawanie Ankiet",
+                "type": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Gallery1_2.Title2_1"
+                "type": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1"
               }
             }
           ],
@@ -338,26 +1508,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Gallery1_2.Title2_1.TabIndex"
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Gallery1_2.Title2_1.TabIndex",
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Gallery1_2.Title2_1"
+                "type": "'Dodawanie Ankiet'.Container2.Gallery1_2"
               }
             }
           ],
@@ -375,19 +1545,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77"
+                "type": "'Dodawanie Ankiet'.Container2.Gallery1_2"
               }
             }
           ],
@@ -405,19 +1575,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie1_DataCard8.DataCardValue78"
+                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87"
               }
             }
           ],
@@ -435,19 +1635,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie2_DataCard8.DataCardValue79"
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Gallery1_3"
               }
             }
           ],
@@ -465,19 +1665,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie3_DataCard8.DataCardValue80"
+                "member": "TabIndex",
+                "module": "Wypełnianie Ankiet",
+                "type": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2"
               }
             }
           ],
@@ -487,218 +1687,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie4_DataCard6.DataCardValue81"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie5_DataCard6.DataCardValue82"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie6_DataCard6.DataCardValue83"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie7_DataCard6.DataCardValue84"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie8_DataCard6.DataCardValue85"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie9_DataCard6.DataCardValue86"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Form2.Pytanie10_DataCard6.DataCardValue87"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -848,997 +1838,7 @@
             "level": "Low"
           },
           "ruleId": "acc-StateIndicationTextNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Arrow1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Arrow1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Arrow1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Arrow1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Arrow1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Arrow1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Arrow2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Arrow2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Arrow2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Arrow2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Arrow2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Arrow2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Gallery5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Gallery5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Gallery5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Gallery5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Gallery5.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Gallery5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Gallery1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Gallery1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Gallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Gallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Projekt",
-                "type": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Projekt",
-                "type": "Projekt.ScreenContainer2.MainSectionContainer2.GalleryGrid"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.ScreenContainer2.Slider1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.ScreenContainer2.Slider1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Projekt",
-                "type": "Projekt.ScreenContainer2.Slider1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.ScreenContainer2.Slider1.ShowValue"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.ScreenContainer2.Slider1.ShowValue",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "ShowValue",
-                "module": "Projekt",
-                "type": "Projekt.ScreenContainer2.Slider1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-StateIndicationTextNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.Container3.TextInput1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.Container3.TextInput1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Szukaj",
-                "type": "Szukaj.Container3.TextInput1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Szukaj",
-                "type": "Szukaj.Container3.Gallery1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Szukaj",
-                "type": "Szukaj.Container3.Gallery1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie1_DataCard5.DataCardValue50"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Kto_DataCard1.DataCardValue37"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie2_DataCard5.DataCardValue39"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie3_DataCard5.DataCardValue40"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie4_DataCard3.DataCardValue41"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie5_DataCard3.DataCardValue42"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie6_DataCard3.DataCardValue43"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie7_DataCard3.DataCardValue44"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie8_DataCard3.DataCardValue45"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie9_DataCard3.DataCardValue46"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Pytanie10_DataCard3.DataCardValue47"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Gallery1_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Gallery1_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Gallery1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Gallery1_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Gallery1_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Gallery1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Gallery1_3.Title2_2.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Gallery1_3.Title2_2.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Gallery1_3.Title2_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
           "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Gallery1_3.Title2_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Gallery1_3.Title2_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Gallery1_3.Title2_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -1846,25 +1846,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-SuggestRemoteExecutionHint",
-              "messageStrings": {
-                "issue": {
-                  "text": "Delegation warning. The \"{0}\" part of this formula might not work correctly on large data sets."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "If your data set exceeds the 500 record limit but contains less than 2,000 records, try resetting the limit.",
-                  "Try simplifying the formula.",
-                  "Try moving your data to a different data source."
-                ],
-                "level": "Medium",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "app-ErrArgNotApplicableToColumnArg2-Arg1-Arg2",
               "messageStrings": {
@@ -1889,6 +1870,25 @@
               "properties": {
                 "componentType": "app",
                 "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-SuggestRemoteExecutionHint",
+              "messageStrings": {
+                "issue": {
+                  "text": "Delegation warning. The \"{0}\" part of this formula might not work correctly on large data sets."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "If your data set exceeds the 500 record limit but contains less than 2,000 records, try resetting the limit.",
+                  "Try simplifying the formula.",
+                  "Try moving your data to a different data source."
+                ],
+                "level": "Medium",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
@@ -1928,23 +1928,6 @@
               }
             },
             {
-              "id": "acc-FocusBorderShouldBeVisible",
-              "messageStrings": {
-                "issue": {
-                  "text": "Focus isn't showing"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Change the FocusedBorderThickness property to be more than 0."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
-              }
-            },
-            {
               "id": "acc-StateIndicationTextNeeded",
               "messageStrings": {
                 "issue": {
@@ -1959,6 +1942,23 @@
                 "level": "Low",
                 "primaryCategory": "accessibility",
                 "whyFix": "Users won't get confirmation of their actions if the state of the control isn't showing."
+              }
+            },
+            {
+              "id": "acc-FocusBorderShouldBeVisible",
+              "messageStrings": {
+                "issue": {
+                  "text": "Focus isn't showing"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the FocusedBorderThickness property to be more than 0."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
               }
             }
           ],

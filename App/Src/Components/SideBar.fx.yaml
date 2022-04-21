@@ -20,9 +20,9 @@ SideBar As CanvasComponent:
     ZIndex: =1
 
     Gallery4 As gallery.galleryVertical:
-        BorderColor: =RGBA(0, 13, 75, 1)
+        BorderColor: =RGBA(2, 34, 60, 1)
         BorderThickness: =1
-        Fill: =RGBA(39, 67, 125, 1)
+        Fill: =RGBA(20, 82, 144, 1)
         Height: =Parent.Height
         Items: =SideBar.Pola
         Layout: =Layout.Vertical
@@ -36,7 +36,7 @@ SideBar As CanvasComponent:
         CurrentScreenGradientBackground As htmlViewer:
             Height: =50
             HtmlText: |-
-                ="<div style=""background: rgb(0,0,0); background: linear-gradient(-8deg, rgba(0,0,0,0) 25%, rgba(103,166,231,1) 100%); width: 100%; height:" & CurrentScreenGradientBackground.Height - 1 &"px; border-radius: 5px;""></div>"
+                ="<div style=""background: rgb(0,0,0); background: linear-gradient(-8deg, rgba(0,0,0,0) 25%, rgba(57, 163, 249,1) 100%); width: 100%; height:" & CurrentScreenGradientBackground.Height - 1 &"px; border-radius: 5px;""></div>"
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -47,7 +47,7 @@ SideBar As CanvasComponent:
             ZIndex: =2
 
         ItemSpacer As rectangle:
-            Fill: =RGBA(0, 16, 96, 1)
+            Fill: =RGBA(2, 34, 60, 1)
             Height: =1
             OnSelect: =Select(Parent)
             Width: =250

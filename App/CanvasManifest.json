@@ -99,9 +99,9 @@
   },
   "ScreenOrder": [
     "Strona główna",
-    "Projekt",
     "Kalendarz",
     "Rejestr",
+    "Projekt",
     "Szukaj",
     "Dodawanie Ankiet",
     "Wypełnianie Ankiet"
