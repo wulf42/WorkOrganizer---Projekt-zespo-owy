@@ -61,6 +61,7 @@
             ZIndex: =4
 
         Button7 As button:
+            Fill: =RGBA(151, 0, 0, 1)
             OnSelect: =RemoveIf(Ankiety, ID = Gallery1_2.Selected.ID)
             Text: ="Usuń"
             X: =242
@@ -827,6 +828,7 @@
                     ZIndex: =4
 
     SideBar_6 As SideBar:
+        Pola: =sideBarData
         Y: =100
         ZIndex: =10
 

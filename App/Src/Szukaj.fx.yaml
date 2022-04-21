@@ -13,10 +13,10 @@ Szukaj As screen:
                 =UżytkownicyusługiOffice365.SearchUserV2({searchTerm:TextInput1.Text}).value
             Layout: =Layout.Vertical
             TemplatePadding: =0
-            TemplateSize: =175
-            Width: =703
+            TemplateSize: =90
+            Width: =1053
             X: =40
-            Y: =92
+            Y: =90
             ZIndex: =1
 
             UserIcon As icon.Person:
@@ -41,11 +41,12 @@ Szukaj As screen:
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =ThisItem.DisplayName
                 VerticalAlign: =VerticalAlign.Top
                 Width: =Parent.TemplateWidth - Image1.Width - 104
-                X: =Image1.X + Image1.Width + 24
-                Y: =44
+                X: =77
+                Y: =21
                 ZIndex: =2
 
             Subtitle1 As label:
@@ -55,11 +56,12 @@ Szukaj As screen:
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =12
                 Text: =ThisItem.Mail
                 VerticalAlign: =VerticalAlign.Top
                 Width: =Title1.Width
                 X: =Title1.X
-                Y: =Title1.Y + Title1.Height + 4
+                Y: =50
                 ZIndex: =3
 
             Separator1 As rectangle:
@@ -70,17 +72,20 @@ Szukaj As screen:
                 ZIndex: =4
 
             Image1 As image:
+                Height: =50
                 Image: |-
                     =If(UżytkownicyusługiOffice365.UserPhotoMetadata(ThisItem.Id).HasPhoto = true,
                        UżytkownicyusługiOffice365.UserPhoto(ThisItem.Id)
                     )
                 OnSelect: =Select(Parent)
-                X: =21
-                Y: =33
+                Width: =50
+                X: =20
+                Y: =20
                 ZIndex: =5
 
         TextInput1 As text:
             Default: =""
+            HintText: ="Szukaj..."
             X: =40
             Y: =26
             ZIndex: =2

@@ -11,492 +11,6 @@
         Y: =100
         ZIndex: =1
 
-        HeaderContainer2_1 As groupContainer.horizontalAutoLayoutContainer:
-            FillPortions: =0
-            Height: =75
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            ZIndex: =1
-
-            ComboBox2 As combobox:
-                AlignInContainer: =AlignInContainer.Start
-                DisplayFields: =["Osoba"]
-                Font: =Font.'Lato Black'
-                Height: =75
-                InputTextPlaceholder: ="Szukaj pracownika"
-                Items: =Tabela5.Osoba
-                OnChange: =Select(Button3)
-                OnSelect: =Select(Button3)
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                SearchFields: =["Osoba"]
-                SearchItems: =Search(Tabela5.Osoba,ComboBox2.SearchText,"Osoba")
-                Width: =h_urlop.Width+h_pracazdalna.Width+h_pracawbiurze.Width+h_delegacje.Width+h_osoba.Width
-                Y: |+
-                    =
-                    
-                    
-                    0
-                    
-                    
-                ZIndex: =1
-
-            Label46_1 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(101, 128, 187, 1)
-                Color: =RGBA(47,41,43,1)
-                Fill: =RGBA(255, 255, 255, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =HeaderContainer2_1.Height
-                Size: =26
-                Text: =""
-                Width: =HeaderContainer2_1.Width
-                ZIndex: =2
-
-        MainSectionContainer2_1 As groupContainer.verticalAutoLayoutContainer:
-            LayoutDirection: =LayoutDirection.Vertical
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            ZIndex: =2
-
-            GridHeader_1 As groupContainer.manualLayoutContainer:
-                FillPortions: =0
-                Height: =40
-                LayoutMinHeight: =100
-                LayoutMinWidth: =250
-                ZIndex: =1
-
-                h_1 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: =1
-                    Width: =60
-                    X: =h_osoba.X+h_osoba.Width-Slider1_1.Value
-                    ZIndex: =1
-
-                h_2 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="2"
-                    Width: =h_1.Width
-                    X: =h_1.X+h_1.Width
-                    ZIndex: =2
-
-                h_3 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="3"
-                    Width: =h_1.Width
-                    X: |
-                        =h_2.X+h_2.Width
-                    ZIndex: =3
-
-                h_4 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: |-
-                        ="4
-                        "
-                    Width: =h_1.Width
-                    X: |
-                        =h_3.X+h_3.Width
-                    ZIndex: =4
-
-                h_5 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: |-
-                        ="5
-                        "
-                    Width: =h_1.Width
-                    X: =h_4.X+h_4.Width
-                    ZIndex: =5
-
-                h_6 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="6"
-                    Width: =h_1.Width
-                    X: =h_5.X+h_5.Width
-                    ZIndex: =6
-
-                h_7 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="7"
-                    Width: =h_1.Width
-                    X: |
-                        =h_6.X + h_6.Width
-                    ZIndex: =7
-
-                h_8 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="8"
-                    Width: =h_1.Width
-                    X: =h_7.X + h_7.Width
-                    ZIndex: =8
-
-                h_9 As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="9"
-                    Width: =h_1.Width
-                    X: |
-                        =h_8.X + h_8.Width
-                    ZIndex: =9
-
-                h_osoba As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Osoba"
-                    Width: =155
-                    X: |
-                        =h_delegacje.X+h_delegacje.Width
-                    ZIndex: =10
-
-                h_urlop As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Urlop"
-                    Width: =54
-                    ZIndex: =11
-
-                h_pracazdalna As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Praca zdalna"
-                    Width: =76
-                    X: |
-                        =h_urlop.X + h_urlop.Width
-                    ZIndex: =12
-
-                h_pracawbiurze As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Praca w biurze"
-                    Width: =91
-                    X: =h_pracazdalna.X + h_pracazdalna.Width
-                    ZIndex: =13
-
-                h_delegacje As button:
-                    BorderThickness: =0
-                    Color: =RGBA(255,255,255,1)
-                    DisplayMode: =DisplayMode.View
-                    Fill: =RGBA(62,96,170,1)
-                    Font: =Font.'Segoe UI'
-                    HoverColor: =Self.Color
-                    HoverFill: =ColorFade(Self.Fill, 20%)
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Size: =10
-                    Text: ="Delegacje"
-                    Width: =70
-                    X: =h_pracawbiurze.X+h_pracawbiurze.Width
-                    ZIndex: =14
-
-            GalleryGrid_1 As gallery.galleryVertical:
-                BorderColor: =RGBA(101, 128, 187, 1)
-                FillPortions: =0
-                Height: =MainSectionContainer2_1.Height
-                Items: =If(IsEmpty(rejestr_osob),Tabela5,rejestr_osob)
-                Layout: =Layout.Vertical
-                LayoutMinHeight: =287
-                LayoutMinWidth: =320
-                TemplatePadding: =0
-                TemplateSize: |+
-                    =100
-                    
-                ZIndex: =2
-
-                "'7' As label":
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.'07.03.2022'
-                    Width: =h_1.Width
-                    X: =h_7.X
-                    ZIndex: =1
-
-                "'6' As label":
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.'06.03.2022'
-                    Width: =h_1.Width
-                    X: =h_6.X
-                    ZIndex: =2
-
-                "'5' As label":
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.'05.03.2022'
-                    Width: =h_1.Width
-                    X: =h_5.X
-                    ZIndex: =3
-
-                "'4' As label":
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.'04.03.2022'
-                    Width: =h_1.Width
-                    X: =h_4.X
-                    ZIndex: =4
-
-                "'3' As label":
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.'03.03.2022'
-                    Width: =h_1.Width
-                    X: =h_3.X
-                    ZIndex: =5
-
-                "'2' As label":
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.'02.03.2022'
-                    Width: =h_1.Width
-                    X: =h_2.X
-                    ZIndex: =6
-
-                "'1' As label":
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.'01.03.2022'
-                    Width: =h_1.Width
-                    X: =h_1.X
-                    ZIndex: =7
-
-                urlop As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Fill: =RGBA(255, 255, 0, 1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =ThisItem.Urlop
-                    Width: =h_urlop.Width
-                    X: =h_urlop.X
-                    ZIndex: =8
-
-                pracazdalna As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Fill: =RGBA(186, 202, 226, 1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.'Praca zdalna'
-                    Width: =h_pracazdalna.Width
-                    X: =h_pracazdalna.X
-                    ZIndex: =9
-
-                pracawbiurze As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Fill: =RGBA(238, 204, 204, 1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.'Praca w biurze'
-                    Width: =h_pracawbiurze.Width
-                    X: =h_pracawbiurze.X
-                    ZIndex: =10
-
-                delegacje As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Fill: =RGBA(152, 208, 70, 1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.Delegacje
-                    Width: =h_delegacje.Width
-                    X: =h_delegacje.X
-                    ZIndex: =11
-
-                osoba As label:
-                    Align: =Align.Center
-                    BorderColor: =RGBA(101, 128, 187, 1)
-                    Color: =RGBA(47,41,43,1)
-                    Fill: =RGBA(230, 230, 230, 1)
-                    Height: =100
-                    OnSelect: =Select(Parent)
-                    Text: =ThisItem.Osoba
-                    Width: =h_osoba.Width
-                    X: =h_osoba.X
-                    ZIndex: =12
-
-        Slider1_1 As slider:
-            AlignInContainer: =AlignInContainer.Center
-            BorderColor: =RGBA(101, 128, 187, 1)
-            Default: =0
-            LayoutMinWidth: =100
-            Max: =GalleryGrid_1.Width
-            ShowValue: =false
-            ValueFill: =RGBA(62,96,170,1)
-            Width: =300
-            ZIndex: =3
-
     SideBar_3 As SideBar:
         Pola: =sideBarData
         Y: =100
@@ -793,4 +307,464 @@
         X: =250
         Y: =728
         ZIndex: =28
+
+    Container5 As groupContainer.manualLayoutContainer:
+        Height: =668
+        Width: =1116
+        X: =250
+        Y: =100
+        ZIndex: =29
+
+        ComboBox2 As combobox:
+            DisplayFields: =["Osoba"]
+            Font: =Font.'Lato Black'
+            Height: =50
+            InputTextPlaceholder: ="Szukaj pracownika"
+            Items: =Tabela5.Osoba
+            OnChange: =Select(Button3)
+            OnSelect: =Select(Button3)
+            PaddingBottom: =0
+            PaddingLeft: =15
+            PaddingRight: =0
+            PaddingTop: =0
+            SearchFields: =["Osoba"]
+            SearchItems: =Search(Tabela5.Osoba,ComboBox2.SearchText,"Osoba")
+            Width: =h_urlop.Width+h_pracazdalna.Width+h_pracawbiurze.Width+h_delegacje.Width+h_osoba.Width
+            Y: =34
+            ZIndex: =1
+
+        MainSectionContainer2_1 As groupContainer.verticalAutoLayoutContainer:
+            Height: =582
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMode: =LayoutMode.Auto
+            Width: =1116
+            Y: =84
+            ZIndex: =2
+
+        Slider1_1 As slider:
+            BorderColor: =RGBA(101, 128, 187, 1)
+            Default: =0
+            Height: =41
+            Max: =GalleryGrid_1.Width
+            ShowValue: =false
+            ValueFill: =RGBA(62,96,170,1)
+            Visible: =false
+            Width: =670
+            X: =446
+            Y: =626
+            ZIndex: =3
+
+        GridHeader_1 As groupContainer.manualLayoutContainer:
+            Height: =40
+            Width: =1116
+            Y: =84
+            ZIndex: =4
+
+            h_1 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: =1
+                Width: =60
+                X: =446
+                ZIndex: =1
+
+            h_2 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="2"
+                Width: =h_1.Width
+                X: =506
+                ZIndex: =2
+
+            h_3 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="3"
+                Width: =h_1.Width
+                X: =566
+                ZIndex: =3
+
+            h_4 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: |-
+                    ="4
+                    "
+                Width: =h_1.Width
+                X: =626
+                ZIndex: =4
+
+            h_5 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: |-
+                    ="5
+                    "
+                Width: =h_1.Width
+                X: =686
+                ZIndex: =5
+
+            h_6 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="6"
+                Width: =h_1.Width
+                X: =746
+                ZIndex: =6
+
+            h_7 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="7"
+                Width: =h_1.Width
+                X: =806
+                ZIndex: =7
+
+            h_8 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="8"
+                Width: =h_1.Width
+                X: =866
+                ZIndex: =8
+
+            h_9 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="9"
+                Width: =h_1.Width
+                X: =926
+                ZIndex: =9
+
+            h_osoba As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Osoba"
+                Width: =155
+                X: =291
+                ZIndex: =10
+
+            h_urlop As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Urlop"
+                Width: =54
+                ZIndex: =11
+
+            h_pracazdalna As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Praca zdalna"
+                Width: =76
+                X: |
+                    =h_urlop.X + h_urlop.Width
+                ZIndex: =12
+
+            h_pracawbiurze As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Praca w biurze"
+                Width: =91
+                X: =h_pracazdalna.X + h_pracazdalna.Width
+                ZIndex: =13
+
+            h_delegacje As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Delegacje"
+                Width: =70
+                X: =h_pracawbiurze.X+h_pracawbiurze.Width
+                ZIndex: =14
+
+        GalleryGrid_1 As gallery.galleryVertical:
+            BorderColor: =RGBA(101, 128, 187, 1)
+            Height: =497
+            Items: =If(IsEmpty(rejestr_osob),Tabela5,rejestr_osob)
+            Layout: =Layout.Vertical
+            TemplatePadding: =0
+            TemplateSize: =52
+            Width: =1116
+            Y: =124
+            ZIndex: =5
+
+            "'7' As label":
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'07.03.2022'
+                Width: =0
+                X: =580
+                ZIndex: =1
+
+            "'6' As label":
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'06.03.2022'
+                Width: =0
+                X: =580
+                ZIndex: =2
+
+            "'5' As label":
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'05.03.2022'
+                Width: =0
+                X: =580
+                ZIndex: =3
+
+            "'4' As label":
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'04.03.2022'
+                Width: =0
+                X: =580
+                ZIndex: =4
+
+            "'3' As label":
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'03.03.2022'
+                Width: =h_1.Width
+                X: =h_3.X
+                ZIndex: =5
+
+            "'2' As label":
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'02.03.2022'
+                Width: =h_1.Width
+                X: =h_2.X
+                ZIndex: =6
+
+            "'1' As label":
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'01.03.2022'
+                Width: =h_1.Width
+                X: =h_1.X
+                ZIndex: =7
+
+            urlop As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Fill: =RGBA(255, 255, 0, 1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =ThisItem.Urlop
+                Width: =h_urlop.Width
+                X: =h_urlop.X
+                ZIndex: =8
+
+            pracazdalna As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Fill: =RGBA(186, 202, 226, 1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'Praca zdalna'
+                Width: =h_pracazdalna.Width
+                X: =h_pracazdalna.X
+                ZIndex: =9
+
+            pracawbiurze As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Fill: =RGBA(238, 204, 204, 1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'Praca w biurze'
+                Width: =h_pracawbiurze.Width
+                X: =h_pracawbiurze.X
+                ZIndex: =10
+
+            delegacje As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Fill: =RGBA(152, 208, 70, 1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Delegacje
+                Width: =h_delegacje.Width
+                X: =h_delegacje.X
+                ZIndex: =11
+
+            osoba As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Fill: =RGBA(230, 230, 230, 1)
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Osoba
+                Width: =h_osoba.Width
+                X: =h_osoba.X
+                ZIndex: =12
 

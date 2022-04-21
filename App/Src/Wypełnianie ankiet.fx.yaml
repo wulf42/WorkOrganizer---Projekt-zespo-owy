@@ -896,14 +896,6 @@
             Y: =40
             ZIndex: =4
 
-        Button5_1 As button:
-            OnSelect: =Navigate('Dodawanie Ankiet')
-            Text: ="Dodaj ankiety"
-            Width: =217
-            X: =760
-            Y: =40
-            ZIndex: =5
-
         Label2_1 As label:
             Align: =Align.Center
             Height: =374
@@ -916,6 +908,7 @@
             ZIndex: =6
 
     SideBar_7 As SideBar:
+        Pola: =sideBarData
         Y: =100
         ZIndex: =9
 

@@ -112,6 +112,7 @@ Kalendarz As screen:
         ZIndex: =7
 
     SideBar_5 As SideBar:
+        Pola: =sideBarData
         Y: =100
         ZIndex: =8
 
