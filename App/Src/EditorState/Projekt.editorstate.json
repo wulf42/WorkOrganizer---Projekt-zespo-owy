@@ -1652,7 +1652,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "godziny",
-      "ParentIndex": 9,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8200,7 +8200,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "P/T",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11723,7 +11723,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "sprzet",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11966,7 +11966,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "stan",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
