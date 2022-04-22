@@ -330,7 +330,6 @@
             SearchFields: =["Osoba"]
             SearchItems: =Search(Tabela5.Osoba,ComboBox2.SearchText,"Osoba")
             Width: =h_urlop.Width+h_pracazdalna.Width+h_pracawbiurze.Width+h_delegacje.Width+h_osoba.Width
-            Y: =34
             ZIndex: =1
 
         MainSectionContainer2_1 As groupContainer.verticalAutoLayoutContainer:
@@ -357,7 +356,7 @@
         GridHeader_1 As groupContainer.manualLayoutContainer:
             Height: =40
             Width: =1116
-            Y: =84
+            Y: =50
             ZIndex: =4
 
             h_1 As button:
@@ -624,7 +623,7 @@
             TemplatePadding: =0
             TemplateSize: =52
             Width: =1116
-            Y: =124
+            Y: =90
             ZIndex: =5
 
             "'7' As label":

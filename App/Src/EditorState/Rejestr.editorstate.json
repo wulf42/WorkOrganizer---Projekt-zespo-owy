@@ -1932,14 +1932,7 @@
         },
         "FontWeight",
         "X",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "0",
-          "InvariantPropertyName": "Y",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Y",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -3151,7 +3144,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "GridHeader_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8581,7 +8574,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MainSectionContainer2_1",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
