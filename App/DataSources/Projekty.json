@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2022-03-17T19:57:03.8970000Z",
+      "LastChangedTimeString": "2022-04-21T17:15:39.7520000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -27,6 +27,7 @@
       "Author#Claims": "Utworzone przez Claims",
       "ComplianceAssetId": "Identyfikator elementu zawartości zgodności",
       "Created": "Utworzony",
+      "data": "data",
       "Editor": "Zmodyfikowane przez",
       "Editor#Claims": "Zmodyfikowane przez Claims",
       "field_1": "app",
