@@ -49,7 +49,7 @@
       "herocontrols": false,
       "improvedmediacapture": false,
       "improvedtabstopbehavior": true,
-      "keeprecentscreensloaded": false,
+      "keeprecentscreensloaded": true,
       "longlivingcache": false,
       "nativecdsexperimental": true,
       "optimizedforteamsmeeting": false,
