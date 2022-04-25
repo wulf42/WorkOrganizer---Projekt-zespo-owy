@@ -1,4 +1,5 @@
 Projekty2 As screen:
+    OnVisible: =Select(Icon3)
 
     "Gallery1_4 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
         Height: =610
@@ -19,7 +20,7 @@ Projekty2 As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.app
+            Text: =ThisItem.site
             Width: =Parent.TemplateWidth - 104
             X: =32
             Y: =16
@@ -32,7 +33,7 @@ Projekty2 As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.site
+            Text: =ThisItem.app
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -1117,7 +1118,7 @@ Projekty2 As screen:
     Icon3 As icon.Search:
         Height: =40
         Icon: =Icon.Search
-        OnSelect: =ClearCollect(szukaj_projekty,Filter('Projekty',TextInput1_1.Text in app || TextInput1_1.Text in site))
+        OnSelect: =ClearCollect(szukaj_projekty,Filter(Projekty,StartsWith(site,TextInput1_1.Text) || StartsWith(app,TextInput1_1.Text)))
         Tooltip: ="Szukaj"
         Width: =42
         X: =252
