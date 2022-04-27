@@ -690,7 +690,9 @@ Projekty2 As screen:
 
             Checkbox1 As checkbox:
                 BorderColor: =RGBA(0, 0, 0, 0)
-                Default: =If(Gallery1_4.Selected.stan="zakończony",true,false)
+                Default: |-
+                    =
+                    If(Gallery1_4.Selected.stan="zakończony" && !IsBlank(DataCardValue17.Text),true,false)
                 Height: =45
                 Text: ="Zakończ"
                 Width: =136
