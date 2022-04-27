@@ -1208,7 +1208,8 @@ Projekty2 As screen:
                 );
                 Notify(
                     "Projekt usunięty pomyślnie",
-                    NotificationType.Success
+                    NotificationType.Success,
+                    2000
                 )
                 ;
                 Select(Icon3)
@@ -1276,12 +1277,17 @@ Projekty2 As screen:
             OnSelect: |-
                 =UpdateContext({show_popup_2:false})
                 ;
-                SubmitForm(Form3)
-                ;
+                If(!IsBlank(DataCardValue17),SubmitForm(Form3);
                 Notify(
                         "Pomyślnie zapisano projekt",
-                        NotificationType.Success
-                    )
+                        NotificationType.Success,
+                        2000
+                    ),
+                Notify(
+                        "Wypełnij wymagane pola",
+                        NotificationType.Error,
+                        2000
+                    ))
                 ;
                 Select(Icon3)
             Size: =22
