@@ -5,6 +5,7 @@ Projekty2 As screen:
         Height: =610
         Items: =szukaj_projekty
         Layout: =Layout.Vertical
+        OnSelect: =ResetForm(Form3)
         TemplateFill: =If(ThisItem.IsSelected,RGBA(179,232,250,0.8),RGBA(0, 0, 0, 0))
         TemplatePadding: =0
         TemplateSize: =Min(104, Self.Height - 60)
@@ -57,14 +58,7 @@ Projekty2 As screen:
 
     Button6_1 As button:
         OnSelect: |-
-            =SubmitForm(Form3)
-            ;
-            Notify(
-                    "Pomyślnie zapisano projekt",
-                    NotificationType.Success
-                )
-            ;
-            Select(Icon3)
+            =UpdateContext({show_popup_2:true})
         Text: ="Zapisz"
         X: =738
         Y: =40
@@ -73,16 +67,7 @@ Projekty2 As screen:
     Button7_1 As button:
         Fill: =RGBA(168, 0, 0, 1)
         OnSelect: |-
-            =RemoveIf(
-                Projekty,
-                site = Gallery1_4.Selected.site && app = Gallery1_4.Selected.app
-            );
-            Notify(
-                "Projekt usunięty pomyślnie",
-                NotificationType.Success
-            )
-            ;
-            Select(Icon3)
+            =UpdateContext({show_popup:true})
         Text: ="Usuń"
         X: =535
         Y: =40
@@ -652,9 +637,9 @@ Projekty2 As screen:
             DataCardKey27 As label:
                 Align: =Align.Center
                 AutoHeight: =true
-                Height: =34
+                Height: =33
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =416
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -663,7 +648,7 @@ Projekty2 As screen:
             DataCardValue27 As text:
                 Align: =Align.Center
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =If(IsBlank(DataCardValue22.Text),"czekam na zamówienie",IsBlank(DataCardValue23.Text),"czekam na budżet","w trakcie")
+                Default: =If(Checkbox1.Value=true,"zakończony",If(IsBlank(DataCardValue22.Text),"czekam na zamówienie",IsBlank(DataCardValue23.Text),"czekam na budżet","w trakcie"))
                 DelayOutput: =true
                 DisplayMode: =DisplayMode.View
                 MaxLength: =Parent.MaxLength
@@ -673,7 +658,7 @@ Projekty2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =416
                 X: =30
                 Y: =DataCardKey27.Y + DataCardKey27.Height + 5
                 ZIndex: =2
@@ -702,6 +687,16 @@ Projekty2 As screen:
                 Wrap: =false
                 Y: =DataCardKey27.Y
                 ZIndex: =4
+
+            Checkbox1 As checkbox:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Default: =If(Gallery1_4.Selected.stan="zakończony",true,false)
+                Height: =45
+                Text: ="Zakończ"
+                Width: =136
+                X: =376
+                Y: =43
+                ZIndex: =5
 
         uwagi_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
@@ -1148,4 +1143,150 @@ Projekty2 As screen:
         X: =862
         Y: =721
         ZIndex: =12
+
+    group_popup As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =18
+
+        Rectangle3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1
+            Fill: =RGBA(255, 255, 255, 0.7)
+            Height: =Projekty2.Height
+            OnSelect: =
+            Visible: =show_popup
+            Width: =Projekty2.Width
+            ZIndex: =13
+
+        Label1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Font: =Font.Arial
+            Height: =262
+            Overflow: =Overflow.Scroll
+            Size: =32
+            Text: |-
+                ="
+                Czy napewno chcesz usunąć wybrany projekt?"
+            VerticalAlign: =VerticalAlign.Top
+            Visible: =show_popup
+            Width: =925
+            X: =332
+            Y: =145
+            ZIndex: =14
+
+        Button5_1 As button:
+            Fill: =RGBA(168, 0, 0, 1)
+            Height: =60
+            OnSelect: |-
+                =UpdateContext({show_popup:false})
+            Size: =22
+            Text: ="Nie"
+            Visible: =show_popup
+            Width: =208
+            X: =834
+            Y: =309
+            ZIndex: =16
+
+        Button5_2 As button:
+            Fill: =RGBA(54, 176, 75, 1)
+            Height: =60
+            OnSelect: |-
+                =UpdateContext({show_popup:false})
+                ;
+                RemoveIf(
+                    Projekty,
+                    site = Gallery1_4.Selected.site && app = Gallery1_4.Selected.app
+                );
+                Notify(
+                    "Projekt usunięty pomyślnie",
+                    NotificationType.Success
+                )
+                ;
+                Select(Icon3)
+            Size: =22
+            Text: ="Tak"
+            Visible: =show_popup
+            Width: =208
+            X: =511
+            Y: =309
+            ZIndex: =17
+
+    group_popup_2 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =22
+
+        Rectangle3_1 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1
+            Fill: =RGBA(255, 255, 255, 0.7)
+            Height: =Projekty2.Height
+            OnSelect: =
+            Visible: =show_popup_2
+            Width: =Projekty2.Width
+            ZIndex: =18
+
+        Label1_1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Font: =Font.Arial
+            Height: =262
+            Overflow: =Overflow.Scroll
+            Size: =32
+            Text: |-
+                ="
+                Czy napewno chcesz zapisać wybrany projekt?"
+            VerticalAlign: =VerticalAlign.Top
+            Visible: =show_popup_2
+            Width: =925
+            X: =332
+            Y: =145
+            ZIndex: =19
+
+        Button5_4 As button:
+            Fill: =RGBA(168, 0, 0, 1)
+            Height: =60
+            OnSelect: |-
+                =UpdateContext({show_popup_2:false})
+            Size: =22
+            Text: ="Nie"
+            Visible: =show_popup_2
+            Width: =208
+            X: =834
+            Y: =309
+            ZIndex: =20
+
+        Button5_3 As button:
+            Fill: =RGBA(54, 176, 75, 1)
+            Height: =60
+            OnSelect: |-
+                =UpdateContext({show_popup_2:false})
+                ;
+                SubmitForm(Form3)
+                ;
+                Notify(
+                        "Pomyślnie zapisano projekt",
+                        NotificationType.Success
+                    )
+                ;
+                Select(Icon3)
+            Size: =22
+            Text: ="Tak"
+            Visible: =show_popup_2
+            Width: =208
+            X: =511
+            Y: =309
+            ZIndex: =21
 
