@@ -1,8 +1,8 @@
 {
   "FormatVersion": "0.24",
   "Header": {
-    "DocVersion": "1.323",
-    "MinVersionToLoad": "1.323",
+    "DocVersion": "1.324",
+    "MinVersionToLoad": "1.324",
     "MSAppStructureVersion": "2.0"
   },
   "Properties": {
@@ -83,6 +83,7 @@
     "FileID": "a4b3c75e-6d5b-4e3e-acc5-0142ba8ecab0",
     "Id": "a4b3c75e-6d5b-4e3e-acc5-0142ba8ecab0",
     "InstrumentationKey": "",
+    "LocalDatabaseReferences": "{}",
     "Name": "WorkOrganizer",
     "OriginatingVersion": "1.321"
   },
