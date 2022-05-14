@@ -8,26 +8,28 @@ Projekty2 As screen:
         OnSelect: =ResetForm(Form3)
         TemplateFill: =If(ThisItem.IsSelected,RGBA(179,232,250,0.8),RGBA(0, 0, 0, 0))
         TemplatePadding: =0
-        TemplateSize: =Min(104, Self.Height - 60)
-        Width: =262
+        TemplateSize: =145
+        Width: =391
         X: =40
         Y: =113
         ZIndex: =1
 
-        Title10 As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =
+        Title6 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =30
+            OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
             Text: =ThisItem.site
-            Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =16
+            Width: =168
+            X: =16
+            Y: =9
             ZIndex: =1
 
-        Subtitle6 As label:
+        Subtitle4 As label:
+            FontWeight: =FontWeight.Semibold
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -37,22 +39,50 @@ Projekty2 As screen:
             Text: =ThisItem.app
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Title10.Y + Title10.Height + 4
+            X: =16
+            Y: =Title6.Y + Title6.Height + 4
             ZIndex: =2
 
-        Separator10 As rectangle:
+        Separator6 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =4
 
+        Title6_1 As label:
+            FontWeight: =FontWeight.Normal
+            Height: =30
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.data
+            Width: =139
+            X: =235
+            Y: =9
+            ZIndex: =5
+
+        Subtitle4_1 As label:
+            Align: =Align.Center
+            Height: =65
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.opis
+            VerticalAlign: =VerticalAlign.Top
+            Width: =391
+            Y: =80
+            ZIndex: =6
+
     Button2_2 As button:
         Fill: =RGBA(54, 176, 75, 1)
         OnSelect: =NewForm(Form3)
         Text: ="Nowy"
-        X: =332
+        X: =444
         Y: =40
         ZIndex: =2
 
@@ -60,7 +90,7 @@ Projekty2 As screen:
         OnSelect: |-
             =UpdateContext({show_popup_2:true})
         Text: ="Zapisz"
-        X: =738
+        X: =850
         Y: =40
         ZIndex: =3
 
@@ -69,7 +99,7 @@ Projekty2 As screen:
         OnSelect: |-
             =UpdateContext({show_popup:true})
         Text: ="Usuń"
-        X: =535
+        X: =647
         Y: =40
         ZIndex: =4
 
@@ -79,8 +109,8 @@ Projekty2 As screen:
         Height: =669
         Item: =Gallery1_4.Selected
         NumberOfColumns: =2
-        Width: =1084
-        X: =282
+        Width: =948
+        X: =413
         Y: =99
         ZIndex: =5
 
@@ -94,8 +124,8 @@ Projekty2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue2.SelectedDate
-            Width: =Form3.Width/4
-            X: =0
+            Width: =224
+            X: =1
             Y: =0
             ZIndex: =1
 
@@ -106,7 +136,7 @@ Projekty2 As screen:
                 Text: =Parent.DisplayName
                 Width: =165
                 Wrap: =false
-                X: =10
+                X: =30
                 Y: =10
                 ZIndex: =1
 
@@ -122,7 +152,7 @@ Projekty2 As screen:
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
                 Width: =165
-                X: =10
+                X: =30
                 Y: =48
                 ZIndex: =2
 
@@ -162,7 +192,7 @@ Projekty2 As screen:
             MaxLength: =DataSourceInfo([@Projekty], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =DataCardValue17.Text
-            Width: =Form3.Width/4
+            Width: =250
             WidthFit: =false
             X: =0
             Y: =0
@@ -173,10 +203,10 @@ Projekty2 As screen:
                 AutoHeight: =true
                 Height: =33
                 Text: =Parent.DisplayName
-                Width: =131
+                Width: =94
                 Wrap: =false
-                X: =97
-                Y: =10
+                X: =30
+                Y: =15
                 ZIndex: =1
 
             DataCardValue17 As text:
@@ -194,9 +224,39 @@ Projekty2 As screen:
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
                 Width: =94
-                X: =115
+                X: =30
                 Y: =48
                 ZIndex: =2
+
+            DataCardKey17_1 As label:
+                Align: =Align.Center
+                AutoHeight: =true
+                Height: =33
+                Text: ="tydzień"
+                Width: =94
+                Wrap: =false
+                X: =156
+                Y: =15
+                ZIndex: =4
+
+            DataCardValue27_1 As text:
+                Align: =Align.Center
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =WeekNum(DataCardValue2)
+                DelayOutput: =true
+                DisplayMode: =DisplayMode.View
+                FontWeight: =FontWeight.Bold
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =43
+                X: =181
+                Y: =DataCardKey27.Y + DataCardKey27.Height + 5
+                ZIndex: =5
 
         app_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
@@ -209,7 +269,7 @@ Projekty2 As screen:
             MaxLength: =DataSourceInfo([@Projekty], DataSourceInfo.MaxLength, "field_1")
             Required: =false
             Update: =DataCardValue18.Text
-            Width: =Form3.Width/2
+            Width: =474
             X: =1
             Y: =0
             ZIndex: =7
@@ -279,8 +339,8 @@ Projekty2 As screen:
             MaxLength: =DataSourceInfo([@Projekty], DataSourceInfo.MaxLength, "field_3")
             Required: =false
             Update: =DataCardValue20.Text
-            Width: =542
-            X: =0
+            Width: =474
+            X: =1
             Y: =1
             ZIndex: =7
 
@@ -349,7 +409,7 @@ Projekty2 As screen:
             MaxLength: =DataSourceInfo([@Projekty], DataSourceInfo.MaxLength, "field_2")
             Required: =false
             Update: =DataCardValue19.Text
-            Width: =542
+            Width: =474
             X: =1
             Y: =1
             ZIndex: =7
@@ -419,8 +479,8 @@ Projekty2 As screen:
             MaxLength: =DataSourceInfo([@Projekty], DataSourceInfo.MaxLength, "field_5")
             Required: =false
             Update: =DataCardValue22.Text
-            Width: =542
-            X: =0
+            Width: =474
+            X: =1
             Y: =2
             ZIndex: =7
 
@@ -489,7 +549,7 @@ Projekty2 As screen:
             MaxLength: =DataSourceInfo([@Projekty], DataSourceInfo.MaxLength, "field_4")
             Required: =false
             Update: =DataCardValue21.Text
-            Width: =542
+            Width: =474
             X: =1
             Y: =2
             ZIndex: =7
@@ -559,8 +619,8 @@ Projekty2 As screen:
             MaxLength: =DataSourceInfo([@Projekty], DataSourceInfo.MaxLength, "field_12")
             Required: =false
             Update: =DataCardValue28.Text
-            Width: =542
-            X: =0
+            Width: =474
+            X: =1
             Y: =3
             ZIndex: =7
 
@@ -629,17 +689,16 @@ Projekty2 As screen:
             MaxLength: =DataSourceInfo([@Projekty], DataSourceInfo.MaxLength, "field_11")
             Required: =false
             Update: =DataCardValue27.Text
-            Width: =542
+            Width: =474
             X: =1
             Y: =3
             ZIndex: =7
 
             DataCardKey27 As label:
                 Align: =Align.Center
-                AutoHeight: =true
                 Height: =33
                 Text: =Parent.DisplayName
-                Width: =416
+                Width: =282
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -648,9 +707,10 @@ Projekty2 As screen:
             DataCardValue27 As text:
                 Align: =Align.Center
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =If(Checkbox1.Value=true,"zakończony",If(IsBlank(DataCardValue22.Text),"czekam na zamówienie",IsBlank(DataCardValue23.Text),"czekam na budżet","w trakcie"))
+                Default: =If(Checkbox1.Value=true,"zakończony",Checkbox2.Value=true,"w trakcie",If(IsBlank(DataCardValue22.Text),"czekam na zamówienie",IsBlank(DataCardValue20.Text),"czekam na devis",IsBlank(DataCardValue21.Text),"czekam na ofertę",IsBlank(DataCardValue23.Text),"czekam na budżet","pola uzupełnione"))
                 DelayOutput: =true
                 DisplayMode: =DisplayMode.View
+                FontWeight: =FontWeight.Bold
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -658,7 +718,7 @@ Projekty2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =416
+                Width: =282
                 X: =30
                 Y: =DataCardKey27.Y + DataCardKey27.Height + 5
                 ZIndex: =2
@@ -690,15 +750,25 @@ Projekty2 As screen:
 
             Checkbox1 As checkbox:
                 BorderColor: =RGBA(0, 0, 0, 0)
-                Default: |-
-                    =
-                    If(Gallery1_4.Selected.stan="zakończony" && !IsBlank(DataCardValue17.Text),true,false)
+                Default: =If(Gallery1_4.Selected.stan="zakończony" && !IsBlank(DataCardValue17.Text),true,checkbox1val)
                 Height: =45
+                OnCheck: =Reset(Checkbox2)
                 Text: ="Zakończ"
                 Width: =136
-                X: =376
+                X: =314
                 Y: =43
                 ZIndex: =5
+
+            Checkbox2 As checkbox:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Default: =If(Gallery1_4.Selected.stan="w trakcie" && !IsBlank(DataCardValue17.Text),true,checkbox2val)
+                Height: =45
+                OnCheck: =
+                Text: ="W trakcie"
+                Width: =136
+                X: =314
+                Y: =10
+                ZIndex: =6
 
         uwagi_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
@@ -711,7 +781,7 @@ Projekty2 As screen:
             MaxLength: =DataSourceInfo([@Projekty], DataSourceInfo.MaxLength, "field_13")
             Required: =false
             Update: =DataCardValue29.Text
-            Width: =1084
+            Width: =948
             X: =0
             Y: =5
             ZIndex: =7
@@ -782,7 +852,7 @@ Projekty2 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue23.Text)
-            Width: =Form3.Width/5
+            Width: =189.6
             X: =0
             Y: =6
             ZIndex: =7
@@ -851,8 +921,8 @@ Projekty2 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue24.Text)
-            Width: =Form3.Width/5
-            X: =0
+            Width: =189.6
+            X: =1
             Y: =6
             ZIndex: =7
 
@@ -905,8 +975,8 @@ Projekty2 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue25.Text)
-            Width: =Form3.Width/5
-            X: =0
+            Width: =189.6
+            X: =2
             Y: =6
             ZIndex: =7
 
@@ -975,8 +1045,8 @@ Projekty2 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue26.Text)
-            Width: =Form3.Width/5
-            X: =0
+            Width: =189.6
+            X: =3
             Y: =6
             ZIndex: =7
 
@@ -1043,7 +1113,7 @@ Projekty2 As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =Form3.Width/5
+            Width: =189.6
             X: =4
             Y: =6
             ZIndex: =7
@@ -1082,8 +1152,8 @@ Projekty2 As screen:
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
         Height: =42
-        Width: =1019
-        X: =314
+        Width: =891
+        X: =442
         Y: =723
         ZIndex: =6
 
@@ -1091,7 +1161,7 @@ Projekty2 As screen:
         Fill: =If(Value(Label7.Text*100)<=10,RGBA(245, 39, 39, 0.8),Value(Label7.Text*100)<=25,RGBA(245, 127, 39, 0.8),Value(Label7.Text*100)<=50,RGBA(220, 217, 39, 0.8),RGBA(141, 198, 63, 1))
         Height: =42
         Width: =Rectangle1.Width * Value(DataCardValue26_1.Text, "el-FR")/Value(DataCardValue23.Text, "el-FR") * 100%
-        X: =314
+        X: =442
         Y: =723
         ZIndex: =7
 
@@ -1101,8 +1171,8 @@ Projekty2 As screen:
         Height: =42
         Text: |-
             =Text(Value(DataCardValue26_1.Text, "el-FR")/DataCardValue23*100,"#0.00%")
-        Width: =1019
-        X: =314
+        Width: =890
+        X: =442
         Y: =723
         ZIndex: =8
 
@@ -1131,7 +1201,7 @@ Projekty2 As screen:
         Icon: =Icon.Error
         Visible: =If(Value(Label7.Text,"el-FR")<0,true,false)
         Width: =36
-        X: =749
+        X: =813
         Y: =721
         ZIndex: =11
 
@@ -1142,7 +1212,7 @@ Projekty2 As screen:
         Icon: =Icon.Error
         Visible: =If(Value(Label7.Text,"el-FR")<0,true,false)
         Width: =36
-        X: =862
+        X: =926
         Y: =721
         ZIndex: =12
 
