@@ -74,7 +74,7 @@ Projekty2 As screen:
             PaddingTop: =0
             Text: =ThisItem.opis
             VerticalAlign: =VerticalAlign.Top
-            Width: =391
+            Width: =374
             Y: =80
             ZIndex: =6
 
@@ -1190,7 +1190,7 @@ Projekty2 As screen:
         OnSelect: =ClearCollect(szukaj_projekty,Filter(Projekty,StartsWith(site,TextInput1_1.Text) || StartsWith(app,TextInput1_1.Text)))
         Tooltip: ="Szukaj"
         Width: =42
-        X: =252
+        X: =380
         Y: =40
         ZIndex: =10
 
