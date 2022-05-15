@@ -1180,7 +1180,7 @@ Projekty2 As screen:
         Icon: =Icon.Search
         OnSelect: |
             =If(
-                !IsBlank(ComboBox1.SelectedItems) || !IsBlank(ComboBox1_1.SelectedItems) || !IsBlank(ComboBox1_2.SelectedItems),
+                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems),
                 ClearCollect(
                     szukaj_projekty,
                     Filter(
@@ -1416,6 +1416,7 @@ Projekty2 As screen:
         ZIndex: =39
 
     ComboBox1 As combobox:
+        DefaultSelectedItems: =
         DisplayFields: =["Result"]
         Items: =If(IsEmpty(szukaj_projekty),Distinct(Projekty,site).Result,Distinct(szukaj_projekty,site).Result)
         SearchFields: =["Result"]
@@ -1439,4 +1440,10 @@ Projekty2 As screen:
         SearchItems: =Search(Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result,ComboBox1_2.SearchText,"Result")
         X: =962
         ZIndex: =42
+
+    Label4 As label:
+        Text: =IsEmpty(ComboBox1.SelectedItems)
+        X: =1042
+        Y: =40
+        ZIndex: =43
 
