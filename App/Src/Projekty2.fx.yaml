@@ -1419,9 +1419,3 @@ Projekty2 As screen:
         Y: =40
         ZIndex: =42
 
-    Label4 As label:
-        Text: =IsEmpty(ComboBox1_1.SelectedItems)
-        X: =1042
-        Y: =40
-        ZIndex: =43
-

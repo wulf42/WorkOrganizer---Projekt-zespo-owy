@@ -268,7 +268,6 @@
     "Label2": 173,
     "Label2_1": 333,
     "Label3": 4,
-    "Label4": 449,
     "Label46": 21,
     "Label5": 143,
     "Label7": 438,
@@ -458,7 +457,7 @@
     "zostało_DataCard2": 418
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "05/15/2022 18:44:54",
+  "HeaderLastSavedDateTimeUTC": "05/15/2022 18:45:00",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "8de4f608-47a5-4df4-a94c-f3547a2ad071": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/a0ed8df9bee642c8b114d634e0086159\"",
@@ -853,7 +852,6 @@
     "Label2": 18,
     "Label2_1": 418,
     "Label3": 425,
-    "Label4": 177,
     "Label46": 113,
     "Label5": 31,
     "Label7": 271,
