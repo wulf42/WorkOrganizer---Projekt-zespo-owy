@@ -1207,8 +1207,8 @@ Projekty2 As screen:
             )
         Tooltip: ="Szukaj"
         Width: =42
-        X: =391
-        Y: =56
+        X: =389
+        Y: =49
         ZIndex: =10
 
     Icon4 As icon.Error:
@@ -1405,7 +1405,7 @@ Projekty2 As screen:
         SearchFields: =["Result"]
         SearchItems: =[]
         Width: =122
-        X: =96
+        X: =113
         ZIndex: =41
 
     ComboBox1_2 As combobox:
@@ -1416,6 +1416,36 @@ Projekty2 As screen:
         SearchFields: =["Result"]
         SearchItems: =Search(If(IsEmpty(szukaj_projekty),Filter(Distinct(Projekty,'P/T'),!IsBlank(Result)).Result,Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result),ComboBox1_2.SearchText,"Result")
         Width: =280
-        Y: =40
+        Y: =49
         ZIndex: =42
+
+    ComboBox1_3 As combobox:
+        InputTextPlaceholder: ="od"
+        IsSearchable: =false
+        Items: =Sequence(54)
+        NoSelectionText: ="od"
+        SearchItems: =[]
+        SelectMultiple: =false
+        Width: =76
+        X: =257
+        ZIndex: =43
+
+    ComboBox1_4 As combobox:
+        InputTextPlaceholder: ="do"
+        IsSearchable: =false
+        Items: =Sequence(54)
+        NoSelectionText: ="do"
+        SearchItems: =[]
+        SelectMultiple: =false
+        Width: =76
+        X: =355
+        ZIndex: =44
+
+    Dropdown2 As dropdown:
+        Default: =Year(varCurrentDate)
+        Items: =Sequence(100,2000,1)
+        Width: =100
+        X: =289
+        Y: =49
+        ZIndex: =45
 
