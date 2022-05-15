@@ -221,10 +221,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 145,
-                  "charOffset": 220,
+                  "charLength": 155,
+                  "charOffset": 292,
                   "snippet": {
-                    "text": "If(\r\n                !IsEmpty(ComboBox1.SelectedItems);\r\n                site in ComboBox1.SelectedItems;\r\n                site in Projekty.site)"
+                    "text": "If(\n                !IsEmpty(ComboBox1.SelectedItems);\n                site in ComboBox1.SelectedItems;\n                site in Projekty.site\n            )"
                   }
                 }
               },
@@ -262,7 +262,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 366,
+                  "charOffset": 448,
                   "snippet": {
                     "text": "&&"
                   }
@@ -302,7 +302,47 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 534,
+                  "charOffset": 608,
+                  "snippet": {
+                    "text": "&&"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Projekty2",
+                "type": "Projekty2.Icon3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 773,
                   "snippet": {
                     "text": "&&"
                   }
@@ -2612,19 +2652,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Dropdown2.AccessibleLabel"
+                  "fullyQualifiedName": "Projekty2.DatePicker1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Dropdown2.AccessibleLabel",
+                  "fullyQualifiedName": "Projekty2.DatePicker1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Projekty2",
-                "type": "Projekty2.Dropdown2"
+                "type": "Projekty2.DatePicker1_1"
               }
             }
           ],
@@ -2642,49 +2682,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_4.AccessibleLabel"
+                  "fullyQualifiedName": "Projekty2.DatePicker1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_4.AccessibleLabel",
+                  "fullyQualifiedName": "Projekty2.DatePicker1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Projekty2",
-                "type": "Projekty2.ComboBox1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.ComboBox1_3"
+                "type": "Projekty2.DatePicker1"
               }
             }
           ],

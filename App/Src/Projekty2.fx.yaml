@@ -81,16 +81,16 @@ Projekty2 As screen:
         Fill: =RGBA(54, 176, 75, 1)
         OnSelect: =NewForm(Form3)
         Text: ="Nowy"
-        X: =444
-        Y: =40
+        X: =442
+        Y: =56
         ZIndex: =2
 
     Button6_1 As button:
         OnSelect: |-
             =UpdateContext({show_popup_2:true})
         Text: ="Zapisz"
-        X: =850
-        Y: =40
+        X: =834
+        Y: =59
         ZIndex: =3
 
     Button7_1 As button:
@@ -98,8 +98,8 @@ Projekty2 As screen:
         OnSelect: |-
             =UpdateContext({show_popup:true})
         Text: ="Usuń"
-        X: =647
-        Y: =40
+        X: =638
+        Y: =59
         ZIndex: =4
 
     Form3 As form:
@@ -1178,9 +1178,9 @@ Projekty2 As screen:
     Icon3 As icon.Search:
         Height: =40
         Icon: =Icon.Search
-        OnSelect: |
+        OnSelect: |-
             =If(
-                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems),
+                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems) || !IsEmpty(DatePicker1.SelectedDate) || !IsEmpty(DatePicker1_1.SelectedDate),
                 ClearCollect(
                     szukaj_projekty,
                     Filter(
@@ -1188,15 +1188,19 @@ Projekty2 As screen:
                         If(
                             !IsEmpty(ComboBox1.SelectedItems),
                             site in ComboBox1.SelectedItems,
-                            site in Projekty.site) && 
-                            If(
+                            site in Projekty.site
+                        ) && If(
                             !IsEmpty(ComboBox1_1.SelectedItems),
                             app in ComboBox1_1.SelectedItems,
-                            app in Projekty.app) && 
-                            If(
+                            app in Projekty.app
+                        ) && If(
                             !IsEmpty(ComboBox1_2.SelectedItems),
                             'P/T' in ComboBox1_2.SelectedItems,
                             'P/T' in Projekty.'P/T'
+                        )&& If(
+                            !IsEmpty(DatePicker1.SelectedDate) && !IsEmpty(DatePicker1_1.SelectedDate),
+                            data >= DatePicker1.SelectedDate && data <= DatePicker1_1.SelectedDate,
+                            data in Projekty.data
                         )
                     )
                 ),
@@ -1415,37 +1419,18 @@ Projekty2 As screen:
         NoSelectionText: ="P/T"
         SearchFields: =["Result"]
         SearchItems: =Search(If(IsEmpty(szukaj_projekty),Filter(Distinct(Projekty,'P/T'),!IsBlank(Result)).Result,Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result),ComboBox1_2.SearchText,"Result")
-        Width: =280
+        Width: =376
         Y: =49
         ZIndex: =42
 
-    ComboBox1_3 As combobox:
-        InputTextPlaceholder: ="od"
-        IsSearchable: =false
-        Items: =Sequence(54)
-        NoSelectionText: ="od"
-        SearchItems: =[]
-        SelectMultiple: =false
-        Width: =76
-        X: =257
-        ZIndex: =43
+    DatePicker1 As datepicker:
+        Width: =149
+        X: =249
+        ZIndex: =46
 
-    ComboBox1_4 As combobox:
-        InputTextPlaceholder: ="do"
-        IsSearchable: =false
-        Items: =Sequence(54)
-        NoSelectionText: ="do"
-        SearchItems: =[]
-        SelectMultiple: =false
-        Width: =76
-        X: =355
-        ZIndex: =44
-
-    Dropdown2 As dropdown:
-        Default: =Year(varCurrentDate)
-        Items: =Sequence(100,2000,1)
-        Width: =100
-        X: =289
-        Y: =49
-        ZIndex: =45
+    DatePicker1_1 As datepicker:
+        DefaultDate: =Date(Year(varCurrentDate),12,31)
+        Width: =149
+        X: =398
+        ZIndex: =47
 
