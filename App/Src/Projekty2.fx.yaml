@@ -80,37 +80,15 @@ Projekty2 As screen:
             Y: =80
             ZIndex: =6
 
-    Button2_2 As button:
-        Fill: =RGBA(54, 176, 75, 1)
-        OnSelect: =NewForm(Form3)
-        Text: ="Nowy"
-        X: =781
-        ZIndex: =2
-
-    Button6_1 As button:
-        OnSelect: |-
-            =UpdateContext({show_popup_2:true})
-        Text: ="Zapisz"
-        X: =1173
-        ZIndex: =3
-
-    Button7_1 As button:
-        Fill: =RGBA(168, 0, 0, 1)
-        OnSelect: |-
-            =UpdateContext({show_popup:true})
-        Text: ="Usuń"
-        X: =977
-        ZIndex: =4
-
     Form3 As form:
         AcceptsFocus: =false
         DataSource: =Projekty
-        Height: =669
+        Height: =679
         Item: =Gallery1_4.Selected
         NumberOfColumns: =2
         Width: =948
         X: =413
-        Y: =99
+        Y: =89
         ZIndex: =5
 
         data_DataCard1 As typedDataCard.dateEditCard:
@@ -1447,6 +1425,78 @@ Projekty2 As screen:
             X: =511
             Y: =309
             ZIndex: =25
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =33
+
+        Button2_2 As button:
+            AutoDisableOnSelect: =false
+            Fill: =RGBA(54, 176, 75, 1)
+            OnSelect: =NewForm(Form3)
+            Text: ="    Nowy"
+            Width: =129
+            X: =941
+            ZIndex: =2
+
+        Icon5 As icon.Add:
+            AutoDisableOnSelect: =false
+            DisplayMode: =DisplayMode.Disabled
+            Height: =40
+            Icon: =Icon.Add
+            Width: =49
+            X: =940
+            ZIndex: =30
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =33
+
+        Button7_1 As button:
+            Fill: =RGBA(168, 0, 0, 1)
+            OnSelect: |-
+                =UpdateContext({show_popup:true})
+            Text: ="   Usuń"
+            Width: =128
+            X: =1087
+            ZIndex: =4
+
+        Icon6 As icon.Trash:
+            DisplayMode: =DisplayMode.Disabled
+            Height: =40
+            Icon: =Icon.Trash
+            Width: =49
+            X: =1086
+            ZIndex: =31
+
+    Group3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =33
+
+        Button6_1 As button:
+            OnSelect: |-
+                =UpdateContext({show_popup_2:true})
+            Text: ="     Zapisz"
+            Width: =128
+            X: =1233
+            ZIndex: =3
+
+        Icon7 As icon.Save:
+            DisplayMode: =DisplayMode.Disabled
+            Height: =40
+            Icon: =Icon.Save
+            Width: =49
+            X: =1233
+            ZIndex: =32
 
     group_popup_3 As group:
         Height: =5
