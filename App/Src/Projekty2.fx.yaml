@@ -1178,25 +1178,25 @@ Projekty2 As screen:
     Icon3 As icon.Search:
         Height: =40
         Icon: =Icon.Search
-        OnSelect: |-
+        OnSelect: |
             =If(
-                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems),
+                !IsBlank(ComboBox1.SelectedItems) || !IsBlank(ComboBox1_1.SelectedItems) || !IsBlank(ComboBox1_2.SelectedItems),
                 ClearCollect(
                     szukaj_projekty,
                     Filter(
                         Projekty,
-                        site in If(
-                            !IsEmpty(ComboBox1.SelectedItems.site),
-                            ComboBox1.SelectedItems.site,
-                            Projekty.site
-                        ) && app in If(
-                            !IsEmpty(ComboBox1_1.SelectedItems.app),
-                            ComboBox1_1.SelectedItems.app,
-                            Projekty.app
-                        ) && 'P/T' in If(
-                            !IsEmpty(ComboBox1_2.SelectedItems.'P/T'),
-                            ComboBox1_2.SelectedItems.'P/T',
-                            Projekty.'P/T'
+                        If(
+                            !IsBlank(ComboBox1.SelectedItems),
+                            site in ComboBox1.SelectedItems,
+                            site in Projekty.site) && 
+                            If(
+                            !IsBlank(ComboBox1_1.SelectedItems),
+                            app in ComboBox1_1.SelectedItems,
+                            app in Projekty.app) && 
+                            If(
+                            !IsBlank(ComboBox1_2.SelectedItems),
+                            'P/T' in ComboBox1_2.SelectedItems,
+                            'P/T' in Projekty.'P/T'
                         )
                     )
                 ),
@@ -1385,69 +1385,58 @@ Projekty2 As screen:
             Y: =309
             ZIndex: =21
 
-    DataCardValue2_1 As datepicker:
-        BorderColor: =
-        DefaultDate: =
-        DisplayMode: =
-        EndYear: =Year(Today())+100
-        InputTextPlaceholder: ="data od"
-        IsEditable: =true
-        PaddingBottom: =0
-        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-        StartYear: =1899
-        Tooltip: =
-        Width: =165
-        X: =14
-        Y: =56
-        ZIndex: =27
+    Dropdown1 As dropdown:
+        AllowEmptySelection: =true
+        Height: =39
+        Items: =Distinct(szukaj_projekty,site).Result
+        OnChange: =Select(Icon3)
+        Tooltip: =Gallery1_4.Selected.site
+        Width: =98
+        ZIndex: =37
 
-    DataCardValue2_2 As datepicker:
-        BorderColor: =
-        DefaultDate: =
-        DisplayMode: =
-        EndYear: =Year(Today())+100
-        InputTextPlaceholder: ="data do"
-        IsEditable: =true
-        PaddingBottom: =0
-        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-        StartYear: =1899
-        Tooltip: =
-        Width: =165
-        X: =213
+    Dropdown1_1 As dropdown:
+        AllowEmptySelection: =true
+        Height: =39
+        Items: =Distinct(szukaj_projekty,app).Result
+        OnChange: =Select(Icon3)
+        Tooltip: =Gallery1_4.Selected.app
+        Width: =98
+        X: =115
+        Y: =1
+        ZIndex: =38
+
+    Dropdown1_2 As dropdown:
+        AllowEmptySelection: =true
+        Height: =39
+        Items: =Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result
+        OnChange: =Select(Icon3)
+        Tooltip: =Gallery1_4.Selected.'P/T'
+        Width: =310
         Y: =56
-        ZIndex: =28
+        ZIndex: =39
 
     ComboBox1 As combobox:
-        DisplayFields: =["Title"]
-        Height: =36
-        InputTextPlaceholder: ="site"
-        Items: =If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty)
-        OnChange: =Select(Icon3)
-        SearchFields: =["Title"]
-        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty),ComboBox1.SearchText,"Title")
-        Width: =98
-        ZIndex: =34
+        DisplayFields: =["Result"]
+        Items: =If(IsEmpty(szukaj_projekty),Distinct(Projekty,site).Result,Distinct(szukaj_projekty,site).Result)
+        SearchFields: =["Result"]
+        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Distinct(Projekty,site).Result,Distinct(szukaj_projekty,site).Result),ComboBox1.SearchText,"Result")
+        X: =236
+        ZIndex: =40
 
     ComboBox1_1 As combobox:
-        DisplayFields: =["field_1"]
-        Height: =36
-        InputTextPlaceholder: ="app"
-        Items: =If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty)
-        OnChange: =Select(Icon3)
-        SearchFields: =["field_1"]
-        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty),ComboBox1_1.SearchText,"field_1")
-        Width: =98
-        X: =118
-        ZIndex: =35
+        DisplayFields: =["Result"]
+        IsSearchable: =false
+        Items: =If(IsEmpty(szukaj_projekty),Distinct(Projekty,app).Result,Distinct(szukaj_projekty,app).Result)
+        SearchFields: =["Result"]
+        SearchItems: =[]
+        X: =598
+        ZIndex: =41
 
     ComboBox1_2 As combobox:
-        DisplayFields: =["field_12"]
-        InputTextPlaceholder: ="P/T"
-        Items: =If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty)
-        OnChange: =Select(Icon3)
-        SearchFields: =["field_12"]
-        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty),ComboBox1_2.SearchText,"field_12")
-        Width: =195
-        X: =236
-        ZIndex: =36
+        DisplayFields: =["Result"]
+        Items: =Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result
+        SearchFields: =["Result"]
+        SearchItems: =Search(Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result,ComboBox1_2.SearchText,"Result")
+        X: =962
+        ZIndex: =42
 
