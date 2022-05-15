@@ -1185,17 +1185,17 @@ Projekty2 As screen:
                     szukaj_projekty,
                     Filter(
                         Projekty,
-                         site in If(
-                         !IsEmpty(ComboBox1.SelectedItems),
-                            ComboBox1.SelectedItems,
+                        site in If(
+                            !IsEmpty(ComboBox1.SelectedItems.site),
+                            ComboBox1.SelectedItems.site,
                             Projekty.site
                         ) && app in If(
-                            !IsEmpty(ComboBox1_1.SelectedItems),
-                            ComboBox1_1.SelectedItems,
+                            !IsEmpty(ComboBox1_1.SelectedItems.app),
+                            ComboBox1_1.SelectedItems.app,
                             Projekty.app
                         ) && 'P/T' in If(
-                            !IsEmpty(ComboBox1_2.SelectedItems),
-                            ComboBox1_2.SelectedItems,
+                            !IsEmpty(ComboBox1_2.SelectedItems.'P/T'),
+                            ComboBox1_2.SelectedItems.'P/T',
                             Projekty.'P/T'
                         )
                     )
@@ -1421,9 +1421,10 @@ Projekty2 As screen:
         DisplayFields: =["Title"]
         Height: =36
         InputTextPlaceholder: ="site"
-        Items: =If(IsEmpty(szukaj_projekty),Projekty.site,szukaj_projekty.site)
+        Items: =If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty)
+        OnChange: =Select(Icon3)
         SearchFields: =["Title"]
-        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Projekty.site,szukaj_projekty.site),ComboBox1.SearchText,"Title")
+        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty),ComboBox1.SearchText,"Title")
         Width: =98
         ZIndex: =34
 
@@ -1431,22 +1432,22 @@ Projekty2 As screen:
         DisplayFields: =["field_1"]
         Height: =36
         InputTextPlaceholder: ="app"
-        Items: =If(IsEmpty(szukaj_projekty),Projekty.app,szukaj_projekty.app)
+        Items: =If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty)
+        OnChange: =Select(Icon3)
         SearchFields: =["field_1"]
-        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Projekty.app,szukaj_projekty.app),ComboBox1_1.SearchText,"field_1")
+        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty),ComboBox1_1.SearchText,"field_1")
         Width: =98
         X: =118
         ZIndex: =35
 
     ComboBox1_2 As combobox:
         DisplayFields: =["field_12"]
-        Height: =36
         InputTextPlaceholder: ="P/T"
-        IsSearchable: =false
-        Items: =If(IsEmpty(szukaj_projekty),Projekty.'P/T',szukaj_projekty.'P/T')
+        Items: =If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty)
+        OnChange: =Select(Icon3)
         SearchFields: =["field_12"]
-        SearchItems: =[]
-        Width: =193
-        X: =234
+        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Projekty,szukaj_projekty),ComboBox1_2.SearchText,"field_12")
+        Width: =195
+        X: =236
         ZIndex: =36
 
