@@ -2,9 +2,13 @@ Projekty2 As screen:
     OnVisible: =Select(Icon3)
 
     "Gallery1_4 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
+        DisplayMode: =Edit
         Height: =610
         Items: =szukaj_projekty
         Layout: =Layout.Vertical
+        OnSelect: |-
+            =If(Form3.Unsaved,UpdateContext({show_popup_3:true}),false)
+        Selectable: =If(Form3.Unsaved,false,true)
         TemplateFill: =If(ThisItem.IsSelected,RGBA(179,232,250,0.8),RGBA(0, 0, 0, 0))
         TemplatePadding: =0
         TemplateSize: =145
@@ -81,7 +85,6 @@ Projekty2 As screen:
         OnSelect: =NewForm(Form3)
         Text: ="Nowy"
         X: =781
-        Y: =23
         ZIndex: =2
 
     Button6_1 As button:
@@ -89,7 +92,6 @@ Projekty2 As screen:
             =UpdateContext({show_popup_2:true})
         Text: ="Zapisz"
         X: =1173
-        Y: =26
         ZIndex: =3
 
     Button7_1 As button:
@@ -98,7 +100,6 @@ Projekty2 As screen:
             =UpdateContext({show_popup:true})
         Text: ="Usuń"
         X: =977
-        Y: =26
         ZIndex: =4
 
     Form3 As form:
@@ -748,7 +749,7 @@ Projekty2 As screen:
 
             Checkbox1 As checkbox:
                 BorderColor: =RGBA(0, 0, 0, 0)
-                Default: =If(Gallery1_4.Selected.stan="zakończony" && !IsBlank(DataCardValue17.Text),true,checkbox1val)
+                Default: =If(Gallery1_4.Selected.stan="zakończony" && !IsBlank(DataCardValue17.Text),true,false)
                 Height: =45
                 OnCheck: =Reset(Checkbox2)
                 Text: ="Zakończ"
@@ -759,7 +760,7 @@ Projekty2 As screen:
 
             Checkbox2 As checkbox:
                 BorderColor: =RGBA(0, 0, 0, 0)
-                Default: =If(Gallery1_4.Selected.stan="w trakcie" && !IsBlank(DataCardValue17.Text),true,checkbox2val)
+                Default: =If(Gallery1_4.Selected.stan="w trakcie" && !IsBlank(DataCardValue17.Text),true,false)
                 Height: =45
                 OnCheck: =
                 Text: ="W trakcie"
@@ -1214,7 +1215,7 @@ Projekty2 As screen:
         Width: =42
         X: =389
         Y: =49
-        ZIndex: =10
+        ZIndex: =9
 
     Icon4 As icon.Error:
         Color: =RGBA(168, 0, 0, 1)
@@ -1225,7 +1226,7 @@ Projekty2 As screen:
         Width: =36
         X: =813
         Y: =721
-        ZIndex: =11
+        ZIndex: =10
 
     Icon4_1 As icon.Error:
         Color: =RGBA(168, 0, 0, 1)
@@ -1236,7 +1237,64 @@ Projekty2 As screen:
         Width: =36
         X: =926
         Y: =721
+        ZIndex: =11
+
+    ComboBox1 As combobox:
+        DefaultSelectedItems: =
+        DisplayFields: =["Result"]
+        InputTextPlaceholder: ="site"
+        Items: =If(IsEmpty(szukaj_projekty),Distinct(Projekty,site).Result,Distinct(szukaj_projekty,site).Result)
+        NoSelectionText: ="site"
+        SearchFields: =["Result"]
+        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Distinct(Projekty,site).Result,Distinct(szukaj_projekty,site).Result),ComboBox1.SearchText,"Result")
+        Width: =96
         ZIndex: =12
+
+    ComboBox1_1 As combobox:
+        DisplayFields: =["Result"]
+        InputTextPlaceholder: ="app"
+        IsSearchable: =false
+        Items: =If(IsEmpty(szukaj_projekty),Distinct(Projekty,app).Result,Distinct(szukaj_projekty,app).Result)
+        NoSelectionText: ="app"
+        SearchFields: =["Result"]
+        SearchItems: =[]
+        Width: =122
+        X: =113
+        ZIndex: =13
+
+    ComboBox1_2 As combobox:
+        DisplayFields: =["Result"]
+        InputTextPlaceholder: ="P/T"
+        Items: =If(IsEmpty(szukaj_projekty),Filter(Distinct(Projekty,'P/T'),!IsBlank(Result)).Result,Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result)
+        NoSelectionText: ="P/T"
+        SearchFields: =["Result"]
+        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Filter(Distinct(Projekty,'P/T'),!IsBlank(Result)).Result,Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result),ComboBox1_2.SearchText,"Result")
+        Width: =376
+        Y: =49
+        ZIndex: =14
+
+    DatePicker1 As datepicker:
+        IsEditable: =true
+        Width: =149
+        X: =249
+        ZIndex: =15
+
+    DatePicker1_1 As datepicker:
+        DefaultDate: =Date(Year(varCurrentDate),12,31)
+        IsEditable: =true
+        Width: =149
+        X: =408
+        ZIndex: =16
+
+    Label6_1 As label:
+        Color: =RGBA(168, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =22
+        Text: =If(Form3.Unsaved,"Niezapisane zmiany!","")
+        Width: =315
+        X: =442
+        Y: =49
+        ZIndex: =17
 
     group_popup As group:
         Height: =5
@@ -1253,7 +1311,7 @@ Projekty2 As screen:
             OnSelect: =
             Visible: =show_popup
             Width: =Projekty2.Width
-            ZIndex: =13
+            ZIndex: =18
 
         Label1 As label:
             Align: =Align.Center
@@ -1273,7 +1331,7 @@ Projekty2 As screen:
             Width: =925
             X: =332
             Y: =145
-            ZIndex: =14
+            ZIndex: =19
 
         Button5_1 As button:
             Fill: =RGBA(168, 0, 0, 1)
@@ -1286,7 +1344,7 @@ Projekty2 As screen:
             Width: =208
             X: =834
             Y: =309
-            ZIndex: =16
+            ZIndex: =20
 
         Button5_2 As button:
             Fill: =RGBA(54, 176, 75, 1)
@@ -1311,7 +1369,7 @@ Projekty2 As screen:
             Width: =208
             X: =511
             Y: =309
-            ZIndex: =17
+            ZIndex: =21
 
     group_popup_2 As group:
         Height: =5
@@ -1328,7 +1386,7 @@ Projekty2 As screen:
             OnSelect: =
             Visible: =show_popup_2
             Width: =Projekty2.Width
-            ZIndex: =18
+            ZIndex: =22
 
         Label1_1 As label:
             Align: =Align.Center
@@ -1348,7 +1406,7 @@ Projekty2 As screen:
             Width: =925
             X: =332
             Y: =145
-            ZIndex: =19
+            ZIndex: =23
 
         Button5_4 As button:
             Fill: =RGBA(168, 0, 0, 1)
@@ -1361,7 +1419,7 @@ Projekty2 As screen:
             Width: =208
             X: =834
             Y: =309
-            ZIndex: =20
+            ZIndex: =24
 
         Button5_3 As button:
             Fill: =RGBA(54, 176, 75, 1)
@@ -1388,52 +1446,81 @@ Projekty2 As screen:
             Width: =208
             X: =511
             Y: =309
-            ZIndex: =21
+            ZIndex: =25
 
-    ComboBox1 As combobox:
-        DefaultSelectedItems: =
-        DisplayFields: =["Result"]
-        InputTextPlaceholder: ="site"
-        Items: =If(IsEmpty(szukaj_projekty),Distinct(Projekty,site).Result,Distinct(szukaj_projekty,site).Result)
-        NoSelectionText: ="site"
-        SearchFields: =["Result"]
-        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Distinct(Projekty,site).Result,Distinct(szukaj_projekty,site).Result),ComboBox1.SearchText,"Result")
-        Width: =96
-        ZIndex: =40
+    group_popup_3 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =54
 
-    ComboBox1_1 As combobox:
-        DisplayFields: =["Result"]
-        InputTextPlaceholder: ="app"
-        IsSearchable: =false
-        Items: =If(IsEmpty(szukaj_projekty),Distinct(Projekty,app).Result,Distinct(szukaj_projekty,app).Result)
-        NoSelectionText: ="app"
-        SearchFields: =["Result"]
-        SearchItems: =[]
-        Width: =122
-        X: =113
-        ZIndex: =41
+        Rectangle3_2 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1
+            Fill: =RGBA(255, 255, 255, 0.7)
+            Height: =Projekty2.Height
+            OnSelect: =
+            Visible: =show_popup_3
+            Width: =Projekty2.Width
+            ZIndex: =26
 
-    ComboBox1_2 As combobox:
-        DisplayFields: =["Result"]
-        InputTextPlaceholder: ="P/T"
-        Items: =If(IsEmpty(szukaj_projekty),Filter(Distinct(Projekty,'P/T'),!IsBlank(Result)).Result,Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result)
-        NoSelectionText: ="P/T"
-        SearchFields: =["Result"]
-        SearchItems: =Search(If(IsEmpty(szukaj_projekty),Filter(Distinct(Projekty,'P/T'),!IsBlank(Result)).Result,Filter(Distinct(szukaj_projekty,'P/T'),!IsBlank(Result)).Result),ComboBox1_2.SearchText,"Result")
-        Width: =376
-        Y: =49
-        ZIndex: =42
+        Label1_2 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =1
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Font: =Font.Arial
+            Height: =262
+            Overflow: =Overflow.Scroll
+            Size: =32
+            Text: ="Zmiany nie zostały zapisane, czy chcesz zapisać projekt?"
+            VerticalAlign: =VerticalAlign.Top
+            Visible: =show_popup_3
+            Width: =925
+            X: =332
+            Y: =145
+            ZIndex: =27
 
-    DatePicker1 As datepicker:
-        IsEditable: =true
-        Width: =149
-        X: =249
-        ZIndex: =46
+        Button5_6 As button:
+            Fill: =RGBA(168, 0, 0, 1)
+            Height: =60
+            OnSelect: |-
+                =UpdateContext({show_popup_3:false});
+                ResetForm(Form3)
+            Size: =22
+            Text: ="Nie"
+            Visible: =show_popup_3
+            Width: =208
+            X: =834
+            Y: =309
+            ZIndex: =28
 
-    DatePicker1_1 As datepicker:
-        DefaultDate: =Date(Year(varCurrentDate),12,31)
-        IsEditable: =true
-        Width: =149
-        X: =398
-        ZIndex: =47
+        Button5_5 As button:
+            Fill: =RGBA(54, 176, 75, 1)
+            Height: =60
+            OnSelect: |-
+                =UpdateContext({show_popup_3:false})
+                ;
+                If(!IsBlank(DataCardValue17),SubmitForm(Form3);
+                Notify(
+                        "Pomyślnie zapisano projekt",
+                        NotificationType.Success,
+                        2000
+                    ),
+                Notify(
+                        "Wypełnij wymagane pola",
+                        NotificationType.Error,
+                        2000
+                    ))
+                ;
+                Select(Icon3)
+            Size: =22
+            Text: ="Tak"
+            Visible: =show_popup_3
+            Width: =208
+            X: =511
+            Y: =309
+            ZIndex: =29
 

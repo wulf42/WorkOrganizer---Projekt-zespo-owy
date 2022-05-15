@@ -12,7 +12,6 @@ App As appinfo:
             {Value: "Dodawanie ankiet", Icon: Icon.Add, Screen: 'Dodawanie Ankiet'},
             {Value: "Wypełnianie ankiet", Icon: Icon.Check, Screen: 'Wypełnianie Ankiet'}
           )
-        ) +
-        Set(checkbox1val,false) + Set(checkbox2val,false)
+        )
     StartScreen: ='Strona główna'
 
