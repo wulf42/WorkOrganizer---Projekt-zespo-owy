@@ -5,7 +5,6 @@ Projekty2 As screen:
         Height: =610
         Items: =szukaj_projekty
         Layout: =Layout.Vertical
-        OnSelect: =ResetForm(Form3)
         TemplateFill: =If(ThisItem.IsSelected,RGBA(179,232,250,0.8),RGBA(0, 0, 0, 0))
         TemplatePadding: =0
         TemplateSize: =145
@@ -81,16 +80,16 @@ Projekty2 As screen:
         Fill: =RGBA(54, 176, 75, 1)
         OnSelect: =NewForm(Form3)
         Text: ="Nowy"
-        X: =442
-        Y: =56
+        X: =781
+        Y: =23
         ZIndex: =2
 
     Button6_1 As button:
         OnSelect: |-
             =UpdateContext({show_popup_2:true})
         Text: ="Zapisz"
-        X: =834
-        Y: =59
+        X: =1173
+        Y: =26
         ZIndex: =3
 
     Button7_1 As button:
@@ -98,8 +97,8 @@ Projekty2 As screen:
         OnSelect: |-
             =UpdateContext({show_popup:true})
         Text: ="Usuń"
-        X: =638
-        Y: =59
+        X: =977
+        Y: =26
         ZIndex: =4
 
     Form3 As form:
@@ -1180,7 +1179,7 @@ Projekty2 As screen:
         Icon: =Icon.Search
         OnSelect: |-
             =If(
-                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems) || !IsEmpty(DatePicker1.SelectedDate) || !IsEmpty(DatePicker1_1.SelectedDate),
+                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems) || !IsBlank(DatePicker1.SelectedDate) || !IsBlank(DatePicker1_1.SelectedDate),
                 ClearCollect(
                     szukaj_projekty,
                     Filter(
@@ -1197,9 +1196,11 @@ Projekty2 As screen:
                             !IsEmpty(ComboBox1_2.SelectedItems),
                             'P/T' in ComboBox1_2.SelectedItems,
                             'P/T' in Projekty.'P/T'
-                        )&& If(
-                            !IsEmpty(DatePicker1.SelectedDate) && !IsEmpty(DatePicker1_1.SelectedDate),
+                        ) && If(
+                            !IsBlank(DatePicker1.SelectedDate) && !IsBlank(DatePicker1_1.SelectedDate),
                             data >= DatePicker1.SelectedDate && data <= DatePicker1_1.SelectedDate,
+                            IsBlank(DatePicker1.SelectedDate) || IsBlank(DatePicker1_1.SelectedDate),
+                            data in Projekty.data,
                             data in Projekty.data
                         )
                     )
@@ -1424,12 +1425,14 @@ Projekty2 As screen:
         ZIndex: =42
 
     DatePicker1 As datepicker:
+        IsEditable: =true
         Width: =149
         X: =249
         ZIndex: =46
 
     DatePicker1_1 As datepicker:
         DefaultDate: =Date(Year(varCurrentDate),12,31)
+        IsEditable: =true
         Width: =149
         X: =398
         ZIndex: =47
