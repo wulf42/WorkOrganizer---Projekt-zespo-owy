@@ -9,8 +9,7 @@ Projekty2 As screen:
         TemplateFill: =If(ThisItem.IsSelected,RGBA(179,232,250,0.8),RGBA(0, 0, 0, 0))
         TemplatePadding: =0
         TemplateSize: =145
-        Width: =391
-        X: =40
+        Width: =431
         Y: =113
         ZIndex: =1
 
@@ -60,7 +59,7 @@ Projekty2 As screen:
             PaddingTop: =0
             Text: =ThisItem.data
             Width: =139
-            X: =235
+            X: =274
             Y: =9
             ZIndex: =5
 
@@ -74,7 +73,7 @@ Projekty2 As screen:
             PaddingTop: =0
             Text: =ThisItem.opis
             VerticalAlign: =VerticalAlign.Top
-            Width: =374
+            Width: =413
             Y: =80
             ZIndex: =6
 
@@ -1176,22 +1175,40 @@ Projekty2 As screen:
         Y: =723
         ZIndex: =8
 
-    TextInput1_1 As text:
-        Default: =
-        HintText: ="Szukaj projektu..."
-        Width: =212
-        X: =40
-        Y: =40
-        ZIndex: =9
-
     Icon3 As icon.Search:
         Height: =40
         Icon: =Icon.Search
-        OnSelect: =ClearCollect(szukaj_projekty,Filter(Projekty,StartsWith(site,TextInput1_1.Text) || StartsWith(app,TextInput1_1.Text)))
+        OnSelect: |-
+            =If(
+                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems),
+                ClearCollect(
+                    szukaj_projekty,
+                    Filter(
+                        Projekty,
+                         site in If(
+                         !IsEmpty(ComboBox1.SelectedItems.site),
+                            ComboBox1.SelectedItems.site,
+                            Projekty.site
+                        ) && app in If(
+                            !IsEmpty(ComboBox1_1.SelectedItems.app),
+                            ComboBox1_1.SelectedItems.app,
+                            Projekty.app
+                        ) && 'P/T' in If(
+                            !IsEmpty(ComboBox1_2.SelectedItems.'P/T'),
+                            ComboBox1_2.SelectedItems.'P/T',
+                            Projekty.'P/T'
+                        )
+                    )
+                ),
+                ClearCollect(
+                    szukaj_projekty,
+                    Projekty
+                )
+            )
         Tooltip: ="Szukaj"
         Width: =42
-        X: =380
-        Y: =40
+        X: =391
+        Y: =56
         ZIndex: =10
 
     Icon4 As icon.Error:
@@ -1291,6 +1308,19 @@ Projekty2 As screen:
             Y: =309
             ZIndex: =17
 
+    ComboBox1 As combobox:
+        DisplayFields: =["Result"]
+        Height: =39
+        InputTextPlaceholder: ="site"
+        IsSearchable: =false
+        Items: =Distinct(szukaj_projekty,site)
+        OnChange: =Select(Icon3)
+        SearchFields: =["Result"]
+        SearchItems: =[]
+        Size: =10
+        Width: =98
+        ZIndex: =22
+
     group_popup_2 As group:
         Height: =5
         Width: =5
@@ -1367,4 +1397,63 @@ Projekty2 As screen:
             X: =511
             Y: =309
             ZIndex: =21
+
+    ComboBox1_1 As combobox:
+        DisplayFields: =["Result"]
+        Height: =39
+        InputTextPlaceholder: ="app"
+        Items: =Distinct(szukaj_projekty,app)
+        OnChange: =Select(Icon3)
+        SearchFields: =["Result"]
+        SearchItems: =Search(Distinct(szukaj_projekty,app),ComboBox1_1.SearchText,"Result")
+        Size: =10
+        Width: =98
+        X: =119
+        ZIndex: =23
+
+    ComboBox1_2 As combobox:
+        DisplayFields: =["Result"]
+        Height: =39
+        InputTextPlaceholder: ="P/T"
+        Items: =Distinct(szukaj_projekty,'P/T')
+        OnChange: =Select(Icon3)
+        SearchFields: =["Result"]
+        SearchItems: =Search(Distinct(szukaj_projekty,'P/T'),ComboBox1_2.SearchText,"Result")
+        Size: =10
+        Width: =195
+        X: =236
+        Y: =1
+        ZIndex: =24
+
+    DataCardValue2_1 As datepicker:
+        BorderColor: =
+        DefaultDate: =
+        DisplayMode: =
+        EndYear: =Year(Today())+100
+        InputTextPlaceholder: ="data od"
+        IsEditable: =true
+        PaddingBottom: =0
+        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+        StartYear: =1899
+        Tooltip: =
+        Width: =165
+        X: =14
+        Y: =56
+        ZIndex: =27
+
+    DataCardValue2_2 As datepicker:
+        BorderColor: =
+        DefaultDate: =
+        DisplayMode: =
+        EndYear: =Year(Today())+100
+        InputTextPlaceholder: ="data do"
+        IsEditable: =true
+        PaddingBottom: =0
+        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+        StartYear: =1899
+        Tooltip: =
+        Width: =165
+        X: =213
+        Y: =56
+        ZIndex: =28
 
