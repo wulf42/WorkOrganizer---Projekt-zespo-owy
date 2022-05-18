@@ -1,4 +1,5 @@
 "Projekt As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+    OnVisible: =
 
     ScreenContainer2 As groupContainer.verticalAutoLayoutContainer:
         Height: =652
@@ -10,12 +11,10 @@
         Y: =115
         ZIndex: =2
 
-    SideBar_2 As SideBar:
-        Height: =668
+    SideBar_2 As NavBar:
         Pola: |
             =sideBarData
-        Visible: =SideBar.IsVisible
-        Y: =100
+        Visible: =true
         ZIndex: =27
 
     Interfejs_2_stary As group:
@@ -298,9 +297,6 @@
             X: =90
             Y: =22
             ZIndex: =26
-
-    TopBar_2 As TopBar:
-        ZIndex: =28
 
     Container6 As groupContainer.manualLayoutContainer:
         Height: =668

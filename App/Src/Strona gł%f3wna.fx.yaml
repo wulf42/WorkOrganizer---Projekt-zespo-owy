@@ -1,4 +1,5 @@
 "'Strona główna' As screen":
+    OnVisible: =
 
     Label2 As label:
         Height: =71
@@ -8,12 +9,9 @@
         Y: =296
         ZIndex: =2
 
-    SideBar_1 As SideBar:
-        Height: =668
+    SideBar_1 As NavBar:
         Pola: =sideBarData
-        Visible: =SideBar.IsVisible
-        Width: =250
-        Y: =100
+        Visible: =true
         ZIndex: =33
 
     Interfejs_1_stary As group:
@@ -296,7 +294,4 @@
             X: =90
             Y: =22
             ZIndex: =32
-
-    TopBar_1 As TopBar:
-        ZIndex: =34
 

@@ -11,10 +11,9 @@
         Y: =100
         ZIndex: =1
 
-    SideBar_3 As SideBar:
+    SideBar_3 As NavBar:
         Pola: =sideBarData
-        Visible: =SideBar.IsVisible
-        Y: =100
+        Visible: =true
         ZIndex: =26
 
     Interfejs_3_stary As group:
@@ -297,9 +296,6 @@
             X: =90
             Y: =22
             ZIndex: =25
-
-    TopBar_3 As TopBar:
-        ZIndex: =27
 
     Button3 As button:
         OnSelect: =ClearCollect(rejestr_osob,Filter(Tabela5,Osoba in ComboBox2.SelectedItems))

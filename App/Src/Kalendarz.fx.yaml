@@ -1,4 +1,5 @@
 Kalendarz As screen:
+    OnVisible: =
 
     Container1 As groupContainer.manualLayoutContainer:
         Height: =668
@@ -108,12 +109,8 @@ Kalendarz As screen:
             Y: =16
             ZIndex: =6
 
-    TopBar_5 As TopBar:
-        ZIndex: =7
-
-    SideBar_5 As SideBar:
+    SideBar_5 As NavBar:
         Pola: =sideBarData
-        Visible: =SideBar.IsVisible
-        Y: =100
+        Visible: =true
         ZIndex: =8
 

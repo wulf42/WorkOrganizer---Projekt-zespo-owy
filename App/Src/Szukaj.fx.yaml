@@ -1,4 +1,5 @@
 Szukaj As screen:
+    OnVisible: =
 
     Container3 As groupContainer.manualLayoutContainer:
         Height: =668
@@ -90,12 +91,8 @@ Szukaj As screen:
             Y: =26
             ZIndex: =2
 
-    SideBar_4 As SideBar:
+    SideBar_4 As NavBar:
         Pola: =sideBarData
-        Visible: =SideBar.IsVisible
-        Y: =100
+        Visible: =true
         ZIndex: =5
-
-    TopBar_4 As TopBar:
-        ZIndex: =6
 

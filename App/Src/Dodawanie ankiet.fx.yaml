@@ -1,4 +1,5 @@
 "'Dodawanie Ankiet' As screen":
+    OnVisible: =
 
     Container2 As groupContainer.manualLayoutContainer:
         Height: =668
@@ -827,12 +828,8 @@
                     Y: =DataCardKey87.Y
                     ZIndex: =4
 
-    SideBar_6 As SideBar:
+    SideBar_6 As NavBar:
         Pola: =sideBarData
-        Visible: =SideBar.IsVisible
-        Y: =100
+        Visible: =true
         ZIndex: =10
-
-    TopBar_6 As TopBar:
-        ZIndex: =11
 
