@@ -1,5 +1,9 @@
 Projekty2 As screen:
-    OnVisible: =Select(Icon3)
+    OnVisible: |-
+        =ClearCollect(
+                szukaj_projekty,
+                Projekty
+        )
 
     "Gallery1_4 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
         DisplayMode: =Edit
@@ -1158,7 +1162,7 @@ Projekty2 As screen:
         Icon: =Icon.Search
         OnSelect: |-
             =If(
-                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems) || !IsBlank(DatePicker1.SelectedDate) || !IsBlank(DatePicker1_1.SelectedDate),
+                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems),
                 ClearCollect(
                     szukaj_projekty,
                     Filter(
@@ -1178,8 +1182,6 @@ Projekty2 As screen:
                         ) && If(
                             !IsBlank(DatePicker1.SelectedDate) && !IsBlank(DatePicker1_1.SelectedDate),
                             data >= DatePicker1.SelectedDate && data <= DatePicker1_1.SelectedDate,
-                            IsBlank(DatePicker1.SelectedDate) || IsBlank(DatePicker1_1.SelectedDate),
-                            data in Projekty.data,
                             data in Projekty.data
                         )
                     )
