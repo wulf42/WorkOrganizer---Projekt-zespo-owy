@@ -3,15 +3,15 @@
     OnVisible: =
 
     Label2 As label:
-        CustomHeight: =If(sidebarVisible; 768; 100)
         Height: =71
-        Text: ="Testowa, tymczasowa strona główna aplikacji"
+        Text: ="Testowa 2, tymczasowa strona główna aplikacji"
         Width: =398
         X: =484
         Y: =319
         ZIndex: =2
 
     NavBar_1 As NavBar:
+        CustomHeight: =If(sidebarVisible; 768; 100)
         Height: =NavBar_1.CustomHeight
         MainScreen: ='Strona główna'
         Pola: =sideBarData
