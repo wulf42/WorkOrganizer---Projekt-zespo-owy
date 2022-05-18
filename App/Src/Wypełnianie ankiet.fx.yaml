@@ -102,7 +102,7 @@
 
                 DataCardValue50 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =19
@@ -122,7 +122,7 @@
                 Button12 As button:
                     OnSelect: |-
                         =If(
-                            !IsBlank(Gallery1_3.Selected.field_2) && IsBlank(DataCardValue39.Selected) || !IsBlank(Gallery1_3.Selected.field_3) && IsBlank(DataCardValue40.Selected) || !IsBlank(Gallery1_3.Selected.field_4) && IsBlank(DataCardValue41.Selected) || !IsBlank(Gallery1_3.Selected.field_5) && IsBlank(DataCardValue42.Selected) || !IsBlank(Gallery1_3.Selected.field_6) && IsBlank(DataCardValue43.Selected) || !IsBlank(Gallery1_3.Selected.field_7) && IsBlank(DataCardValue44.Selected) || !IsBlank(Gallery1_3.Selected.field_8) && IsBlank(DataCardValue45.Selected) || !IsBlank(Gallery1_3.Selected.field_9) && IsBlank(DataCardValue46.Selected) || !IsBlank(Gallery1_3.Selected.field_10) && IsBlank(DataCardValue47.Selected),
+                            !IsBlank(Gallery1_3.Selected.Pytanie2) && IsBlank(DataCardValue39.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie3) && IsBlank(DataCardValue40.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie4) && IsBlank(DataCardValue41.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie5) && IsBlank(DataCardValue42.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie6) && IsBlank(DataCardValue43.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie7) && IsBlank(DataCardValue44.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie8) && IsBlank(DataCardValue45.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie9) && IsBlank(DataCardValue46.Selected) || !IsBlank(Gallery1_3.Selected.Pytanie10) && IsBlank(DataCardValue47.Selected),
                             Notify(
                                 "Wypełnij wszystkie pola",
                                 NotificationType.Error
@@ -130,19 +130,19 @@
                             Patch(
                                 Ankiety_wyp,
                                 Defaults(Ankiety_wyp),
-                                {'Nazwa (Title)': Gallery1_3.Selected.Title},
+                                {Title: Gallery1_3.Selected.'Nazwa (Title)'},
                                 {Kto: DataCardValue37.Selected},
                                 {Identyfikator_ankiety: Gallery1_3.Selected.ID},
-                                {Pytanie1: DataCardValue50.Selected},
-                                {Pytanie2: DataCardValue39.Selected},
-                                {Pytanie3: DataCardValue40.Selected},
-                                {Pytanie4: DataCardValue41.Selected},
-                                {Pytanie5: DataCardValue42.Selected},
-                                {Pytanie6: DataCardValue43.Selected},
-                                {Pytanie7: DataCardValue44.Selected},
-                                {Pytanie8: DataCardValue45.Selected},
-                                {Pytanie9: DataCardValue46.Selected},
-                                {Pytanie10: DataCardValue47.Selected}
+                                {field_2: DataCardValue50.Selected},
+                                {field_3: DataCardValue39.Selected},
+                                {field_4: DataCardValue40.Selected},
+                                {field_5: DataCardValue41.Selected},
+                                {field_6: DataCardValue42.Selected},
+                                {field_7: DataCardValue43.Selected},
+                                {field_8: DataCardValue44.Selected},
+                                {field_9: DataCardValue45.Selected},
+                                {field_10: DataCardValue46.Selected},
+                                {field_11: DataCardValue47.Selected}
                             );
                             Patch(
                                 Ankiety,
@@ -467,7 +467,7 @@
 
                 DataCardValue39 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =18
@@ -518,7 +518,7 @@
 
                 DataCardValue40 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =19
@@ -569,7 +569,7 @@
 
                 DataCardValue41 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =19
@@ -620,7 +620,7 @@
 
                 DataCardValue42 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =19
@@ -671,7 +671,7 @@
 
                 DataCardValue43 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =19
@@ -722,7 +722,7 @@
 
                 DataCardValue44 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =19
@@ -773,7 +773,7 @@
 
                 DataCardValue45 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =19
@@ -824,7 +824,7 @@
 
                 DataCardValue46 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =19
@@ -875,7 +875,7 @@
 
                 DataCardValue47 As radio:
                     Height: =62
-                    Items: =Choices([@Ankiety_wyp].Pytanie1)
+                    Items: =Choices([@Ankiety_wyp].field_2)
                     Layout: =Layout.Horizontal
                     Width: =376
                     X: =19
