@@ -1435,11 +1435,6 @@ Projekty2 As screen:
             Y: =309
             ZIndex: =25
 
-    Label4 As label:
-        Text: =
-        X: =594
-        ZIndex: =33
-
     Group1 As group:
         Height: =5
         Width: =5
