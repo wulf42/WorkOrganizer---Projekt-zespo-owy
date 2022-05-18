@@ -1162,7 +1162,9 @@ Projekty2 As screen:
         Icon: =Icon.Search
         OnSelect: |-
             =If(
-                !IsEmpty(ComboBox1.SelectedItems) || !IsEmpty(ComboBox1_1.SelectedItems) || !IsEmpty(ComboBox1_2.SelectedItems),
+                !IsEmpty(ComboBox1.SelectedItems) && !IsBlank(ComboBox1.SelectedItems) ||
+                !IsEmpty(ComboBox1_1.SelectedItems) && !IsBlank(ComboBox1_1.SelectedItems) ||
+                !IsEmpty(ComboBox1_2.SelectedItems) && !IsBlank(ComboBox1_2.SelectedItems),
                 ClearCollect(
                     szukaj_projekty,
                     Filter(
@@ -1427,6 +1429,11 @@ Projekty2 As screen:
             X: =511
             Y: =309
             ZIndex: =25
+
+    Label4 As label:
+        Text: =
+        X: =594
+        ZIndex: =33
 
     Group1 As group:
         Height: =5

@@ -14,83 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site.X"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site.X",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 4,
-                  "snippet": {
-                    "text": "Slider1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "X",
-                "module": "Projekt",
-                "type": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Slider1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site.X"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site.X",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 11,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "X",
-                "module": "Projekt",
-                "type": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Button1_6.OnSelect"
                 }
               ],
@@ -124,7 +47,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -165,7 +88,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrArgNotApplicableToColumnArg2-Arg1-Arg2",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -205,7 +128,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -222,7 +145,7 @@
                 },
                 "region": {
                   "charLength": 159,
-                  "charOffset": 220,
+                  "charOffset": 345,
                   "snippet": {
                     "text": "If(\r\n                !IsEmpty(ComboBox1.SelectedItems);\r\n                site in ComboBox1.SelectedItems;\r\n                site in Projekty.site\r\n            )"
                   }
@@ -245,7 +168,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -262,7 +185,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 380,
+                  "charOffset": 505,
                   "snippet": {
                     "text": "&&"
                   }
@@ -285,7 +208,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -302,7 +225,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 544,
+                  "charOffset": 669,
                   "snippet": {
                     "text": "&&"
                   }
@@ -325,7 +248,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -342,7 +265,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 714,
+                  "charOffset": 839,
                   "snippet": {
                     "text": "&&"
                   }
@@ -365,7 +288,84 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 2
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site.X"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site.X",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 4,
+                  "snippet": {
+                    "text": "Slider1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "X",
+                "module": "Projekt",
+                "type": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Slider1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site.X"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site.X",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "X",
+                "module": "Projekt",
+                "type": "Projekt.Container6.MainSectionContainer2.GridHeader.h_site"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -936,66 +936,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Projekt",
-                "type": "Projekt.Container6.MainSectionContainer2.GalleryGrid"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Projekt",
-                "type": "Projekt.Container6.MainSectionContainer2.GalleryGrid"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
         },
         {
           "locations": [
@@ -2712,6 +2652,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Projekt",
+                "type": "Projekt.Container6.MainSectionContainer2.GalleryGrid"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Projekt",
+                "type": "Projekt.Container6.MainSectionContainer2.GalleryGrid"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Projekty2.OnVisible"
                 }
               ],
@@ -2774,37 +2774,6 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-SuggestRemoteExecutionHint",
               "messageStrings": {
                 "issue": {
@@ -2842,6 +2811,37 @@
               "messageStrings": {
                 "issue": {
                   "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
                 }
               },
               "properties": {
