@@ -1,7 +1,7 @@
 NavBar As CanvasComponent:
     ChildTabPriority: =false
     CurrentScreen: ="Strona główna"
-    CustomHeight: =768
+    CustomHeight: =If(!IsBlankOrError(sidebarVisible), If(sidebarVisible, 768, 100), 100)
     EnableChildFocus: =false
     Fill: =RGBA(39, 67, 125, 0.3)
     Height: =NavBar.CustomHeight
