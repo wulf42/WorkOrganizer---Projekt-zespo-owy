@@ -1164,7 +1164,8 @@ Projekty2 As screen:
             =If(
                 !IsEmpty(ComboBox1.SelectedItems) && !IsBlank(ComboBox1.SelectedItems) ||
                 !IsEmpty(ComboBox1_1.SelectedItems) && !IsBlank(ComboBox1_1.SelectedItems) ||
-                !IsEmpty(ComboBox1_2.SelectedItems) && !IsBlank(ComboBox1_2.SelectedItems),
+                !IsEmpty(ComboBox1_2.SelectedItems) && !IsBlank(ComboBox1_2.SelectedItems) ||
+                !IsBlank(DatePicker1.SelectedDate) || !IsBlank(DatePicker1_1.SelectedDate),
                 ClearCollect(
                     szukaj_projekty,
                     Filter(
@@ -1183,7 +1184,11 @@ Projekty2 As screen:
                             'P/T' in Projekty.'P/T'
                         ) && If(
                             !IsBlank(DatePicker1.SelectedDate) && !IsBlank(DatePicker1_1.SelectedDate),
-                            data >= DatePicker1.SelectedDate && data <= DatePicker1_1.SelectedDate,
+                            !IsBlank(data) && data >= DatePicker1.SelectedDate && data <= DatePicker1_1.SelectedDate,
+                            !IsBlank(DatePicker1.SelectedDate) && IsBlank(DatePicker1_1.SelectedDate),
+                            !IsBlank(data) && data >= DatePicker1.SelectedDate,
+                            IsBlank(DatePicker1.SelectedDate) && !IsBlank(DatePicker1_1.SelectedDate),
+                            !IsBlank(data) && data <= DatePicker1_1.SelectedDate,
                             data in Projekty.data
                         )
                     )
