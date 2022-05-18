@@ -8,6 +8,7 @@ App As appinfo:
             {Value: "Kalendarz", Icon: Icon.CalendarBlank, Screen: Kalendarz},
             {Value: "Rejestr", Icon: Icon.DetailList, Screen: Rejestr},
             {Value: "Projekt", Icon: Icon.TrendingUpwards, Screen: Projekt},
+            {Value: "Projekty2", Icon: Icon.TrendingUpwards, Screen: Projekty2},
             {Value: "Szukaj", Icon: Icon.Search, Screen: Szukaj},
             {Value: "Dodawanie ankiet", Icon: Icon.Add, Screen: 'Dodawanie ankiet'},
             {Value: "Wypełnianie ankiet", Icon: Icon.Check, Screen: 'Wypełnianie ankiet'}

@@ -4,7 +4,7 @@
 
     Label2 As label:
         Height: =71
-        Text: ="Testowa 2, tymczasowa strona główna aplikacji"
+        Text: ="Testowa, tymczasowa strona główna aplikacji"
         Width: =398
         X: =484
         Y: =319
