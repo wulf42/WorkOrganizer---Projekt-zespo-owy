@@ -3,6 +3,7 @@
     OnVisible: =
 
     Label2 As label:
+        CustomHeight: =If(sidebarVisible; 768; 100)
         Height: =71
         Text: ="Testowa, tymczasowa strona główna aplikacji"
         Width: =398
