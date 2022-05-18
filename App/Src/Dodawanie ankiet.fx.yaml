@@ -1,4 +1,5 @@
-"'Dodawanie Ankiet' As screen":
+"'Dodawanie ankiet' As screen":
+    Fill: =RGBA(241, 244, 249, 1)
     OnVisible: =
 
     Container2 As groupContainer.manualLayoutContainer:
@@ -828,7 +829,8 @@
                     Y: =DataCardKey87.Y
                     ZIndex: =4
 
-    SideBar_6 As NavBar:
+    NavBar_6 As NavBar:
+        MainScreen: ='Strona główna'
         Pola: =sideBarData
         Visible: =true
         ZIndex: =10

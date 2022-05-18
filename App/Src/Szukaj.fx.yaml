@@ -1,4 +1,5 @@
 Szukaj As screen:
+    Fill: =RGBA(241, 244, 249, 1)
     OnVisible: =
 
     Container3 As groupContainer.manualLayoutContainer:
@@ -6,7 +7,7 @@ Szukaj As screen:
         Width: =1114
         X: =250
         Y: =100
-        ZIndex: =4
+        ZIndex: =1
 
         "Gallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
             Height: =548
@@ -91,8 +92,9 @@ Szukaj As screen:
             Y: =26
             ZIndex: =2
 
-    SideBar_4 As NavBar:
+    NavBar_5 As NavBar:
+        MainScreen: ='Strona główna'
         Pola: =sideBarData
         Visible: =true
-        ZIndex: =5
+        ZIndex: =2
 

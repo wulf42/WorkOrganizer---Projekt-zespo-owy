@@ -9,10 +9,9 @@ App As appinfo:
             {Value: "Rejestr", Icon: Icon.DetailList, Screen: Rejestr},
             {Value: "Projekt", Icon: Icon.TrendingUpwards, Screen: Projekt},
             {Value: "Szukaj", Icon: Icon.Search, Screen: Szukaj},
-            {Value: "Dodawanie ankiet", Icon: Icon.Add, Screen: 'Dodawanie Ankiet'},
-            {Value: "Wypełnianie ankiet", Icon: Icon.Check, Screen: 'Wypełnianie Ankiet'}
+            {Value: "Dodawanie ankiet", Icon: Icon.Add, Screen: 'Dodawanie ankiet'},
+            {Value: "Wypełnianie ankiet", Icon: Icon.Check, Screen: 'Wypełnianie ankiet'}
           )
-        ) +
-        Set(sidebarVisible, true)
+        )
     StartScreen: ='Strona główna'
 

@@ -1,12 +1,12 @@
 Kalendarz As screen:
+    Fill: =RGBA(241, 244, 249, 1)
     OnVisible: =
 
     Container1 As groupContainer.manualLayoutContainer:
         Height: =668
-        Width: =1114
-        X: =250
+        Width: =1364
         Y: =100
-        ZIndex: =6
+        ZIndex: =1
 
         "Gallery5 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
             Fill: =RGBA(9, 33, 98, 1)
@@ -15,7 +15,7 @@ Kalendarz As screen:
             Layout: =Layout.Vertical
             TemplatePadding: =0
             TemplateSize: =39
-            Width: =1114
+            Width: =1364
             WrapCount: =7
             Y: =84
             ZIndex: =1
@@ -49,7 +49,7 @@ Kalendarz As screen:
             Layout: =Layout.Vertical
             TemplatePadding: =0
             TemplateSize: =90
-            Width: =1114
+            Width: =1364
             WrapCount: =7
             Y: =126
             ZIndex: =2
@@ -69,7 +69,7 @@ Kalendarz As screen:
                 PaddingTop: =0
                 Text: =Day(ThisItem.Value)
                 VerticalAlign: =VerticalAlign.Top
-                Width: =159
+                Width: =194
                 ZIndex: =1
 
             Separator2 As rectangle:
@@ -86,7 +86,7 @@ Kalendarz As screen:
             Size: =32
             Text: =Text(varCurrentDate,"mmmm yyyy")
             Width: =403
-            X: =355
+            X: =480
             Y: =8
             ZIndex: =3
 
@@ -99,18 +99,21 @@ Kalendarz As screen:
 
         Arrow1 As arrow.backArrow:
             OnSelect: =Set(varCurrentDate,Date(Year(varCurrentDate),Month(varCurrentDate)-1,1))
-            X: =305
+            X: =430
             Y: =16
             ZIndex: =5
 
         Arrow2 As arrow:
             OnSelect: =Set(varCurrentDate,Date(Year(varCurrentDate),Month(varCurrentDate)+1,1))
-            X: =758
+            X: =883
             Y: =16
             ZIndex: =6
 
-    SideBar_5 As NavBar:
+    NavBar_2 As NavBar:
+        ChildTabPriority: =true
+        EnableChildFocus: =true
+        MainScreen: ='Strona główna'
         Pola: =sideBarData
         Visible: =true
-        ZIndex: =8
+        ZIndex: =2
 

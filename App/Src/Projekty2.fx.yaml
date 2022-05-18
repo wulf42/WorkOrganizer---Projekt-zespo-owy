@@ -1,4 +1,5 @@
 Projekty2 As screen:
+    Fill: =RGBA(241, 244, 249, 1)
     OnVisible: |-
         =ClearCollect(
                 szukaj_projekty,

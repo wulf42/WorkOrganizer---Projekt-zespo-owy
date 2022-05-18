@@ -1,9 +1,10 @@
 NavBar As CanvasComponent:
+    ChildTabPriority: =false
     CurrentScreen: ="Strona główna"
+    EnableChildFocus: =false
     Fill: =RGBA(0, 0, 0, 0)
     Height: =768
-    IsVisible: =true
-    MainScreen: =App.ActiveScreen
+    MainScreen: =
     Pola: |-
         =Table(
             {Value: "Strona główna", Icon: Icon.Home, Screen: App.ActiveScreen},
@@ -30,7 +31,7 @@ NavBar As CanvasComponent:
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =50
-        Visible: =NavBar.IsVisible
+        Visible: =If(sidebarVisible, true, false)
         Width: =250
         Y: =100
         ZIndex: =1
@@ -80,7 +81,7 @@ NavBar As CanvasComponent:
             Height: =50
             HoverColor: =RGBA(241, 244, 249, 1)
             HoverFill: =ColorFade(RGBA(56, 96, 178, 0), -20%)
-            OnSelect: =Navigate(ThisItem.Screen)
+            OnSelect: =Set(sidebarVisible, false) + Navigate(ThisItem.Screen)
             PaddingLeft: =55
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(136, 160, 209, 0.2)
@@ -102,7 +103,7 @@ NavBar As CanvasComponent:
         Icon2_1 As icon.Journal:
             Color: =RGBA(215, 223, 240, 1)
             Icon: =Icon.Hamburger
-            OnSelect: =NavBar.IsVisible = false
+            OnSelect: =Set(sidebarVisible, !sidebarVisible)
             X: =22
             Y: =18
             ZIndex: =2
@@ -126,10 +127,4 @@ NavBar As CanvasComponent:
             X: =480
             Y: =18
             ZIndex: =4
-
-        Label4 As label:
-            Text: =NavBar.IsVisible
-            X: =240
-            Y: =18
-            ZIndex: =5
 

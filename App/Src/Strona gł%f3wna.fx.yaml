@@ -1,15 +1,17 @@
 "'Strona główna' As screen":
+    Fill: =RGBA(241, 244, 249, 1)
     OnVisible: =
 
     Label2 As label:
         Height: =71
         Text: ="Testowa, tymczasowa strona główna aplikacji"
         Width: =398
-        X: =580
-        Y: =296
+        X: =484
+        Y: =319
         ZIndex: =2
 
-    SideBar_1 As NavBar:
+    NavBar_1 As NavBar:
+        MainScreen: ='Strona główna'
         Pola: =sideBarData
         Visible: =true
         ZIndex: =33
@@ -119,7 +121,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
-            OnSelect: =Navigate('Dodawanie Ankiet')
+            OnSelect: =Navigate('Dodawanie ankiet')
             Size: =12
             Text: |-
                 ="Dodawanie ankiet
@@ -135,7 +137,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
-            OnSelect: =Navigate('Wypełnianie Ankiet')
+            OnSelect: =Navigate('Wypełnianie ankiet')
             Size: =12
             Text: |-
                 ="Wypełnianie ankiet

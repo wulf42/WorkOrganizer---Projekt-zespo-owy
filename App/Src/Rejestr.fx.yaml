@@ -1,4 +1,5 @@
 "Rejestr As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+    Fill: =RGBA(241, 244, 249, 1)
     OnVisible: =Select(Button3)
 
     ScreenContainer2_1 As groupContainer.verticalAutoLayoutContainer:
@@ -6,14 +7,17 @@
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =1116
-        X: =250
+        Width: =1365
+        X: =1
         Y: =100
         ZIndex: =1
 
-    SideBar_3 As NavBar:
-        Pola: =sideBarData
-        Visible: =true
+    Button3 As button:
+        OnSelect: =ClearCollect(rejestr_osob,Filter(Tabela5,Osoba in ComboBox2.SelectedItems))
+        Text: ="Przycisk"
+        Visible: =false
+        X: =250
+        Y: =728
         ZIndex: =26
 
     Interfejs_3_stary As group:
@@ -121,7 +125,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
-            OnSelect: =Navigate('Dodawanie Ankiet')
+            OnSelect: =Navigate('Dodawanie ankiet')
             Size: =12
             Text: |-
                 ="Dodawanie ankiet
@@ -137,7 +141,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
-            OnSelect: =Navigate('Wypełnianie Ankiet')
+            OnSelect: =Navigate('Wypełnianie ankiet')
             Size: =12
             Text: |-
                 ="Wypełnianie ankiet
@@ -297,20 +301,11 @@
             Y: =22
             ZIndex: =25
 
-    Button3 As button:
-        OnSelect: =ClearCollect(rejestr_osob,Filter(Tabela5,Osoba in ComboBox2.SelectedItems))
-        Text: ="Przycisk"
-        Visible: =false
-        X: =250
-        Y: =728
-        ZIndex: =28
-
     Container5 As groupContainer.manualLayoutContainer:
         Height: =668
-        Width: =1116
-        X: =250
+        Width: =1366
         Y: =100
-        ZIndex: =29
+        ZIndex: =27
 
         ComboBox2 As combobox:
             DisplayFields: =["Osoba"]
@@ -763,4 +758,10 @@
                 Width: =h_osoba.Width
                 X: =h_osoba.X
                 ZIndex: =12
+
+    NavBar_3 As NavBar:
+        MainScreen: ='Strona główna'
+        Pola: =sideBarData
+        Visible: =true
+        ZIndex: =28
 

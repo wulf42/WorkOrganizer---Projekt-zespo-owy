@@ -91,12 +91,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Button1_6.OnSelect"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Button1_6.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Button1_6.OnSelect",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Button1_6.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -109,8 +109,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Button1_6"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Button1_6"
               }
             }
           ],
@@ -131,12 +131,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -149,8 +149,8 @@
               },
               "properties": {
                 "member": "MaxLength",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
               }
             }
           ],
@@ -172,12 +172,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -190,8 +190,8 @@
               },
               "properties": {
                 "member": "MaxLength",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
               }
             }
           ],
@@ -552,19 +552,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Gallery1_2"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Gallery1_2"
               }
             }
           ],
@@ -582,19 +582,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.TabIndex"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.TabIndex",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Gallery1_2"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Gallery1_2"
               }
             }
           ],
@@ -612,19 +612,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1"
               }
             }
           ],
@@ -642,19 +642,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1.TabIndex"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1.TabIndex",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Gallery1_2.Title2_1"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1"
               }
             }
           ],
@@ -672,19 +672,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77"
               }
             }
           ],
@@ -702,19 +702,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78"
               }
             }
           ],
@@ -732,19 +732,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79"
               }
             }
           ],
@@ -762,19 +762,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80"
               }
             }
           ],
@@ -792,19 +792,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81"
               }
             }
           ],
@@ -822,19 +822,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82"
               }
             }
           ],
@@ -852,19 +852,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83"
               }
             }
           ],
@@ -882,19 +882,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84"
               }
             }
           ],
@@ -912,19 +912,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85"
               }
             }
           ],
@@ -942,19 +942,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86"
               }
             }
           ],
@@ -972,19 +972,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Dodawanie Ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dodawanie Ankiet",
-                "type": "'Dodawanie Ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87"
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87"
               }
             }
           ],
@@ -1092,19 +1092,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50"
               }
             }
           ],
@@ -1122,19 +1122,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35"
               }
             }
           ],
@@ -1152,19 +1152,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36"
               }
             }
           ],
@@ -1182,19 +1182,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37"
               }
             }
           ],
@@ -1212,19 +1212,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39"
               }
             }
           ],
@@ -1242,19 +1242,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40"
               }
             }
           ],
@@ -1272,19 +1272,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41"
               }
             }
           ],
@@ -1302,19 +1302,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42"
               }
             }
           ],
@@ -1332,19 +1332,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43"
               }
             }
           ],
@@ -1362,19 +1362,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44"
               }
             }
           ],
@@ -1392,19 +1392,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45"
               }
             }
           ],
@@ -1422,19 +1422,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46"
               }
             }
           ],
@@ -1452,19 +1452,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47"
               }
             }
           ],
@@ -1482,19 +1482,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1"
               }
             }
           ],
@@ -1512,19 +1512,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.AccessibleLabel"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.AccessibleLabel",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Gallery1_3"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3"
               }
             }
           ],
@@ -1542,19 +1542,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.TabIndex"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.TabIndex",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Gallery1_3"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3"
               }
             }
           ],
@@ -1572,19 +1572,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2"
               }
             }
           ],
@@ -1602,19 +1602,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2.TabIndex"
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2.TabIndex",
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Wypełnianie Ankiet",
-                "type": "'Wypełnianie Ankiet'.Container4.Gallery1_3.Title2_2"
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2"
               }
             }
           ],
@@ -2832,36 +2832,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.sidebarVisible"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.sidebarVisible",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "sidebarVisible",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Projekty2.OnVisible"
                 }
               ],
@@ -2885,7 +2855,7 @@
             "level": "Medium"
           },
           "ruleId": "app-CollectDelegatableDataSource",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -2915,7 +2885,7 @@
             "level": "Medium"
           },
           "ruleId": "app-CollectDelegatableDataSource",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -2944,7 +2914,7 @@
             "level": "Medium"
           },
           "ruleId": "app-DataSourceDefaultMaxRowsLimit",
-          "ruleIndex": 11
+          "ruleIndex": 10
         }
       ],
       "tool": {
@@ -3096,23 +3066,6 @@
                 "level": "Low",
                 "primaryCategory": "accessibility",
                 "whyFix": "Users won't get confirmation of their actions if the state of the control isn't showing."
-              }
-            },
-            {
-              "id": "app-UnusedVariables",
-              "messageStrings": {
-                "issue": {
-                  "text": "Nieużywana zmienna"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Usuń nieużywaną zmienną."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Ta zmienna jest zadeklarowana, ale nie jest przywoływana przez żadną kontrolkę, więc nie jest potrzebna."
               }
             },
             {
