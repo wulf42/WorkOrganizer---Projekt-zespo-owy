@@ -328,26 +328,26 @@
             Height: =582
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMode: =LayoutMode.Auto
-            Width: =1116
+            Width: =1366
             Y: =84
             ZIndex: =2
 
         Slider1_1 As slider:
             BorderColor: =RGBA(101, 128, 187, 1)
             Default: =0
-            Height: =41
+            Height: =42
             Max: =GalleryGrid_1.Width
             ShowValue: =false
             ValueFill: =RGBA(62,96,170,1)
             Visible: =false
-            Width: =670
+            Width: =920
             X: =446
-            Y: =626
+            Y: =624
             ZIndex: =3
 
         GridHeader_1 As groupContainer.manualLayoutContainer:
             Height: =40
-            Width: =1116
+            Width: =1366
             Y: =50
             ZIndex: =4
 
@@ -614,7 +614,7 @@
             Layout: =Layout.Vertical
             TemplatePadding: =0
             TemplateSize: =52
-            Width: =1116
+            Width: =1366
             Y: =90
             ZIndex: =5
 
@@ -760,6 +760,7 @@
                 ZIndex: =12
 
     NavBar_3 As NavBar:
+        Height: =NavBar_3.CustomHeight
         MainScreen: ='Strona główna'
         Pola: =sideBarData
         Visible: =true

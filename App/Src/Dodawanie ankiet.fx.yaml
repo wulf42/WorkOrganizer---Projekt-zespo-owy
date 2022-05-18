@@ -4,8 +4,7 @@
 
     Container2 As groupContainer.manualLayoutContainer:
         Height: =668
-        Width: =1116
-        X: =250
+        Width: =1366
         Y: =100
         ZIndex: =9
 
@@ -51,14 +50,15 @@
             OnSelect: =ResetForm(Form2)
             Text: ="Reset"
             Visible: =false
-            X: =258
+            Width: =161
+            X: =438
             Y: =42
             ZIndex: =3
 
         Button6 As button:
             OnSelect: =SubmitForm(Form2)
             Text: ="Zapisz"
-            X: =928
+            X: =1190
             Y: =42
             ZIndex: =4
 
@@ -73,12 +73,12 @@
         Form2 As form:
             AcceptsFocus: =false
             DataSource: =Ankiety
-            Height: =553
+            Height: =550
             Item: =Gallery1_2.Selected
             NumberOfColumns: =1
-            Width: =661
-            X: =449
-            Y: =101
+            Width: =700
+            X: =650
+            Y: =100
             ZIndex: =6
 
             "'Nazwa (Title)_DataCard5' As typedDataCard.textualEditCard":
@@ -92,7 +92,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "Title")
                 Required: =false
                 Update: =DataCardValue77.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =0
                 ZIndex: =9
@@ -160,7 +160,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_1")
                 Required: =false
                 Update: =DataCardValue78.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =1
                 ZIndex: =9
@@ -228,7 +228,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_2")
                 Required: =false
                 Update: =DataCardValue79.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =2
                 ZIndex: =9
@@ -296,7 +296,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_3")
                 Required: =false
                 Update: =DataCardValue80.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =3
                 ZIndex: =9
@@ -364,7 +364,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_4")
                 Required: =false
                 Update: =DataCardValue81.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =4
                 ZIndex: =9
@@ -432,7 +432,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_5")
                 Required: =false
                 Update: =DataCardValue82.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =5
                 ZIndex: =9
@@ -500,7 +500,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_6")
                 Required: =false
                 Update: =DataCardValue83.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =6
                 ZIndex: =9
@@ -568,7 +568,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_7")
                 Required: =false
                 Update: =DataCardValue84.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =7
                 ZIndex: =9
@@ -636,7 +636,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_8")
                 Required: =false
                 Update: =DataCardValue85.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =8
                 ZIndex: =9
@@ -704,7 +704,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_9")
                 Required: =false
                 Update: =DataCardValue86.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =9
                 ZIndex: =9
@@ -772,7 +772,7 @@
                 MaxLength: =DataSourceInfo([@Ankiety], DataSourceInfo.MaxLength, "field_10")
                 Required: =false
                 Update: =DataCardValue87.Text
-                Width: =661
+                Width: =708
                 X: =0
                 Y: =10
                 ZIndex: =9
@@ -830,6 +830,7 @@
                     ZIndex: =4
 
     NavBar_6 As NavBar:
+        Height: =NavBar_6.CustomHeight
         MainScreen: ='Strona główna'
         Pola: =sideBarData
         Visible: =true

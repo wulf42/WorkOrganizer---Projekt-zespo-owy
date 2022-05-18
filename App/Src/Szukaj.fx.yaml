@@ -4,8 +4,7 @@ Szukaj As screen:
 
     Container3 As groupContainer.manualLayoutContainer:
         Height: =668
-        Width: =1114
-        X: =250
+        Width: =1364
         Y: =100
         ZIndex: =1
 
@@ -16,7 +15,7 @@ Szukaj As screen:
             Layout: =Layout.Vertical
             TemplatePadding: =0
             TemplateSize: =90
-            Width: =1053
+            Width: =1295
             X: =40
             Y: =90
             ZIndex: =1
@@ -93,6 +92,7 @@ Szukaj As screen:
             ZIndex: =2
 
     NavBar_5 As NavBar:
+        Height: =NavBar_5.CustomHeight
         MainScreen: ='Strona główna'
         Pola: =sideBarData
         Visible: =true

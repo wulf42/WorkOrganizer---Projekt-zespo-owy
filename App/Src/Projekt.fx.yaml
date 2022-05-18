@@ -14,8 +14,7 @@
 
     Container6 As groupContainer.manualLayoutContainer:
         Height: =668
-        Width: =1116
-        X: =250
+        Width: =1366
         Y: =100
         ZIndex: =26
 
@@ -23,13 +22,12 @@
             Align: =Align.Center
             BorderColor: =RGBA(101, 128, 187, 1)
             Color: =RGBA(47,41,43,1)
-            Fill: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Bold
             Height: =66
             Size: =26
             Text: ="Projekty"
             Width: =403
-            X: =335
+            X: =450
             Y: =8
             ZIndex: =1
 
@@ -37,7 +35,7 @@
             Height: =584
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMode: =LayoutMode.Auto
-            Width: =1116
+            Width: =1366
             Y: =84
             ZIndex: =2
 
@@ -512,6 +510,7 @@
                     ZIndex: =15
 
     NavBar_4 As NavBar:
+        Height: =NavBar_4.CustomHeight
         MainScreen: ='Strona główna'
         Pola: |
             =sideBarData
