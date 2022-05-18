@@ -3,6 +3,7 @@ SideBar As CanvasComponent:
     Fill: =RGBA(130, 141, 158, 1)
     Height: |
         =668
+    IsVisible: =true
     Pola: |-
         =Table(
             {Value: "Strona główna", Icon: Icon.Home, Screen: App.ActiveScreen},

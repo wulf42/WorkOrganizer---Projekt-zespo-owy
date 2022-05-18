@@ -28,6 +28,15 @@
       "PropertyDataTypeKey": "String",
       "Tooltip": "Current Screen",
       "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "IsVisible",
+      "Hidden": false,
+      "Name": "IsVisible",
+      "PropertyDataTypeKey": "Boolean",
+      "Tooltip": "Właściwość niestandardowa",
+      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}}"
     }
   ],
   "FirstParty": true,
@@ -38,7 +47,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637884714244430342",
+  "LastModifiedTimestamp": "637884923101205149",
   "Name": "e46f5893c2104653bb341466da303a1b",
   "OverridableProperties": {},
   "TemplateOriginalName": "fea8d04b319646888c17c071fe694eb6",

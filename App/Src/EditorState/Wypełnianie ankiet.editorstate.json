@@ -13102,7 +13102,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Identyfikator_ankiety_DataCard1",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13267,7 +13267,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Kto_DataCard1",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13897,7 +13897,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Nazwa (Title)_DataCard2",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14062,7 +14062,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie1_DataCard5",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14222,7 +14222,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie10_DataCard3",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14382,7 +14382,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie2_DataCard5",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14542,7 +14542,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie3_DataCard5",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14702,7 +14702,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie4_DataCard3",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14862,7 +14862,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie5_DataCard3",
-      "ParentIndex": 7,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15029,7 +15029,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie6_DataCard3",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15189,7 +15189,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie7_DataCard3",
-      "ParentIndex": 9,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15349,7 +15349,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie8_DataCard3",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15509,7 +15509,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie9_DataCard3",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15753,6 +15753,15 @@
           "InvariantPropertyName": "CurrentScreen",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        "IsVisible",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "true",
+          "InvariantPropertyName": "Visible",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -15784,6 +15793,11 @@
           "RuleProviderType": "System"
         },
         {
+          "Category": "Data",
+          "PropertyName": "IsVisible",
+          "RuleProviderType": "System"
+        },
+        {
           "Category": "Design",
           "PropertyName": "ZIndex",
           "RuleProviderType": "Unknown"
@@ -15812,6 +15826,11 @@
           "Category": "Design",
           "PropertyName": "Fill",
           "RuleProviderType": "System"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Visible",
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "",
@@ -16284,7 +16303,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Wyslij",
-      "ParentIndex": 13,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

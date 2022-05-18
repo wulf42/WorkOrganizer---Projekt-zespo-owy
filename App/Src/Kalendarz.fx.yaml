@@ -113,6 +113,7 @@ Kalendarz As screen:
 
     SideBar_5 As SideBar:
         Pola: =sideBarData
+        Visible: =SideBar.IsVisible
         Y: =100
         ZIndex: =8
 

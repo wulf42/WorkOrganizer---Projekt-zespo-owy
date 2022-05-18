@@ -11,6 +11,8 @@
     SideBar_1 As SideBar:
         Height: =668
         Pola: =sideBarData
+        Visible: =SideBar.IsVisible
+        Width: =250
         Y: =100
         ZIndex: =33
 

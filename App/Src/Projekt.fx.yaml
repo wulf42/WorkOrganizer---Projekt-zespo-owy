@@ -14,6 +14,7 @@
         Height: =668
         Pola: |
             =sideBarData
+        Visible: =SideBar.IsVisible
         Y: =100
         ZIndex: =27
 

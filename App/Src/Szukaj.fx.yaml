@@ -92,6 +92,7 @@ Szukaj As screen:
 
     SideBar_4 As SideBar:
         Pola: =sideBarData
+        Visible: =SideBar.IsVisible
         Y: =100
         ZIndex: =5
 

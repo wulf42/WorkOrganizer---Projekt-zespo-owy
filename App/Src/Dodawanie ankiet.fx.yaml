@@ -829,6 +829,7 @@
 
     SideBar_6 As SideBar:
         Pola: =sideBarData
+        Visible: =SideBar.IsVisible
         Y: =100
         ZIndex: =10
 
