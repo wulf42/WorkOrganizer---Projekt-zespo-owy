@@ -1170,15 +1170,15 @@ Projekty2 As screen:
                     Filter(
                         Projekty,
                         If(
-                            !IsEmpty(ComboBox1.SelectedItems),
+                            !IsEmpty(ComboBox1.SelectedItems) && !IsBlank(ComboBox1.SelectedItems),
                             site in ComboBox1.SelectedItems,
                             site in Projekty.site
                         ) && If(
-                            !IsEmpty(ComboBox1_1.SelectedItems),
+                            !IsEmpty(ComboBox1_1.SelectedItems) && !IsBlank(ComboBox1_1.SelectedItems),
                             app in ComboBox1_1.SelectedItems,
                             app in Projekty.app
                         ) && If(
-                            !IsEmpty(ComboBox1_2.SelectedItems),
+                            !IsEmpty(ComboBox1_2.SelectedItems) && !IsBlank(ComboBox1_2.SelectedItems),
                             'P/T' in ComboBox1_2.SelectedItems,
                             'P/T' in Projekty.'P/T'
                         ) && If(
