@@ -1,6 +1,6 @@
 "'Strona główna' As screen":
     Fill: =RGBA(241, 244, 249, 1)
-    OnVisible: =
+    OnVisible: =Reset(NavBar_1)
 
     Label2 As label:
         Height: =71
@@ -11,14 +11,6 @@
         ZIndex: =2
 
     NavBar_1 As NavBar:
-        CustomHeight: |-
-            =If(
-                IsBlankOrError(sidebarVisible);
-                100;
-                sidebarVisible = true;
-                768;
-                100
-            )
         Height: =NavBar_1.CustomHeight
         MainScreen: ='Strona główna'
         Pola: =sideBarData

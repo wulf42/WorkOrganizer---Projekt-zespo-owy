@@ -14,1896 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 73,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.NavBar_2.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 104,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(\r\n    IsBlankOrError(sidebarVisible);;\r\n    100;;\r\n    sidebarVisible = true;;\r\n    768;;\r\n    100\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Kalendarz",
-                "type": "Kalendarz.NavBar_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 73,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.NavBar_5.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 104,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(\r\n    IsBlankOrError(sidebarVisible);;\r\n    100;;\r\n    sidebarVisible = true;;\r\n    768;;\r\n    100\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Szukaj",
-                "type": "Szukaj.NavBar_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 73,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.NavBar_6.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 104,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(\r\n    IsBlankOrError(sidebarVisible);;\r\n    100;;\r\n    sidebarVisible = true;;\r\n    768;;\r\n    100\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.NavBar_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 73,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 104,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(\r\n    IsBlankOrError(sidebarVisible);;\r\n    100;;\r\n    sidebarVisible = true;;\r\n    768;;\r\n    100\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Strona główna",
-                "type": "'Strona główna'.NavBar_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 73,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_8.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 104,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(\r\n    IsBlankOrError(sidebarVisible);;\r\n    100;;\r\n    sidebarVisible = true;;\r\n    768;;\r\n    100\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_8"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Projekty2.Icon3.OnSelect"
                 }
               ],
@@ -1937,7 +47,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1977,7 +87,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2017,7 +127,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2057,385 +167,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 73,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.NavBar_4.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 104,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(\r\n    IsBlankOrError(sidebarVisible);;\r\n    100;;\r\n    sidebarVisible = true;;\r\n    768;;\r\n    100\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Projekt",
-                "type": "Projekt.NavBar_4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
-          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2475,7 +207,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 4
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -2512,384 +244,6 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 73,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.NavBar_7.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 104,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(\r\n    IsBlankOrError(sidebarVisible);;\r\n    100;;\r\n    sidebarVisible = true;;\r\n    768;;\r\n    100\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.NavBar_7"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
           "ruleIndex": 2
         },
         {
@@ -2930,7 +284,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 3
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2971,7 +325,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrArgNotApplicableToColumnArg2-Arg1-Arg2",
-          "ruleIndex": 6
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3011,385 +365,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 50,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 39,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 90,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ";;"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 73,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Rejestr.NavBar_3.CustomHeight",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 104,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(\r\n    IsBlankOrError(sidebarVisible);;\r\n    100;;\r\n    sidebarVisible = true;;\r\n    768;;\r\n    100\r\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "CustomHeight",
-                "module": "Rejestr",
-                "type": "Rejestr.NavBar_3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArityMinimum",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -3419,7 +395,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -3449,7 +425,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -3479,7 +455,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -3509,7 +485,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -3539,7 +515,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -3569,7 +545,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -3599,7 +575,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -3629,787 +605,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Container1.Arrow1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Container1.Arrow1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Container1.Arrow2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Container1.Arrow2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Container1.Gallery5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Container1.Gallery5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Container1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Kalendarz",
-                "type": "Kalendarz.Container1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.Container3.TextInput1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.Container3.TextInput1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Szukaj",
-                "type": "Szukaj.Container3.TextInput1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Szukaj",
-                "type": "Szukaj.Container3.Gallery1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Szukaj",
-                "type": "Szukaj.Container3.Gallery1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Gallery1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Gallery1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Dodawanie ankiet",
-                "type": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -4439,7 +635,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4469,7 +665,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4499,7 +695,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4529,7 +725,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4559,7 +755,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4589,7 +785,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4619,7 +815,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4649,7 +845,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4679,7 +875,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4709,7 +905,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4739,7 +935,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4769,7 +965,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4799,7 +995,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4829,7 +1025,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4859,7 +1055,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4889,7 +1085,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4919,7 +1115,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4949,7 +1145,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -4979,7 +1175,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5009,7 +1205,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5039,7 +1235,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5069,7 +1265,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5099,7 +1295,247 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Arrow1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Arrow1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Arrow2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Arrow2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Arrow2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Kalendarz.Container1.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Kalendarz",
+                "type": "Kalendarz.Container1.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -5129,7 +1565,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5159,7 +1595,97 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Szukaj.Container3.TextInput1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Szukaj.Container3.TextInput1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Szukaj",
+                "type": "Szukaj.Container3.TextInput1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Szukaj",
+                "type": "Szukaj.Container3.Gallery1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Szukaj.Container3.Gallery1_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Szukaj",
+                "type": "Szukaj.Container3.Gallery1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -5189,7 +1715,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5219,7 +1745,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5249,7 +1775,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5279,7 +1805,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5309,7 +1835,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5339,7 +1865,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5369,7 +1895,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5399,7 +1925,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5429,7 +1955,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5459,7 +1985,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5489,7 +2015,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5519,7 +2045,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5549,7 +2075,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5579,7 +2105,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5609,7 +2135,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5639,7 +2165,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -5669,7 +2195,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 10
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -5699,7 +2225,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -5729,7 +2255,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5759,7 +2285,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5789,7 +2315,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -5819,7 +2345,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -5849,26 +2375,26 @@
             "level": "Low"
           },
           "ruleId": "acc-StateIndicationTextNeeded",
-          "ruleIndex": 11
+          "ruleIndex": 8
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.sidebarVisible"
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.sidebarVisible",
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "sidebarVisible",
-                "module": "App",
-                "type": "App"
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.'Nazwa (Title)_DataCard5'.DataCardValue77"
               }
             }
           ],
@@ -5878,8 +2404,428 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 12
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie1_DataCard8.DataCardValue78"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie2_DataCard8.DataCardValue79"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie3_DataCard8.DataCardValue80"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie4_DataCard6.DataCardValue81"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie5_DataCard6.DataCardValue82"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie6_DataCard6.DataCardValue83"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie7_DataCard6.DataCardValue84"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie8_DataCard6.DataCardValue85"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie9_DataCard6.DataCardValue86"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Form2.Pytanie10_DataCard6.DataCardValue87"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Gallery1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Gallery1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Dodawanie ankiet",
+                "type": "'Dodawanie ankiet'.Container2.Gallery1_2.Title2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -5909,7 +2855,7 @@
             "level": "Medium"
           },
           "ruleId": "app-CollectDelegatableDataSource",
-          "ruleIndex": 13
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -5939,7 +2885,7 @@
             "level": "Medium"
           },
           "ruleId": "app-CollectDelegatableDataSource",
-          "ruleIndex": 13
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -5968,7 +2914,7 @@
             "level": "Medium"
           },
           "ruleId": "app-DataSourceDefaultMaxRowsLimit",
-          "ruleIndex": 14
+          "ruleIndex": 10
         }
       ],
       "tool": {
@@ -5976,55 +2922,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrOperatorExpected",
-              "messageStrings": {
-                "issue": {
-                  "text": "Expected operator. We expect an operator such as +, *, or & at this point in the formula."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit your formula so that it includes an operator between the operands."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
-              "messageStrings": {
-                "issue": {
-                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
-                  "If you’re comparing records or tables, the field or column types must match exactly."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrBadArityMinimum",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid number of arguments: received {0}, expected {1} or more."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "app-SuggestRemoteExecutionHint",
               "messageStrings": {
@@ -6169,23 +3066,6 @@
                 "level": "Low",
                 "primaryCategory": "accessibility",
                 "whyFix": "Users won't get confirmation of their actions if the state of the control isn't showing."
-              }
-            },
-            {
-              "id": "app-UnusedVariables",
-              "messageStrings": {
-                "issue": {
-                  "text": "Nieużywana zmienna"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Usuń nieużywaną zmienną."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Ta zmienna jest zadeklarowana, ale nie jest przywoływana przez żadną kontrolkę, więc nie jest potrzebna."
               }
             },
             {
