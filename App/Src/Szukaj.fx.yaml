@@ -92,6 +92,14 @@ Szukaj As screen:
             ZIndex: =2
 
     NavBar_5 As NavBar:
+        CustomHeight: |-
+            =If(
+                IsBlankOrError(sidebarVisible);
+                100;
+                sidebarVisible = true;
+                768;
+                100
+            )
         Height: =NavBar_5.CustomHeight
         MainScreen: ='Strona główna'
         Pola: =sideBarData

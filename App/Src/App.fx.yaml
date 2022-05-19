@@ -14,6 +14,6 @@ App As appinfo:
             {Value: "Wypełnianie ankiet", Icon: Icon.Check, Screen: 'Wypełnianie ankiet'}
           )
         ) +
-        Set(sidebarVisible,false)
+        Set(sidebarVisible,true)
     StartScreen: ='Strona główna'
 
