@@ -111,6 +111,12 @@ Kalendarz As screen:
 
     NavBar_2 As NavBar:
         ChildTabPriority: =true
+        CustomHeight: |-
+            =If(
+                sidebarVisible = true;
+                768;
+                100
+            )
         EnableChildFocus: =true
         Height: =NavBar_2.CustomHeight
         MainScreen: ='Strona główna'

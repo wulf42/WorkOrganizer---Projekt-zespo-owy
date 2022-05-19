@@ -830,6 +830,12 @@
                     ZIndex: =4
 
     NavBar_6 As NavBar:
+        CustomHeight: |-
+            =If(
+                sidebarVisible = true;
+                768;
+                100
+            )
         Height: =NavBar_6.CustomHeight
         MainScreen: ='Strona główna'
         Pola: =sideBarData
