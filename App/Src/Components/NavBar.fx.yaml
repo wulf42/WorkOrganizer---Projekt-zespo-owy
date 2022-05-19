@@ -3,7 +3,7 @@ NavBar As CanvasComponent:
     CurrentScreen: ="Strona główna"
     CustomHeight: |-
         =If(
-            IsBlank(sidebarVisible),
+            IsBlankOrError(sidebarVisible),
             100,
             sidebarVisible = true,
             768,
