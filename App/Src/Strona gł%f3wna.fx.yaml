@@ -1,6 +1,6 @@
 "'Strona główna' As screen":
     Fill: =RGBA(241, 244, 249, 1)
-    OnVisible: =Set(sideBarVisible, false)
+    OnVisible: =
 
     Label2 As label:
         Height: =71
