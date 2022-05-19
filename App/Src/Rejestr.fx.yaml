@@ -760,7 +760,6 @@
                 ZIndex: =12
 
     NavBar_3 As NavBar:
-        Height: =NavBar_3.CustomHeight
         MainScreen: ='Strona główna'
         Pola: =sideBarData
         Visible: =true

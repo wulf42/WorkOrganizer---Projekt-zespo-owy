@@ -510,7 +510,6 @@
                     ZIndex: =15
 
     NavBar_4 As NavBar:
-        Height: =NavBar_4.CustomHeight
         MainScreen: ='Strona główna'
         Pola: |
             =sideBarData
