@@ -227,6 +227,7 @@ Projekty2 As screen:
                 Default: =WeekNum(DataCardValue2)
                 DelayOutput: =true
                 DisplayMode: =DisplayMode.View
+                Fill: =RGBA(241, 244, 249, 1)
                 FontWeight: =FontWeight.Bold
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -692,6 +693,7 @@ Projekty2 As screen:
                 Default: =If(Checkbox1.Value=true,"zakończony",Checkbox2.Value=true,"w trakcie",If(IsBlank(DataCardValue22.Text),"czekam na zamówienie",IsBlank(DataCardValue20.Text),"czekam na devis",IsBlank(DataCardValue21.Text),"czekam na ofertę",IsBlank(DataCardValue23.Text),"czekam na budżet","pola uzupełnione"))
                 DelayOutput: =true
                 DisplayMode: =DisplayMode.View
+                Fill: =RGBA(241, 244, 249, 1)
                 FontWeight: =FontWeight.Bold
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -1119,6 +1121,7 @@ Projekty2 As screen:
                     =Text(DataCardValue23-DataCardValue24-DataCardValue25-DataCardValue26, "$ #", "el-FR")
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(241, 244, 249, 1)
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
