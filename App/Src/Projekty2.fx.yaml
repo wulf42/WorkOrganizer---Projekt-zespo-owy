@@ -72,7 +72,7 @@ Projekty2 As screen:
             Size: =14
             Text: =ThisItem.data
             Width: =107
-            X: =184
+            X: =214
             ZIndex: =5
 
         Subtitle4_1 As label:
@@ -86,7 +86,7 @@ Projekty2 As screen:
             Size: =13
             Text: =ThisItem.opis
             VerticalAlign: =VerticalAlign.Top
-            Width: =291
+            Width: =309
             Y: =56
             ZIndex: =6
 
@@ -1179,8 +1179,8 @@ Projekty2 As screen:
                             'P/T' in Projekty.'P/T'
                         ) && If(
                             !IsEmpty(ComboBox1_3.SelectedItems) && !IsBlank(ComboBox1_3.SelectedItems),
-                            'stan' in ComboBox1_3.SelectedItems,
-                            'stan' in Projekty.stan
+                            stan in ComboBox1_3.SelectedItems,
+                            stan in Projekty.stan
                         ) && If(
                             !IsBlank(DatePicker1.SelectedDate) && !IsBlank(DatePicker1_1.SelectedDate),
                             !IsBlank(data) && data >= DatePicker1.SelectedDate && data <= DatePicker1_1.SelectedDate,
@@ -1273,6 +1273,7 @@ Projekty2 As screen:
     DatePicker1 As datepicker:
         DefaultDate: =
         Height: =37
+        InputTextPlaceholder: ="data od"
         IsEditable: =true
         Size: =11
         Tooltip: ="wybierz datę od"
@@ -1284,6 +1285,7 @@ Projekty2 As screen:
     DatePicker1_1 As datepicker:
         DefaultDate: =
         Height: =37
+        InputTextPlaceholder: ="data do"
         IsEditable: =true
         Size: =11
         Tooltip: ="wybierz datę do"
