@@ -13102,7 +13102,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Identyfikator_ankiety_DataCard1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13267,7 +13267,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Kto_DataCard1",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14043,7 +14043,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Nazwa (Title)_DataCard2",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14208,7 +14208,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie1_DataCard5",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14368,7 +14368,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie10_DataCard3",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15175,7 +15175,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie6_DataCard3",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15335,7 +15335,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie7_DataCard3",
-      "ParentIndex": 9,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15495,7 +15495,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie8_DataCard3",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15655,7 +15655,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Pytanie9_DataCard3",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16245,7 +16245,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Wyslij",
-      "ParentIndex": 13,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
