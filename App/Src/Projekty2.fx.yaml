@@ -1461,6 +1461,14 @@ Projekty2 As screen:
             ZIndex: =25
 
     NavBar_8 As NavBar:
+        CustomHeight: |-
+            =If(
+                IsBlankOrError(sidebarVisible);
+                100;
+                sidebarVisible = true;
+                768;
+                100
+            )
         Height: =NavBar_8.CustomHeight
         MainScreen: ='Strona główna'
         Pola: |
