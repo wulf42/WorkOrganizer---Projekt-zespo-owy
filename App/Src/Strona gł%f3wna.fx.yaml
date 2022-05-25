@@ -10,6 +10,18 @@
         Y: =319
         ZIndex: =2
 
+    NavBar_1 As NavBar:
+        CustomHeight: |-
+            =If(
+                IsBlankOrError(sidebarVisible);
+                100;
+                sidebarVisible = true;
+                768;
+                100
+            )
+        Height: =NavBar_1.CustomHeight
+        ZIndex: =33
+
     Interfejs_1_stary As group:
         Height: =5
         Width: =5

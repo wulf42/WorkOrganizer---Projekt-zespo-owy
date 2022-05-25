@@ -3058,6 +3058,384 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 39,
+                  "snippet": {
+                    "text": ";;"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 50,
+                  "snippet": {
+                    "text": ";;"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": ";;"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 90,
+                  "snippet": {
+                    "text": ";;"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 50,
+                  "snippet": {
+                    "text": ";;"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 39,
+                  "snippet": {
+                    "text": ";;"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 90,
+                  "snippet": {
+                    "text": ";;"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": ";;"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 73,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Strona główna'.NavBar_1.CustomHeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 104,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(\r\n    IsBlankOrError(sidebarVisible);;\r\n    100;;\r\n    sidebarVisible = true;;\r\n    768;;\r\n    100\r\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomHeight",
+                "module": "Strona główna",
+                "type": "'Strona główna'.NavBar_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "1",
+              "2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadArityMinimum",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "NavBar.Container7.Icon2_1.AccessibleLabel"
                 }
               ],

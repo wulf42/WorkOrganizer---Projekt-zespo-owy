@@ -1,6 +1,7 @@
 {
   "ComponentIndexes": {
     "NavBar": 8,
+    "NavBar_1": 8,
     "NavBar_2": 7,
     "NavBar_3": 7,
     "NavBar_4": 7,
@@ -303,6 +304,7 @@
     "MainSectionContainer2": 290,
     "MainSectionContainer2_1": 243,
     "NavBar": 3,
+    "NavBar_1": 450,
     "NavBar_2": 85,
     "NavBar_3": 223,
     "NavBar_4": 285,
@@ -460,7 +462,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/25/2022 17:17:50",
+  "HeaderLastSavedDateTimeUTC": "05/25/2022 17:21:41",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "8de4f608-47a5-4df4-a94c-f3547a2ad071": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/86c3b4fcd28d4c7e9604b06b9473dbd4\"",
@@ -870,7 +872,7 @@
     "Icon7": 182,
     "Identyfikator_ankiety_DataCard1": 364,
     "Image1": 289,
-    "Interfejs_1_stary": 3,
+    "Interfejs_1_stary": 2,
     "Interfejs_2_stary": 107,
     "Interfejs_3_stary": 46,
     "ItemSpacer": 437,
@@ -914,6 +916,7 @@
     "MainSectionContainer2": 110,
     "MainSectionContainer2_1": 64,
     "NavBar": 0,
+    "NavBar_1": 3,
     "NavBar_2": 27,
     "NavBar_3": 43,
     "NavBar_4": 104,
@@ -1082,7 +1085,7 @@
       "checkbox": 2,
       "combobox": 6,
       "datepicker": 3,
-      "e46f5893c2104653bb341466da303a1b": 9,
+      "e46f5893c2104653bb341466da303a1b": 10,
       "form": 3,
       "gallery": 9,
       "galleryTemplate": 9,
@@ -1100,7 +1103,7 @@
       "typedDataCard": 41
     },
     "DeserializationLoadTime": 5.7616492,
-    "ErrorCount": 80
+    "ErrorCount": 90
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
