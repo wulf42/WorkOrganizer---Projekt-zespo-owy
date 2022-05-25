@@ -11,7 +11,7 @@ NavBar As CanvasComponent:
         )
     EnableChildFocus: =false
     Fill: =RGBA(39, 67, 125, 0.3)
-    Height: =Slider1.Value
+    Height: =NavBar.CustomHeight
     MainScreen: =
     Pola: |-
         =Table(

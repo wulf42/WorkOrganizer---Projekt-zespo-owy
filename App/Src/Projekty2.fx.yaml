@@ -1563,26 +1563,38 @@ Projekty2 As screen:
             Y: =102
             ZIndex: =32
 
-    NavBar_8 As groupContainer.manualLayoutContainer:
-        Height: =768
+    NavBar_5 As groupContainer.manualLayoutContainer:
+        Height: |-
+            =If(
+                IsBlankOrError(sidebarVisible),
+                100,
+                sidebarVisible = true,
+                768,
+                100
+            )
         Width: =1366
+        Y: =20
         ZIndex: =34
+
+        Rectangle5_4 As rectangle:
+            Fill: =RGBA(25, 45, 90, 0.5)
+            Width: =1366
+            ZIndex: =1
 
         Gallery4_5 As gallery.galleryVertical:
             BorderColor: =RGBA(2, 34, 60, 1)
             BorderThickness: =1
             Fill: =RGBA(20, 82, 144, 1)
-            Height: =668
+            Height: =100
             Items: =sideBarData
             Layout: =Layout.Vertical
             OnSelect: =Navigate(ThisItem.Screen)
             ShowScrollbar: =false
             TemplatePadding: =0
             TemplateSize: =50
-            Visible: =If(!sidebarVisible, true, false)
+            Visible: =If(sidebarVisible, true, false)
             Width: =250
-            Y: =100
-            ZIndex: =1
+            ZIndex: =2
 
             CurrentScreenGradientBackground_5 As htmlViewer:
                 Height: =50
@@ -1611,8 +1623,7 @@ Projekty2 As screen:
                     =DisplayMode.Edit
                 Height: =30
                 Icon: =ThisItem.Icon
-                OnSelect: |
-                    =Select(Parent)
+                OnSelect: =Select(Parent)
                 Width: =30
                 X: =10
                 Y: =10
@@ -1640,7 +1651,7 @@ Projekty2 As screen:
         Container7_5 As groupContainer.manualLayoutContainer:
             Height: =100
             Width: =1366
-            ZIndex: =2
+            ZIndex: =3
 
             Rectangle4_5 As rectangle:
                 Fill: =RGBA(39, 67, 125, 1)
