@@ -1460,12 +1460,20 @@ Projekty2 As screen:
             Y: =438
             ZIndex: =25
 
-    NavBar_8 As NavBar:
-        Height: =NavBar_8.CustomHeight
-        MainScreen: ='Strona główna'
-        Pola: |
-            =sideBarData
-        Visible: =true
+    ComboBox1_3 As combobox:
+        DisplayFields: =["Value"]
+        Height: =39
+        InputTextPlaceholder: ="stan"
+        IsSearchable: =false
+        Items: =["zakończony","w trakcie","czekam na devis","czekam na ofertę","czekam na zamówienie","czekam na budżet"]
+        NoSelectionText: ="stan"
+        SearchFields: =["Value"]
+        SearchItems: =[]
+        Size: =11
+        Tooltip: ="wybierz P/T"
+        Width: =170
+        X: =208
+        Y: =139
         ZIndex: =33
 
     Group1 As group:
@@ -1555,20 +1563,12 @@ Projekty2 As screen:
             Y: =102
             ZIndex: =32
 
-    ComboBox1_3 As combobox:
-        DisplayFields: =["Value"]
-        Height: =39
-        InputTextPlaceholder: ="stan"
-        IsSearchable: =false
-        Items: =["zakończony","w trakcie","czekam na devis","czekam na ofertę","czekam na zamówienie","czekam na budżet"]
-        NoSelectionText: ="stan"
-        SearchFields: =["Value"]
-        SearchItems: =[]
-        Size: =11
-        Tooltip: ="wybierz P/T"
-        Width: =170
-        X: =208
-        Y: =139
+    NavBar_8 As NavBar:
+        Height: =NavBar_8.CustomHeight
+        MainScreen: ='Strona główna'
+        Pola: |
+            =sideBarData
+        Visible: =true
         ZIndex: =34
 
     group_popup_3 As group:
