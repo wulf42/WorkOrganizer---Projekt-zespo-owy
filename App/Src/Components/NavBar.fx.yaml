@@ -136,3 +136,9 @@ NavBar As CanvasComponent:
             Y: =18
             ZIndex: =4
 
+        Slider1 As slider:
+            Width: =158
+            X: =204
+            Y: =30
+            ZIndex: =5
+

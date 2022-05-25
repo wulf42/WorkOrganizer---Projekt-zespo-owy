@@ -11,7 +11,7 @@
         ZIndex: =2
 
     NavBar_1 As NavBar:
-        Height: =NavBar_1.CustomHeight
+        Height: =If(IsBlankOrError(NavBar_1.CustomHeight), 100, NavBar_1.CustomHeight)
         ZIndex: =33
 
     Interfejs_1_stary As group:
