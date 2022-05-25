@@ -91,127 +91,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Button1_6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Button1_6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 43,
-                  "charOffset": 100,
-                  "snippet": {
-                    "text": "IsBlank(Find(User().FullName;Kto_wypelnil))"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Button1_6"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 23,
-                  "charOffset": 57,
-                  "snippet": {
-                    "text": "\"Identyfikator_ankiety\""
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo.MaxLength",
-              "\"Identyfikator_ankiety\""
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrArgNotApplicableToColumnArg2-Arg1-Arg2",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 81,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@Ankiety_wyp]; DataSourceInfo.MaxLength; \"Identyfikator_ankiety\")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "MaxLength",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Projekty2.Icon3.OnSelect"
                 }
               ],
@@ -406,6 +285,127 @@
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Button1_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Button1_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 43,
+                  "charOffset": 100,
+                  "snippet": {
+                    "text": "IsBlank(Find(User().FullName;Kto_wypelnil))"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Button1_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 23,
+                  "charOffset": 57,
+                  "snippet": {
+                    "text": "\"Identyfikator_ankiety\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo.MaxLength",
+              "\"Identyfikator_ankiety\""
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrArgNotApplicableToColumnArg2-Arg1-Arg2",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 81,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@Ankiety_wyp]; DataSourceInfo.MaxLength; \"Identyfikator_ankiety\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -652,606 +652,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Projekt",
-                "type": "Projekt.Container6.MainSectionContainer2.GalleryGrid"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Projekt",
-                "type": "Projekt.Container6.MainSectionContainer2.GalleryGrid"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Wypełnianie ankiet",
-                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Szukaj.Container3.TextInput1.AccessibleLabel"
                 }
               ],
@@ -1325,6 +725,66 @@
                 "member": "TabIndex",
                 "module": "Szukaj",
                 "type": "Szukaj.Container3.Gallery1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Projekt",
+                "type": "Projekt.Container6.MainSectionContainer2.GalleryGrid"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Projekt.Container6.MainSectionContainer2.GalleryGrid.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Projekt",
+                "type": "Projekt.Container6.MainSectionContainer2.GalleryGrid"
               }
             }
           ],
@@ -2896,6 +2356,546 @@
           },
           "ruleId": "acc-StateIndicationTextNeeded",
           "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Identyfikator_ankiety_DataCard1.DataCardValue35"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.'Nazwa (Title)_DataCard2'.DataCardValue36"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_DataCard1.DataCardValue37"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie1_DataCard5.DataCardValue50"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie2_DataCard5.DataCardValue39"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie3_DataCard5.DataCardValue40"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie4_DataCard3.DataCardValue41"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie5_DataCard3.DataCardValue42"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie6_DataCard3.DataCardValue43"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie7_DataCard3.DataCardValue44"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie8_DataCard3.DataCardValue45"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie9_DataCard3.DataCardValue46"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Pytanie10_DataCard3.DataCardValue47"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Form2_1.Kto_wypelnil_DataCard1.DataCardValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Wypełnianie ankiet",
+                "type": "'Wypełnianie ankiet'.Container4.Gallery1_3.Title2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
         },
         {
           "locations": [

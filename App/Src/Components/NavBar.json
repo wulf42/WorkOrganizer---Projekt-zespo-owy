@@ -2696,7 +2696,7 @@
       },
       "CustomHeight"
     ],
-    "LastModifiedTimestamp": "637890968110900688",
+    "LastModifiedTimestamp": "637890973284225542",
     "Name": "NavBar",
     "Rules": [
       {
@@ -2727,7 +2727,7 @@
         "Category": "Design",
         "InvariantScript": "1366",
         "Property": "Width",
-        "RuleProviderType": "Unknown"
+        "RuleProviderType": "System"
       },
       {
         "Category": "Design",
@@ -2828,7 +2828,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637890968110900688",
+  "LastModifiedTimestamp": "637890973284225542",
   "Name": "e46f5893c2104653bb341466da303a1b",
   "OverridableProperties": {},
   "TemplateOriginalName": "fea8d04b319646888c17c071fe694eb6",
