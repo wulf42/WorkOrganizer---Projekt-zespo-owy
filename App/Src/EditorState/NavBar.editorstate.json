@@ -2076,7 +2076,7 @@
       "Type": "ControlInfo"
     },
     "NavBar": {
-      "AllowAccessToGlobals": false,
+      "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
           "AFDDataSourceName": "",

@@ -2,7 +2,7 @@
   "ComponentAllowCustomization": true,
   "ComponentChangedSinceFileImport": false,
   "ComponentDefinitionInfo": {
-    "AllowAccessToGlobals": false,
+    "AllowAccessToGlobals": true,
     "Children": [
       {
         "AllowAccessToGlobals": true,
@@ -258,7 +258,7 @@
               },
               {
                 "Category": "Data",
-                "InvariantScript": "\"Work Organizer\n\"",
+                "InvariantScript": "\"Work Organizer\r\n\"",
                 "Property": "Text",
                 "RuleProviderType": "Unknown"
               },
@@ -1199,7 +1199,7 @@
             "Name": "CurrentScreenGradientBackground",
             "Parent": "Gallery4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 433,
+            "PublishOrderIndex": 434,
             "Rules": [
               {
                 "Category": "Data",
@@ -1377,7 +1377,7 @@
             "Name": "galleryTemplate4",
             "Parent": "Gallery4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 434,
+            "PublishOrderIndex": 435,
             "Rules": [
               {
                 "Category": "Design",
@@ -1627,7 +1627,7 @@
             "Name": "Button1",
             "Parent": "Gallery4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 435,
+            "PublishOrderIndex": 436,
             "Rules": [
               {
                 "Category": "Data",
@@ -1977,7 +1977,7 @@
             "Name": "Icon1",
             "Parent": "Gallery4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 436,
+            "PublishOrderIndex": 437,
             "Rules": [
               {
                 "Category": "Design",
@@ -2196,7 +2196,7 @@
             "Name": "ItemSpacer",
             "Parent": "Gallery4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 437,
+            "PublishOrderIndex": 438,
             "Rules": [
               {
                 "Category": "Design",
@@ -2444,7 +2444,7 @@
         "Name": "Gallery4",
         "Parent": "NavBar",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 432,
+        "PublishOrderIndex": 433,
         "Rules": [
           {
             "Category": "Data",
@@ -2696,7 +2696,7 @@
       },
       "CustomHeight"
     ],
-    "LastModifiedTimestamp": "637890958390787107",
+    "LastModifiedTimestamp": "637890965814357730",
     "Name": "NavBar",
     "Rules": [
       {
@@ -2774,7 +2774,7 @@
     ]
   },
   "ComponentManifest": {
-    "AllowAccessToGlobals": false,
+    "AllowAccessToGlobals": true,
     "AllowCustomization": true,
     "Description": "",
     "Name": "NavBar",
@@ -2828,7 +2828,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637890958390787107",
+  "LastModifiedTimestamp": "637890965814357730",
   "Name": "e46f5893c2104653bb341466da303a1b",
   "OverridableProperties": {},
   "TemplateOriginalName": "fea8d04b319646888c17c071fe694eb6",
