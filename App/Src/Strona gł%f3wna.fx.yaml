@@ -11,14 +11,6 @@
         ZIndex: =2
 
     NavBar_1 As NavBar:
-        CustomHeight: |-
-            =If(
-                IsBlankOrError(sidebarVisible);
-                100;
-                sidebarVisible = true;
-                768;
-                100
-            )
         Height: =NavBar_1.CustomHeight
         Pola: =sideBarData
         ZIndex: =33
