@@ -10,11 +10,6 @@
         Y: =319
         ZIndex: =2
 
-    NavBar_1 As NavBar:
-        Height: =NavBar_1.CustomHeight
-        Pola: =sideBarData
-        ZIndex: =33
-
     Interfejs_1_stary As group:
         Height: =5
         Width: =5

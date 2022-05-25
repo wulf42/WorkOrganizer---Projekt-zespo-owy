@@ -111,7 +111,7 @@ NavBar As CanvasComponent:
         Icon2_1 As icon.Journal:
             Color: =RGBA(215, 223, 240, 1)
             Icon: =Icon.Hamburger
-            OnSelect: =Set(sidebarVisible, !sidebarVisible)
+            OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
             X: =22
             Y: =18
             ZIndex: =2
