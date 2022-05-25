@@ -119,11 +119,11 @@ Kalendarz As screen:
                 100
             )
         Width: =1366
-        Y: =20
         ZIndex: =2
 
         Rectangle5_1 As rectangle:
             Fill: =RGBA(25, 45, 90, 0.5)
+            Height: =768
             Width: =1366
             ZIndex: =1
 
@@ -131,7 +131,7 @@ Kalendarz As screen:
             BorderColor: =RGBA(2, 34, 60, 1)
             BorderThickness: =1
             Fill: =RGBA(20, 82, 144, 1)
-            Height: =100
+            Height: =668
             Items: =sideBarData
             Layout: =Layout.Vertical
             OnSelect: =Navigate(ThisItem.Screen)
@@ -140,6 +140,7 @@ Kalendarz As screen:
             TemplateSize: =50
             Visible: =If(sidebarVisible, true, false)
             Width: =250
+            Y: =100
             ZIndex: =2
 
             CurrentScreenGradientBackground_2 As htmlViewer:
