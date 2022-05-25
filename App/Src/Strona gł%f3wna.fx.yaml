@@ -10,10 +10,6 @@
         Y: =319
         ZIndex: =2
 
-    NavBar_1 As NavBar:
-        Height: =If(IsBlankOrError(NavBar_1.CustomHeight), 100, NavBar_1.CustomHeight)
-        ZIndex: =33
-
     Interfejs_1_stary As group:
         Height: =5
         Width: =5
@@ -294,4 +290,116 @@
             X: =90
             Y: =22
             ZIndex: =32
+
+    NavBar_1 As groupContainer.manualLayoutContainer:
+        Height: =768
+        Width: =1366
+        ZIndex: =34
+
+        Gallery4_1 As gallery.galleryVertical:
+            BorderColor: =RGBA(2, 34, 60, 1)
+            BorderThickness: =1
+            Fill: =RGBA(20, 82, 144, 1)
+            Height: =668
+            Items: =sideBarData
+            Layout: =Layout.Vertical
+            OnSelect: =Navigate(ThisItem.Screen)
+            ShowScrollbar: =false
+            TemplatePadding: =0
+            TemplateSize: =50
+            Visible: =If(!sidebarVisible, true, false)
+            Width: =250
+            Y: =100
+            ZIndex: =1
+
+            CurrentScreenGradientBackground_1 As htmlViewer:
+                Height: =50
+                HtmlText: |-
+                    ="<div style=""background: rgb(0,0,0); background: linear-gradient(-8deg, rgba(0,0,0,0) 25%, rgba(57, 163, 249,1) 100%); width: 100%; height:" & CurrentScreenGradientBackground_1.Height - 1 &"px; border-radius: 5px;""></div>"
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Visible: =If(ThisItem.Value=App.ActiveScreen.Name, true, false)
+                Width: =250
+                ZIndex: =2
+
+            ItemSpacer_1 As rectangle:
+                Fill: =RGBA(2, 34, 60, 1)
+                Height: =1
+                OnSelect: =Select(Parent)
+                Width: =250
+                Y: =49
+                ZIndex: =3
+
+            Icon1_1 As icon.Home:
+                Color: =RGBA(215, 223, 240, 1)
+                DisplayMode: |
+                    =DisplayMode.Edit
+                Height: =30
+                Icon: =ThisItem.Icon
+                OnSelect: |
+                    =Select(Parent)
+                Width: =30
+                X: =10
+                Y: =10
+                ZIndex: =4
+
+            Button1_1 As button:
+                Align: =Align.Left
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(215, 223, 240, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                Fill: =RGBA(0, 0, 0, 0)
+                Font: =Font.'Segoe UI'
+                Height: =50
+                HoverColor: =RGBA(241, 244, 249, 1)
+                HoverFill: =ColorFade(RGBA(56, 96, 178, 0), -20%)
+                OnSelect: =Set(sidebarVisible, false) + Navigate(ThisItem.Screen)
+                PaddingLeft: =55
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(136, 160, 209, 0.2)
+                Size: =12
+                Text: =ThisItem.Value
+                Width: =250
+                ZIndex: =5
+
+        Container7_1 As groupContainer.manualLayoutContainer:
+            Height: =100
+            Width: =1366
+            ZIndex: =2
+
+            Rectangle4_1 As rectangle:
+                Fill: =RGBA(39, 67, 125, 1)
+                Width: =1366
+                ZIndex: =1
+
+            Icon2_2 As icon.Journal:
+                Color: =RGBA(215, 223, 240, 1)
+                Icon: =Icon.Hamburger
+                OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
+                X: =22
+                Y: =18
+                ZIndex: =2
+
+            Label3_1 As label:
+                Align: =Align.Center
+                Color: =RGBA(215, 223, 240, 1)
+                Height: =100
+                Size: =30
+                Text: |-
+                    ="Work Organizer
+                    "
+                Width: =341
+                X: =544
+                ZIndex: =3
+
+            Icon2_3 As icon.Journal:
+                Color: =RGBA(215, 223, 240, 1)
+                Icon: =Icon.Journal
+                OnSelect: =Navigate('Strona główna')
+                X: =480
+                Y: =18
+                ZIndex: =4
 
