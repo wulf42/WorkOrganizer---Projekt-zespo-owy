@@ -10777,7 +10777,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "NavBar_3",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15508,7 +15508,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TłoLewa_2",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15719,7 +15719,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Tytul_2",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

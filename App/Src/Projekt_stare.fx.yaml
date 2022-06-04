@@ -1,4 +1,4 @@
-"Projekt As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+"Projekt_stare As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
     Fill: =RGBA(241, 244, 249, 1)
     OnVisible: =
 
@@ -672,7 +672,7 @@
             Font: =Font.'Segoe UI'
             Height: =50
             HoverFill: =ColorFade(RGBA(255, 255, 255, 1), -20%)
-            OnSelect: =Navigate(Projekt)
+            OnSelect: =Navigate(Projekt_stare)
             Size: =12
             Text: |-
                 ="Projekt
