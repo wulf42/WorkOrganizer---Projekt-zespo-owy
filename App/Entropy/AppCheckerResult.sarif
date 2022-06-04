@@ -212,12 +212,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect"
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect",
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -230,8 +230,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Projekty2",
-                "type": "Projekty2.Icon3"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Icon3"
               }
             }
           ],
@@ -252,12 +252,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect"
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect",
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -270,8 +270,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Projekty2",
-                "type": "Projekty2.Icon3"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Icon3"
               }
             }
           ],
@@ -292,12 +292,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect"
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect",
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -310,8 +310,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Projekty2",
-                "type": "Projekty2.Icon3"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Icon3"
               }
             }
           ],
@@ -332,12 +332,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect"
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect",
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -350,8 +350,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Projekty2",
-                "type": "Projekty2.Icon3"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Icon3"
               }
             }
           ],
@@ -372,12 +372,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect"
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect",
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -390,8 +390,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Projekty2",
-                "type": "Projekty2.Icon3"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Icon3"
               }
             }
           ],
@@ -3442,19 +3442,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Container7_5.Icon2_10.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Container7_5.Icon2_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Container7_5.Icon2_10.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Container7_5.Icon2_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_5.Container7_5.Icon2_10"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.NavBar_5.Container7_5.Icon2_10"
               }
             }
           ],
@@ -3472,19 +3472,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Container7_5.Icon2_10.TabIndex"
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Container7_5.Icon2_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Container7_5.Icon2_10.TabIndex",
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Container7_5.Icon2_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_5.Container7_5.Icon2_10"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.NavBar_5.Container7_5.Icon2_10"
               }
             }
           ],
@@ -3502,19 +3502,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Container7_5.Icon2_11.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Container7_5.Icon2_11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Container7_5.Icon2_11.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Container7_5.Icon2_11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_5.Container7_5.Icon2_11"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.NavBar_5.Container7_5.Icon2_11"
               }
             }
           ],
@@ -3532,19 +3532,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Container7_5.Icon2_11.TabIndex"
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Container7_5.Icon2_11.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Container7_5.Icon2_11.TabIndex",
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Container7_5.Icon2_11.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_5.Container7_5.Icon2_11"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.NavBar_5.Container7_5.Icon2_11"
               }
             }
           ],
@@ -3562,19 +3562,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Gallery4_5.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Gallery4_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Gallery4_5.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Gallery4_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_5.Gallery4_5"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.NavBar_5.Gallery4_5"
               }
             }
           ],
@@ -3592,19 +3592,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Gallery4_5.TabIndex"
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Gallery4_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.NavBar_5.Gallery4_5.TabIndex",
+                  "fullyQualifiedName": "'Lista projektów'.NavBar_5.Gallery4_5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Projekty2",
-                "type": "Projekty2.NavBar_5.Gallery4_5"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.NavBar_5.Gallery4_5"
               }
             }
           ],
@@ -3622,19 +3622,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.ComboBox1.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.ComboBox1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.ComboBox1.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.ComboBox1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.ComboBox1"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.ComboBox1"
               }
             }
           ],
@@ -3652,19 +3652,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.ComboBox1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.ComboBox1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.ComboBox1_1"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.ComboBox1_1"
               }
             }
           ],
@@ -3682,19 +3682,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.DatePicker1.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.DatePicker1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.DatePicker1.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.DatePicker1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.DatePicker1"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.DatePicker1"
               }
             }
           ],
@@ -3712,19 +3712,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.DatePicker1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.DatePicker1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.DatePicker1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.DatePicker1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.DatePicker1_1"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.DatePicker1_1"
               }
             }
           ],
@@ -3742,19 +3742,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_3.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.ComboBox1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_3.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.ComboBox1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.ComboBox1_3"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.ComboBox1_3"
               }
             }
           ],
@@ -3772,19 +3772,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_2.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.ComboBox1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.ComboBox1_2.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.ComboBox1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.ComboBox1_2"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.ComboBox1_2"
               }
             }
           ],
@@ -3802,19 +3802,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Gallery1_4.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Gallery1_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Gallery1_4.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Gallery1_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Gallery1_4"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Gallery1_4"
               }
             }
           ],
@@ -3832,19 +3832,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Gallery1_4.TabIndex"
+                  "fullyQualifiedName": "'Lista projektów'.Gallery1_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Gallery1_4.TabIndex",
+                  "fullyQualifiedName": "'Lista projektów'.Gallery1_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Projekty2",
-                "type": "Projekty2.Gallery1_4"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Gallery1_4"
               }
             }
           ],
@@ -3862,19 +3862,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.data_DataCard1.DataCardValue2.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.data_DataCard1.DataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.data_DataCard1.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.data_DataCard1.DataCardValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.data_DataCard1.DataCardValue2"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.data_DataCard1.DataCardValue2"
               }
             }
           ],
@@ -3892,19 +3892,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.site_DataCard2.DataCardValue17.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.site_DataCard2.DataCardValue17.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.site_DataCard2.DataCardValue17.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.site_DataCard2.DataCardValue17.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.site_DataCard2.DataCardValue17"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.site_DataCard2.DataCardValue17"
               }
             }
           ],
@@ -3922,19 +3922,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.site_DataCard2.DataCardValue27_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.site_DataCard2.DataCardValue27_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.site_DataCard2.DataCardValue27_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.site_DataCard2.DataCardValue27_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.site_DataCard2.DataCardValue27_1"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.site_DataCard2.DataCardValue27_1"
               }
             }
           ],
@@ -3952,19 +3952,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.app_DataCard2.DataCardValue18.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.app_DataCard2.DataCardValue18.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.app_DataCard2.DataCardValue18.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.app_DataCard2.DataCardValue18.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.app_DataCard2.DataCardValue18"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.app_DataCard2.DataCardValue18"
               }
             }
           ],
@@ -3982,19 +3982,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.devis_DataCard2.DataCardValue20.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.devis_DataCard2.DataCardValue20.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.devis_DataCard2.DataCardValue20.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.devis_DataCard2.DataCardValue20.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.devis_DataCard2.DataCardValue20"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.devis_DataCard2.DataCardValue20"
               }
             }
           ],
@@ -4012,19 +4012,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.opis_DataCard2.DataCardValue19.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.opis_DataCard2.DataCardValue19.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.opis_DataCard2.DataCardValue19.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.opis_DataCard2.DataCardValue19.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.opis_DataCard2.DataCardValue19"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.opis_DataCard2.DataCardValue19"
               }
             }
           ],
@@ -4042,19 +4042,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.zamówienie_DataCard2.DataCardValue22.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.zamówienie_DataCard2.DataCardValue22.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.zamówienie_DataCard2.DataCardValue22.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.zamówienie_DataCard2.DataCardValue22.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.zamówienie_DataCard2.DataCardValue22"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.zamówienie_DataCard2.DataCardValue22"
               }
             }
           ],
@@ -4072,19 +4072,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.oferta_DataCard2.DataCardValue21.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.oferta_DataCard2.DataCardValue21.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.oferta_DataCard2.DataCardValue21.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.oferta_DataCard2.DataCardValue21.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.oferta_DataCard2.DataCardValue21"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.oferta_DataCard2.DataCardValue21"
               }
             }
           ],
@@ -4102,19 +4102,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.'P/T_DataCard2'.DataCardValue28.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.'P/T_DataCard2'.DataCardValue28.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.'P/T_DataCard2'.DataCardValue28.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.'P/T_DataCard2'.DataCardValue28.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.'P/T_DataCard2'.DataCardValue28"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.'P/T_DataCard2'.DataCardValue28"
               }
             }
           ],
@@ -4132,19 +4132,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.stan_DataCard2.DataCardValue27.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.stan_DataCard2.DataCardValue27.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.stan_DataCard2.DataCardValue27.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.stan_DataCard2.DataCardValue27.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.stan_DataCard2.DataCardValue27"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.stan_DataCard2.DataCardValue27"
               }
             }
           ],
@@ -4162,19 +4162,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.uwagi_DataCard2.DataCardValue29.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.uwagi_DataCard2.DataCardValue29.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.uwagi_DataCard2.DataCardValue29.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.uwagi_DataCard2.DataCardValue29.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.uwagi_DataCard2.DataCardValue29"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.uwagi_DataCard2.DataCardValue29"
               }
             }
           ],
@@ -4192,19 +4192,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.budżet_DataCard2.DataCardValue23.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.budżet_DataCard2.DataCardValue23.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.budżet_DataCard2.DataCardValue23.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.budżet_DataCard2.DataCardValue23.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.budżet_DataCard2.DataCardValue23"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.budżet_DataCard2.DataCardValue23"
               }
             }
           ],
@@ -4222,19 +4222,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.godziny_DataCard2.DataCardValue24.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.godziny_DataCard2.DataCardValue24.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.godziny_DataCard2.DataCardValue24.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.godziny_DataCard2.DataCardValue24.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.godziny_DataCard2.DataCardValue24"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.godziny_DataCard2.DataCardValue24"
               }
             }
           ],
@@ -4252,19 +4252,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.delegacja_DataCard2.DataCardValue25.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.delegacja_DataCard2.DataCardValue25.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.delegacja_DataCard2.DataCardValue25.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.delegacja_DataCard2.DataCardValue25.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.delegacja_DataCard2.DataCardValue25"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.delegacja_DataCard2.DataCardValue25"
               }
             }
           ],
@@ -4282,19 +4282,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.sprzęt_DataCard2.DataCardValue26.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.sprzęt_DataCard2.DataCardValue26.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.sprzęt_DataCard2.DataCardValue26.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.sprzęt_DataCard2.DataCardValue26.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.sprzęt_DataCard2.DataCardValue26"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.sprzęt_DataCard2.DataCardValue26"
               }
             }
           ],
@@ -4312,19 +4312,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.Form3.zostało_DataCard2.DataCardValue26_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Lista projektów'.Form3.zostało_DataCard2.DataCardValue26_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.Form3.zostało_DataCard2.DataCardValue26_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Lista projektów'.Form3.zostało_DataCard2.DataCardValue26_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Projekty2",
-                "type": "Projekty2.Form3.zostało_DataCard2.DataCardValue26_1"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Form3.zostało_DataCard2.DataCardValue26_1"
               }
             }
           ],
@@ -4342,19 +4342,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.asdasdas"
+                  "fullyQualifiedName": "'Lista projektów'.OnVisible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.asdasdas",
+                  "fullyQualifiedName": "'Lista projektów'.OnVisible",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "asdasdas",
-                "module": "App",
-                "type": "App"
+                "member": "OnVisible",
+                "module": "Lista projektów",
+                "type": "'Lista projektów'"
               }
             }
           ],
@@ -4364,7 +4364,7 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-UnusedVariables",
+          "ruleId": "app-CollectDelegatableDataSource",
           "ruleIndex": 9
         },
         {
@@ -4372,49 +4372,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Projekty2.OnVisible"
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Projekty2.OnVisible",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "OnVisible",
-                "module": "Projekty2",
-                "type": "Projekty2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-CollectDelegatableDataSource",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Projekty2.Icon3.OnSelect",
+                  "fullyQualifiedName": "'Lista projektów'.Icon3.OnSelect",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Projekty2",
-                "type": "Projekty2.Icon3"
+                "module": "Lista projektów",
+                "type": "'Lista projektów'.Icon3"
               }
             }
           ],
@@ -4425,7 +4395,7 @@
             "level": "Medium"
           },
           "ruleId": "app-CollectDelegatableDataSource",
-          "ruleIndex": 10
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -4454,7 +4424,7 @@
             "level": "Medium"
           },
           "ruleId": "app-DataSourceDefaultMaxRowsLimit",
-          "ruleIndex": 11
+          "ruleIndex": 10
         }
       ],
       "tool": {
@@ -4606,23 +4576,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
-              }
-            },
-            {
-              "id": "app-UnusedVariables",
-              "messageStrings": {
-                "issue": {
-                  "text": "Nieużywana zmienna"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Usuń nieużywaną zmienną."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Ta zmienna jest zadeklarowana, ale nie jest przywoływana przez żadną kontrolkę, więc nie jest potrzebna."
               }
             },
             {

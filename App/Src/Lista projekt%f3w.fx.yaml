@@ -1,4 +1,4 @@
-Projekty2 As screen:
+"'Lista projektów' As screen":
     Fill: =RGBA(241, 244, 249, 1)
     OnVisible: |-
         =ClearCollect(

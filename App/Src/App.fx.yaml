@@ -7,13 +7,12 @@ App As appinfo:
             {Value: "Strona główna", Icon: Icon.Home, Screen: 'Strona główna'},
             {Value: "Kalendarz", Icon: Icon.CalendarBlank, Screen: Kalendarz},
             {Value: "Rejestr", Icon: Icon.DetailList, Screen: Rejestr},
-            {Value: "Projekty2", Icon: Icon.TrendingUpwards, Screen: Projekty2},
+            {Value: "Lista projektów", Icon: Icon.TrendingUpwards, Screen: 'Lista projektów'},
             {Value: "Szukaj", Icon: Icon.Search, Screen: Szukaj},
             {Value: "Dodawanie ankiet", Icon: Icon.Add, Screen: 'Dodawanie ankiet'},
             {Value: "Wypełnianie ankiet", Icon: Icon.Check, Screen: 'Wypełnianie ankiet'}
           )
         ) +
-        Set(sidebarVisible, false) +
-        Set(asdasdas, Projekty)
+        Set(sidebarVisible, false)
     StartScreen: ='Strona główna'
 
