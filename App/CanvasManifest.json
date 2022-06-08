@@ -20,6 +20,7 @@
       "componentauthoring": true,
       "copyandmerge": true,
       "datatablev2control": true,
+      "dataverseactionsenabled": false,
       "delaycontrolrendering": false,
       "delayloadscreens": true,
       "disablecdsfileandlargeimage": false,
@@ -102,12 +103,12 @@
   "ScreenOrder": [
     "Strona główna",
     "Kalendarz",
-    "Rejestr",
-    "Projekt_stare",
     "Lista projektów",
-    "Szukaj",
+    "Capacity Plan",
     "Dodawanie ankiet",
     "Wypełnianie ankiet",
-    "CapacityP"
+    "Projekt_stare",
+    "Rejestr_stare",
+    "Szukaj_stare"
   ]
 }

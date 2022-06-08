@@ -7,6 +7,7 @@ App As appinfo:
             {Value: "Strona główna", Icon: Icon.Home, Screen: 'Strona główna'},
             {Value: "Kalendarz", Icon: Icon.CalendarBlank, Screen: Kalendarz},
             {Value: "Lista projektów", Icon: Icon.TrendingUpwards, Screen: 'Lista projektów'},
+            {Value: "Capacity Plan", Icon: Icon.ColorPicker, Screen: 'Capacity Plan'},
             {Value: "Dodawanie ankiet", Icon: Icon.Add, Screen: 'Dodawanie ankiet'},
             {Value: "Wypełnianie ankiet", Icon: Icon.Check, Screen: 'Wypełnianie ankiet'}
           )
