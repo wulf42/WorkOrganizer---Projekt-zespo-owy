@@ -112,7 +112,7 @@
             Required: =false
             Update: =DataCardValue2.SelectedDate
             Width: =276
-            X: =0
+            X: =1
             Y: =0
             ZIndex: =1
 
