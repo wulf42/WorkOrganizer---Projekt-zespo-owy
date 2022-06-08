@@ -1,0 +1,51 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-06-01T16:33:15.0030000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Załączniki",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "Nazwa pliku z rozszerzeniem",
+      "{FullPath}": "Pełna ścieżka",
+      "{HasAttachments}": "Ma załączniki",
+      "{Identifier}": "Identyfikator ({Identifier})",
+      "{IsFolder}": "JestFolderem",
+      "{Link}": "Link do elementu",
+      "{ModerationComment}": "Komentarze skojarzone z zatwierdzaniem zawartości tego elementu listy",
+      "{ModerationStatus}": "Stan zatwierdzania zawartości",
+      "{Name}": "Nazwa",
+      "{Path}": "Ścieżka folderu",
+      "{Thumbnail}": "Miniatura",
+      "{TriggerWindowEndToken}": "Token końca przedziału czasu",
+      "{TriggerWindowStartToken}": "Token początku przedziału czasu",
+      "{VersionNumber}": "Numer wersji",
+      "Author": "Utworzone przez",
+      "Author#Claims": "Utworzone przez Claims",
+      "ComplianceAssetId": "Identyfikator elementu zawartości zgodności",
+      "Created": "Utworzony",
+      "Editor": "Zmodyfikowane przez",
+      "Editor#Claims": "Zmodyfikowane przez Claims",
+      "field_1": "STATUT",
+      "field_2": "UOT",
+      "field_3": "SITE",
+      "field_4": "Projet",
+      "field_5": "Tache",
+      "field_6": "Total",
+      "field_7": "Ressource",
+      "field_8": "Date",
+      "ID": "Identyfikator (ID)",
+      "Modified": "Zmodyfikowane",
+      "Title": "Title"
+    },
+    "DatasetName": "https://workuwmedu-my.sharepoint.com/personal/159163_student_uwm_edu_pl",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "CapacityPlan",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

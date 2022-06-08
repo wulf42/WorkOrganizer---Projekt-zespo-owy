@@ -1,0 +1,588 @@
+CapacityP As screen:
+    OnVisible: |-
+        =ClearCollect(
+                szukaj_capacity,
+                CapacityPlan
+        );
+        ClearCollect(
+                szukaj_przydzialy,
+                'CapacityPlan-Przydzialy'
+        )
+
+    MainSectionContainer2_2 As groupContainer.verticalAutoLayoutContainer:
+        Height: =337
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =1095
+        X: =271
+        Y: =100
+        ZIndex: =1
+
+        GridHeader_2 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.Start
+            FillPortions: =0
+            Height: =40
+            LayoutMinHeight: =10
+            LayoutMinWidth: =250
+            Width: =1100
+            ZIndex: =1
+
+            h_domain As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Domain"
+                Width: =138
+                ZIndex: =1
+
+            h_status As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Status"
+                Width: =203
+                X: |
+                    =h_domain.X + h_domain.Width
+                ZIndex: =2
+
+            h_uot As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="UOT"
+                Width: =51
+                X: =h_status.X + h_status.Width
+                ZIndex: =3
+
+            h_site_1 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Site"
+                Width: =108
+                X: =h_uot.X + h_uot.Width
+                ZIndex: =5
+
+            h_projet As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Projet"
+                Width: =203
+                X: =h_site_1.X+h_site_1.Width
+                ZIndex: =6
+
+            h_tache As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Tache"
+                Width: =169
+                X: =h_projet.X+h_projet.Width
+                ZIndex: =7
+
+            h_ressource As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Ressource"
+                Width: =83
+                X: |
+                    =h_tache.X+h_tache.Width
+                ZIndex: =8
+
+            h_data As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: |-
+                    ="Data
+                    "
+                Width: =145
+                X: |
+                    =h_ressource.X+h_ressource.Width
+                ZIndex: =9
+
+        GalleryGrid_2 As gallery.galleryVertical:
+            AlignInContainer: =AlignInContainer.Start
+            BorderColor: =RGBA(101, 128, 187, 1)
+            Height: =MainSectionContainer2_2.Height
+            Items: =szukaj_capacity
+            Layout: =Layout.Vertical
+            LayoutMinHeight: =30
+            LayoutMinWidth: =0
+            TemplatePadding: =0
+            TemplateSize: =50
+            Width: =GridHeader_2.Width + 70
+            ZIndex: =2
+
+            domain As combobox:
+                DefaultSelectedItems: =Split(ThisItem.Title,",")
+                DisplayFields: =["Result"]
+                Height: =50
+                InputTextPlaceholder: ="Wybierz domain"
+                IsSearchable: =false
+                Items: =Filter(Distinct(szukaj_capacity.Title, Title),!IsBlank(Result))
+                OnSelect: =Select(Parent)
+                SearchFields: =["Result"]
+                SearchItems: =[]
+                SelectMultiple: =false
+                Size: =11
+                Width: =136
+                ZIndex: =16
+
+            status As combobox:
+                DefaultSelectedItems: =Split(ThisItem.STATUT,",")
+                DisplayFields: =["Result"]
+                Height: =50
+                InputTextPlaceholder: ="Wybierz status"
+                IsSearchable: =false
+                Items: =Filter(Distinct(szukaj_capacity.STATUT, STATUT),!IsBlank(Result))
+                OnSelect: =Select(Parent)
+                SearchFields: =["Result"]
+                SearchItems: =[]
+                SelectMultiple: =false
+                Size: =11
+                Width: =h_status.Width
+                X: =domain.Width + domain.X
+                ZIndex: =17
+
+            uot As text:
+                Align: =Align.Center
+                Default: =ThisItem.UOT
+                Height: =50
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Width: =h_uot.Width
+                X: =status.X + status.Width
+                ZIndex: =18
+
+            site_1 As text:
+                Align: =Align.Center
+                Default: =ThisItem.SITE
+                Height: =50
+                OnSelect: =Select(Parent)
+                PaddingLeft: =5
+                Width: =h_site_1.Width + 1
+                X: =uot.X + uot.Width
+                ZIndex: =19
+
+            projet As text:
+                Align: =Align.Center
+                Default: =ThisItem.Projet
+                FontWeight: =FontWeight.Semibold
+                Height: =50
+                OnSelect: =Select(Parent)
+                PaddingLeft: =5
+                Size: =8
+                Width: =204
+                X: =site_1.X + site_1.Width
+                ZIndex: =20
+
+            tache As text:
+                Align: =Align.Center
+                Default: =ThisItem.Tache
+                FontWeight: =FontWeight.Semibold
+                Height: =50
+                OnSelect: =Select(Parent)
+                PaddingLeft: =5
+                Size: =8
+                Width: =169
+                X: =projet.X + projet.Width
+                ZIndex: =21
+
+            ressource As combobox:
+                DefaultSelectedItems: =Split(ThisItem.Ressource,",")
+                DisplayFields: =["Result"]
+                Height: =50
+                InputTextPlaceholder: ="brak"
+                IsSearchable: =false
+                Items: =Filter(Distinct(szukaj_capacity.Ressource, Ressource),!IsBlank(Result))
+                OnSelect: =Select(Parent)
+                SearchFields: =["Result"]
+                SearchItems: =[]
+                SelectMultiple: =false
+                Size: =11
+                Width: =82
+                X: =tache.X + tache.Width
+                ZIndex: =23
+
+            date As datepicker:
+                DefaultDate: =ThisItem.Date
+                Height: =50
+                InputTextPlaceholder: ="wybierz datę"
+                OnSelect: =Select(Parent)
+                Size: =12
+                Width: =145
+                X: =ressource.X + ressource.Width
+                ZIndex: =24
+
+    MainSectionContainer2_5 As groupContainer.verticalAutoLayoutContainer:
+        Height: =327
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        Y: =441
+        ZIndex: =2
+
+        GridHeader_5 As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =40
+            LayoutMinHeight: =10
+            LayoutMinWidth: =250
+            Width: =330
+            ZIndex: =1
+
+            h_tydzien As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: |-
+                    ="Tydzień
+                    "
+                Width: =149
+                ZIndex: =1
+
+            h_prac1 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Piotr Nowak"
+                Width: =274
+                X: |
+                    =h_tydzien.X + h_tydzien.Width
+                ZIndex: =2
+
+            h_prac2 As button:
+                BorderThickness: =0
+                Color: =RGBA(255,255,255,1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(62,96,170,1)
+                Font: =Font.'Segoe UI'
+                HoverColor: =Self.Color
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =10
+                Text: ="Jan Kowalski"
+                Width: =292
+                X: =423
+                ZIndex: =3
+
+        GalleryGrid_3 As gallery.galleryVertical:
+            AlignInContainer: =AlignInContainer.Start
+            BorderColor: =RGBA(101, 128, 187, 1)
+            Height: =MainSectionContainer2_2.Height
+            Items: ='CapacityPlan-Przydzialy'
+            Layout: =Layout.Vertical
+            LayoutMinHeight: =30
+            LayoutMinWidth: =0
+            ShowScrollbar: =false
+            TemplatePadding: =0
+            TemplateSize: =50
+            Width: =GridHeader_2.Width + 10
+            ZIndex: =2
+
+            tydz As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(101, 128, 187, 1)
+                Color: =RGBA(47,41,43,1)
+                Font: =Font.'Segoe UI'
+                Height: =50
+                OnSelect: =Select(Parent)
+                Size: =10
+                Text: =ThisItem.Tydzień
+                Width: =h_tydzien.Width
+                ZIndex: =15
+
+            ComboBox3 As combobox:
+                DefaultSelectedItems: =Split(ThisItem.'Piotr Nowak',",")
+                DisplayFields: =["Result"]
+                Height: =50
+                InputTextPlaceholder: ="Wybierz projekty"
+                IsSearchable: =false
+                Items: =Filter(Distinct(CapacityPlan.Projet, Projet),!IsBlank(Result))
+                OnSelect: =Select(Parent)
+                SearchFields: =["Result"]
+                SearchItems: =[]
+                Size: =10
+                Width: =274
+                X: =149
+                ZIndex: =16
+
+            ComboBox3_1 As combobox:
+                DefaultSelectedItems: =Split(ThisItem.'Jan Kowalski',",")
+                DisplayFields: =["Result"]
+                Height: =50
+                InputTextPlaceholder: ="Wybierz projekty"
+                IsSearchable: =false
+                Items: =Filter(Distinct(CapacityPlan.Projet, Projet),!IsBlank(Result))
+                OnSelect: =Select(Parent)
+                SearchFields: =["Result"]
+                SearchItems: =[]
+                Size: =10
+                Width: =291
+                X: =423
+                ZIndex: =17
+
+    ComboBox4 As combobox:
+        DisplayFields: =["Result"]
+        Height: =48
+        InputTextPlaceholder: ="DOMAIN"
+        IsSearchable: =false
+        Items: =Filter(Distinct(CapacityPlan.Title, Title),!IsBlank(Result))
+        NoSelectionText: ="DOMAIN"
+        SearchFields: =["Result"]
+        SearchItems: =[]
+        Width: =254
+        Y: =100
+        ZIndex: =3
+
+    ComboBox4_1 As combobox:
+        DisplayFields: =["Value"]
+        Height: =48
+        InputTextPlaceholder: ="STATUS"
+        Items: =["zakończony","w trakcie","czekam na devis","czekam na ofertę","czekam na zamówienie","czekam na budżet"]
+        SearchFields: =["Value"]
+        SearchItems: =Search(["zakończony","w trakcie","czekam na devis","czekam na ofertę","czekam na zamówienie","czekam na budżet"],ComboBox4_1.SearchText,"Value")
+        Width: =254
+        Y: =148
+        ZIndex: =4
+
+    ComboBox4_2 As combobox:
+        DisplayFields: =["Result"]
+        Height: =48
+        InputTextPlaceholder: ="STATUS"
+        IsSearchable: =false
+        Items: =Filter(Distinct(CapacityPlan.SITE, SITE),!IsBlank(Result))
+        NoSelectionText: ="SITE"
+        SearchFields: =["Result"]
+        SearchItems: =[]
+        Width: =254
+        Y: =196
+        ZIndex: =5
+
+    ComboBox4_3 As combobox:
+        DisplayFields: =["Result"]
+        Height: =48
+        InputTextPlaceholder: ="STATUS"
+        IsSearchable: =false
+        Items: =Filter(Distinct(CapacityPlan.Projet, Projet),!IsBlank(Result))
+        NoSelectionText: ="PROJEKT"
+        SearchFields: =["Result"]
+        SearchItems: =[]
+        Width: =254
+        Y: =244
+        ZIndex: =6
+
+    ComboBox4_4 As combobox:
+        DisplayFields: =["Result"]
+        Height: =48
+        InputTextPlaceholder: ="RESSOURCE"
+        IsSearchable: =false
+        Items: =Filter(Distinct(CapacityPlan.Ressource, Ressource),!IsBlank(Result))
+        NoSelectionText: ="RESSOURCE"
+        SearchFields: =["Result"]
+        SearchItems: =[]
+        Width: =254
+        Y: =292
+        ZIndex: =7
+
+    DatePicker1_2 As datepicker:
+        DefaultDate: =
+        Height: =37
+        InputTextPlaceholder: ="DATA OD"
+        IsEditable: =true
+        Size: =11
+        Tooltip: ="wybierz datę od"
+        Width: =127
+        Y: =340
+        ZIndex: =8
+
+    DatePicker1_3 As datepicker:
+        DefaultDate: =
+        Height: =37
+        InputTextPlaceholder: ="DATA OD"
+        IsEditable: =true
+        Size: =11
+        Tooltip: ="wybierz datę od"
+        Width: =127
+        X: =127
+        Y: =340
+        ZIndex: =9
+
+    Icon3_2 As icon.Search:
+        Height: =37
+        Icon: =Icon.Search
+        OnSelect: |-
+            =If(
+                !IsEmpty(ComboBox4.SelectedItems) && !IsBlank(ComboBox4.SelectedItems) ||
+                !IsEmpty(ComboBox4_1.SelectedItems) && !IsBlank(ComboBox4_1.SelectedItems) ||
+                !IsEmpty(ComboBox4_2.SelectedItems) && !IsBlank(ComboBox4_2.SelectedItems) ||
+                !IsEmpty(ComboBox4_3.SelectedItems) && !IsBlank(ComboBox4_3.SelectedItems) ||
+                !IsEmpty(ComboBox4_4.SelectedItems) && !IsBlank(ComboBox4_4.SelectedItems) ||
+                !IsBlank(DatePicker1_2.SelectedDate) || !IsBlank(DatePicker1_3.SelectedDate),
+                ClearCollect(
+                    szukaj_capacity,
+                    Filter(
+                        CapacityPlan,
+                        If(
+                            !IsEmpty(ComboBox4.SelectedItems) && !IsBlank(ComboBox4.SelectedItems),
+                            Title in ComboBox4.SelectedItems,
+                            Title in CapacityPlan.Title
+                        ) && If(
+                            !IsEmpty(ComboBox4_1.SelectedItems) && !IsBlank(ComboBox4_1.SelectedItems),
+                            STATUT in ComboBox4_1.SelectedItems,
+                            STATUT in CapacityPlan.STATUT
+                        ) && If(
+                            !IsEmpty(ComboBox4_2.SelectedItems) && !IsBlank(ComboBox4_2.SelectedItems),
+                            SITE in ComboBox4_2.SelectedItems,
+                            SITE in CapacityPlan.SITE
+                        ) && If(
+                            !IsEmpty(ComboBox4_3.SelectedItems) && !IsBlank(ComboBox4_3.SelectedItems),
+                            Projet in ComboBox4_3.SelectedItems,
+                            Projet in CapacityPlan.Projet
+                        ) && If(
+                            !IsEmpty(ComboBox4_4.SelectedItems) && !IsBlank(ComboBox4_4.SelectedItems),
+                            Ressource in ComboBox4_4.SelectedItems,
+                            Ressource in CapacityPlan.Ressource    
+                        ) && If(
+                            !IsBlank(DatePicker1_2.SelectedDate) && !IsBlank(DatePicker1_3.SelectedDate),
+                            !IsBlank(Date) && Date >= DatePicker1_2.SelectedDate && Date <= DatePicker1_3.SelectedDate,
+                            !IsBlank(DatePicker1_2.SelectedDate) && IsBlank(DatePicker1_3.SelectedDate),
+                            !IsBlank(Date) && Date >= DatePicker1_2.SelectedDate,
+                            IsBlank(DatePicker1_2.SelectedDate) && !IsBlank(DatePicker1_3.SelectedDate),
+                            !IsBlank(Date) && Date <= DatePicker1_3.SelectedDate,
+                            Date in CapacityPlan.Date
+                        )
+                    )
+                ),
+                ClearCollect(
+                    szukaj_capacity,
+                    CapacityPlan
+                )
+            )
+            ;
+            If(
+                !IsBlank(DatePicker1_2.SelectedDate) || !IsBlank(DatePicker1_3.SelectedDate),
+                ClearCollect(
+                    szukaj_przydzialy,
+                    Filter(
+                        'CapacityPlan-Przydzialy',
+                        If(
+                            !IsBlank(DatePicker1_2.SelectedDate) && !IsBlank(DatePicker1_3.SelectedDate),
+                            Value(First(Split(Title,"-")).Result) >= WeekNum(DatePicker1_2.SelectedDate) && Value(First(Split(Title,"-")).Result) <= WeekNum(DatePicker1_3.SelectedDate),
+                            !IsBlank(DatePicker1_2.SelectedDate) && IsBlank(DatePicker1_3.SelectedDate),
+                            Value(First(Split(Title,"-")).Result) >= WeekNum(DatePicker1_2.SelectedDate),
+                            IsBlank(DatePicker1_2.SelectedDate) && !IsBlank(DatePicker1_3.SelectedDate),
+                            Value(First(Split(Title,"-")).Result) <= WeekNum(DatePicker1_3.SelectedDate),
+                            Title in 'CapacityPlan-Przydzialy'.Title
+                        )
+                    )
+                ),
+                ClearCollect(
+                    szukaj_przydzialy,
+                    'CapacityPlan-Przydzialy'
+                )
+            )
+        Tooltip: ="Szukaj"
+        Width: =42
+        X: =11
+        Y: =388
+        ZIndex: =10
+

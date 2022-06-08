@@ -21,6 +21,12 @@
       },
       "https://workuwmedu-my.sharepoint.com/personal/159163_student_uwm_edu_pl": {
         "dataSources": {
+          "CapacityPlan": {
+            "tableName": "78624377-50f3-4e8b-b394-550f1a160325"
+          },
+          "CapacityPlan-Przydzialy": {
+            "tableName": "eefc837b-72b8-46ba-9bd5-ddb3ff79e90b"
+          },
           "Projekty": {
             "tableName": "55c001b1-e450-4774-b2ed-7e85eba6857f"
           }
@@ -30,7 +36,9 @@
     "dataSources": [
       "Projekty",
       "Ankiety",
-      "Ankiety_wyp"
+      "Ankiety_wyp",
+      "CapacityPlan-Przydzialy",
+      "CapacityPlan"
     ],
     "dependencies": {},
     "dependents": [],
