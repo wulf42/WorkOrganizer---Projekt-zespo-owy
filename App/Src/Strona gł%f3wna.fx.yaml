@@ -2,12 +2,22 @@
     Fill: =RGBA(241, 244, 249, 1)
     OnVisible: =
 
+    Label2_2 As label:
+        Align: =Align.Center
+        Height: =86
+        Size: =20
+        Text: =Concatenate("Dzisiaj jest ", Today(), ", tydzień ", 1)
+        Width: =632
+        X: =367
+        Y: =223
+        ZIndex: =1
+
     Label2 As label:
         Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Height: =86
         Size: =30
-        Text: ="Witaj, " + User().FullName + "!"
+        Text: =Concatenate("Witaj, ", User().FullName, "!")
         Width: =632
         X: =367
         Y: =137
@@ -23,7 +33,7 @@
                 100
             )
         Width: =1366
-        ZIndex: =34
+        ZIndex: =3
 
         Rectangle5 As rectangle:
             Fill: =RGBA(25, 45, 90, 0.5)
