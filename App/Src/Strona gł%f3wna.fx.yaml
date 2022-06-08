@@ -6,7 +6,7 @@
         Align: =Align.Center
         Height: =86
         Size: =20
-        Text: =Concatenate("Dzisiaj jest ", Today(), ", tydzień ", 1)
+        Text: =Concatenate("Dzisiaj jest ", Today(), ", tydzień ", WeekNum(Today()))
         Width: =632
         X: =367
         Y: =223
