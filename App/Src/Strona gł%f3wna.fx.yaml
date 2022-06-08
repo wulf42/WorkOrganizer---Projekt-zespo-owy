@@ -57,6 +57,36 @@
         Y: =590
         ZIndex: =5
 
+    Icon2_18 As icon.Journal:
+        Color: =RGBA(153, 160, 196, 1)
+        Height: =150
+        Icon: =Icon.CalendarBlank
+        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
+        Width: =150
+        X: =338
+        Y: =413
+        ZIndex: =6
+
+    Icon2_19 As icon.Journal:
+        Color: =RGBA(153, 160, 196, 1)
+        Height: =150
+        Icon: =Icon.TrendingUpwards
+        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
+        Width: =150
+        X: =608
+        Y: =413
+        ZIndex: =7
+
+    Icon2_20 As icon.Journal:
+        Color: =RGBA(153, 160, 196, 1)
+        Height: =150
+        Icon: =Icon.LikeDislike
+        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
+        Width: =150
+        X: =878
+        Y: =413
+        ZIndex: =8
+
     NavBar_1 As groupContainer.manualLayoutContainer:
         Height: |-
             =If(
@@ -67,7 +97,7 @@
                 100
             )
         Width: =1366
-        ZIndex: =6
+        ZIndex: =9
 
         Rectangle5 As rectangle:
             Fill: =RGBA(25, 45, 90, 0.5)
@@ -180,34 +210,4 @@
                 X: =480
                 Y: =18
                 ZIndex: =4
-
-    Icon2_18 As icon.Journal:
-        Color: =RGBA(153, 160, 196, 1)
-        Height: =150
-        Icon: =Icon.CalendarBlank
-        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
-        Width: =150
-        X: =338
-        Y: =413
-        ZIndex: =7
-
-    Icon2_19 As icon.Journal:
-        Color: =RGBA(153, 160, 196, 1)
-        Height: =150
-        Icon: =Icon.TrendingUpwards
-        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
-        Width: =150
-        X: =608
-        Y: =413
-        ZIndex: =8
-
-    Icon2_20 As icon.Journal:
-        Color: =RGBA(153, 160, 196, 1)
-        Height: =150
-        Icon: =Icon.LikeDislike
-        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
-        Width: =150
-        X: =878
-        Y: =413
-        ZIndex: =9
 
