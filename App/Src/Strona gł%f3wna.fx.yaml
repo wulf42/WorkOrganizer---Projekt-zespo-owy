@@ -62,9 +62,11 @@
 
     Icon2_18 As icon.Journal:
         Color: =RGBA(153, 160, 196, 1)
+        DisabledColor: =RGBA(153, 160, 196, 1)
+        DisplayMode: =DisplayMode.View
         Height: =150
+        HoverColor: =RGBA(153, 160, 196, 1)
         Icon: =Icon.CalendarBlank
-        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
         Width: =150
         X: =203
         Y: =418
@@ -72,9 +74,11 @@
 
     Icon2_19 As icon.Journal:
         Color: =RGBA(153, 160, 196, 1)
+        DisabledColor: =RGBA(153, 160, 196, 1)
+        DisplayMode: =DisplayMode.View
         Height: =150
+        HoverColor: =RGBA(153, 160, 196, 1)
         Icon: =Icon.TrendingUpwards
-        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
         Width: =150
         X: =473
         Y: =418
@@ -82,9 +86,11 @@
 
     Icon2_20 As icon.Journal:
         Color: =RGBA(153, 160, 196, 1)
+        DisabledColor: =RGBA(153, 160, 196, 1)
+        DisplayMode: =DisplayMode.View
         Height: =150
+        HoverColor: =RGBA(153, 160, 196, 1)
         Icon: =Icon.LikeDislike
-        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
         Width: =150
         X: =1012
         Y: =418
@@ -228,9 +234,11 @@
 
     Icon2_23 As icon.Journal:
         Color: =RGBA(153, 160, 196, 1)
+        DisabledColor: =RGBA(153, 160, 196, 1)
+        DisplayMode: =DisplayMode.View
         Height: =150
+        HoverColor: =RGBA(153, 160, 196, 1)
         Icon: =Icon.ColorPicker
-        OnSelect: =If(IsBlankOrError(sidebarVisible), Set(sidebarVisible, true), Set(sidebarVisible, !sidebarVisible))
         Width: =150
         X: =743
         Y: =418
