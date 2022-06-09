@@ -1,4 +1,6 @@
 "'Capacity Plan' As screen":
+    Fill: |
+        =RGBA(241, 244, 249, 1)
     OnVisible: |-
         =ClearCollect(
                 szukaj_capacity,
